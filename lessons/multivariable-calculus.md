@@ -8,6 +8,7 @@ Single-variable calculus tells you how a function changes along a line. Almost n
 - Interpret the gradient geometrically: direction of steepest ascent, perpendicular to level curves.
 - Compute directional derivatives and use them to find steepest ascent/descent in any direction.
 - Compute the Hessian matrix and apply the second derivative test to classify critical points as minima, maxima, or saddle points.
+- Solve constrained optimization problems with Lagrange multipliers, and interpret the multiplier itself.
 - Connect all of the above to gradient descent, loss landscapes, and optimization problems in ML and aerospace.
 
 ---
@@ -142,11 +143,56 @@ flowchart TD
 
 ---
 
+## 4. Constrained Optimization: Lagrange Multipliers (advanced)
+
+### Intuition
+
+Everything so far optimized $f$ over the *entire* plane — go wherever you like. Real problems are rarely that free: you want the neural net's weights to sum to a fixed norm, or a rocket's three thrusters to deliver a *fixed total* thrust while minimizing wasted energy, or a probability distribution's entries to sum to 1. These are optimization problems *restricted to a curve or surface* — the constraint set. Lagrange multipliers are the tool for finding optima under exactly this kind of restriction.
+
+The key geometric idea: imagine walking along the constraint curve $g(x,y)=c$ while watching the level curves of $f$ you cross. As long as you're crossing level curves *transversally* (at an angle), you can always take a small step further along the constraint that increases (or decreases) $f$ a bit more — so you haven't found the optimum yet. You only stop being able to improve when the constraint curve is **tangent** to a level curve of $f$: at that instant, moving along the constraint keeps you on the same level curve to first order. Since the gradient of a function is always perpendicular to its own level curves, tangency of the two curves is equivalent to their gradients being *parallel*.
+
+### Formal statement
+
+To optimize $f(x,y)$ subject to $g(x,y) = c$, solve the system
+
+$$\nabla f(x,y) = \lambda \nabla g(x,y), \qquad g(x,y) = c$$
+
+for $(x,y,\lambda)$ — the scalar $\lambda$ is the **Lagrange multiplier**. Written out in components, this is three equations ($f_x = \lambda g_x$, $f_y = \lambda g_y$, $g(x,y)=c$) in three unknowns.
+
+**Why this holds:** as argued above, at a constrained optimum the level curve of $f$ must be tangent to the constraint curve, so their normal vectors — which are exactly $\nabla f$ and $\nabla g$ — must point along the same line. "Same line" means one is a scalar multiple of the other: $\nabla f = \lambda \nabla g$. If instead $\nabla f$ had a component *along* the constraint curve (not just perpendicular to it), you could move along the curve in that direction and strictly improve $f$, contradicting optimality.
+
+**The Lagrangian trick:** define $\mathcal{L}(x,y,\lambda) = f(x,y) - \lambda\big(g(x,y) - c\big)$. Taking partial derivatives and setting them to zero reproduces the exact same system: $\partial \mathcal{L}/\partial x = f_x - \lambda g_x = 0$, $\partial \mathcal{L}/\partial y = f_y - \lambda g_y = 0$, and $\partial \mathcal{L}/\partial \lambda = -(g(x,y)-c) = 0$. So "find the unconstrained critical points of $\mathcal{L}$" is *equivalent* to "solve the constrained problem." This trick scales cleanly to many constraints (one multiplier $\lambda_i$ per constraint $g_i(x,\ldots)=c_i$) and many variables — it's the exact mechanism behind the dual formulation of support vector machines (one multiplier per margin constraint) and behind KKT conditions, the general first-order optimality conditions used throughout constrained ML and engineering optimization.
+
+**What $\lambda$ means:** it isn't just bookkeeping — one can show $\dfrac{\partial f^\star}{\partial c} = \lambda$, i.e. $\lambda$ measures how much the optimal value of $f$ would improve per unit relaxation of the constraint. This is the mathematical basis for "shadow prices" in economics and sensitivity analysis in engineering design (e.g., how much would relaxing a thrust budget by 1 N reduce minimum energy expenditure?).
+
+### Worked micro-example
+
+Minimize $f(x,y) = x^2+y^2$ subject to $g(x,y) = x+y = 4$.
+
+Set up: $\nabla f = (2x, 2y)$, $\nabla g = (1,1)$. The system $\nabla f = \lambda \nabla g$ gives $2x = \lambda$ and $2y=\lambda$, so $2x=2y \Rightarrow x=y$. Substituting into the constraint $x+y=4$ gives $2x=4 \Rightarrow x=y=2$, and $\lambda = 4$.
+
+So the constrained minimum is at $(2,2)$, with value $f(2,2) = 4+4 = \boxed{8}$.
+
+Geometric sanity check: the level curve $x^2+y^2=8$ is a circle of radius $\sqrt{8}\approx 2.83$ centered at the origin. The line $x+y=4$ is tangent to this exact circle at $(2,2)$ — any smaller circle ($x^2+y^2<8$) doesn't reach the line at all, and any larger circle crosses it at two points rather than touching it once. That's the geometric meaning of "the smallest value of $f$ achievable while staying on the line."
+
+### Diagram
+
+![Level curve of f tangent to the constraint line at the optimum, with parallel gradient vectors](assets/multivariable-calculus/fig-3-lagrange-tangency.svg)
+
+### Common pitfalls
+
+- Forgetting the constraint equation itself. $\nabla f = \lambda \nabla g$ alone is two equations in three unknowns ($x,y,\lambda$) — underdetermined. You always need $g(x,y)=c$ as the third equation.
+- Assuming the sign of $\lambda$ tells you min vs. max. It doesn't, on its own — classifying which critical point of $\mathcal{L}$ is a min vs. max vs. saddle-on-the-constraint requires more care (a bordered Hessian, beyond this lesson). In practice, when the constraint set is closed and bounded (like a circle or a plane through the origin intersected with a budget line), just evaluate $f$ at *every* candidate point found and compare — the Extreme Value Theorem guarantees a global min and max exist among them.
+- Treating $\lambda$ as part of the answer. The answer to "optimize $f$ subject to $g=c$" is the point $(x,y)$ and the optimal value of $f$; $\lambda$ is an auxiliary variable (though, per above, a meaningful one — it's not to be discarded without a glance).
+
+---
+
 ## Connections
 
 - **ML/AI:** the loss surface of a neural network is a high-dimensional $f(\mathbf{w})$. Gradient descent is literally "repeatedly step in the direction of $-\nabla f$" (Section 2). Saddle points (Section 3) are the dominant obstacle in high-dimensional non-convex optimization — far more common than true local minima — which is why modern optimizers (Adam, momentum) are designed partly to escape them. The Hessian also shows up directly in second-order methods like Newton's method and in analyzing the curvature of loss basins ("sharp" vs. "flat" minima and generalization).
 - **Systems/backprop:** backpropagation is the chain rule applied to a computational graph of partial derivatives — every gradient in a neural network is a giant, structured application of Section 1's partial derivatives, computed efficiently via the multivariable chain rule.
 - **Aerospace:** a rocket's cost function for trajectory optimization (fuel used, terminal error) is a multivariable function of control inputs over time. Finding the best trajectory means finding critical points of that cost function, and the Hessian determines whether a candidate trajectory is a genuine local optimum or a saddle in control-input space — the same machinery as Section 3, just with far more variables.
+- **Constrained optimization (Section 4):** Lagrange multipliers are the backbone of the dual SVM formulation (one multiplier per training point's margin constraint) and of KKT conditions, which govern essentially all constrained training and control problems in ML — e.g. training under a weight-norm budget. In aerospace and control systems, minimum-energy or minimum-fuel control allocation across multiple actuators subject to a total-output budget (today's stretch problem) is a direct, real engineering application of exactly this machinery.
 
 ## Summary / cheat sheet
 
@@ -159,5 +205,7 @@ flowchart TD
 | Critical point | $\nabla f = \mathbf 0$ | Candidate extremum |
 | Hessian | $H = \begin{pmatrix}f_{xx}&f_{xy}\\f_{xy}&f_{yy}\end{pmatrix}$ | Matrix of second partials; encodes local curvature |
 | Second derivative test | $D=\det H = f_{xx}f_{yy}-f_{xy}^2$ | $D>0,f_{xx}>0$: min. $D>0,f_{xx}<0$: max. $D<0$: saddle |
+| Constrained optimum condition | $\nabla f = \lambda \nabla g$, with $g(x,y)=c$ | Level curve of $f$ tangent to constraint $g=c$ |
+| Lagrangian | $\mathcal{L}(x,y,\lambda) = f(x,y) - \lambda(g(x,y)-c)$ | Unconstrained critical points of $\mathcal{L}$ recover the constrained optimum |
 
-Today's problems exercise directional derivatives (warm-up) and the Hessian / second derivative test (core and stretch), including a loss-landscape-style function with multiple critical points.
+Today's problems exercise the Hessian / second derivative test as a warm-up, then Lagrange multipliers on a two-variable problem (core) and a three-variable minimum-energy control allocation problem in the style of thrust budgeting across rocket thrusters (stretch).
