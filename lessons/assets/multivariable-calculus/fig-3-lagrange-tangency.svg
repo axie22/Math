@@ -1,0 +1,51 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="500" height="500" fill="#ffffff"/>
+
+  <!-- Axes -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#333333"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#d62728"/>
+    </marker>
+    <marker id="arrowpurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#9467bd"/>
+    </marker>
+  </defs>
+
+  <line x1="30" y1="440" x2="470" y2="440" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="60" y1="480" x2="60" y2="10" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="465" y="462" font-size="16" fill="#333333">x</text>
+  <text x="40" y="24" font-size="16" fill="#333333">y</text>
+
+  <!-- axis tick labels -->
+  <text x="336" y="462" font-size="14" fill="#333333">4</text>
+  <text x="34" y="164" font-size="14" fill="#333333">4</text>
+  <text x="256" y="462" font-size="14" fill="#333333">2.83</text>
+  <text x="20" y="246" font-size="14" fill="#333333">2.83</text>
+
+  <!-- Constraint line g(x,y) = x + y = 4, from (0,4) to (4,0) -->
+  <line x1="60" y1="160" x2="340" y2="440" stroke="#2ca02c" stroke-width="3"/>
+  <text x="270" y="400" font-size="15" fill="#2ca02c">constraint: x + y = 4</text>
+
+  <!-- Level curve of f: x^2 + y^2 = 8, quarter-circle arc through (2,2) -->
+  <polyline points="258,440 251.4,388.8 231.5,341 200,300 159,268.5 111.2,248.6 60,242"
+            fill="none" stroke="#1f77b4" stroke-width="3"/>
+  <text x="255" y="255" font-size="15" fill="#1f77b4">level curve of f: x&#178;+y&#178;=8</text>
+
+  <!-- Tangency point (2,2) -->
+  <circle cx="200" cy="300" r="6" fill="#000000"/>
+  <text x="205" y="318" font-size="15" fill="#000000">(2, 2) &#8212; constrained optimum</text>
+
+  <!-- Gradient of f at (2,2): direction (1,1) -->
+  <line x1="200" y1="300" x2="242" y2="258" stroke="#d62728" stroke-width="3" marker-end="url(#arrowred)"/>
+  <text x="246" y="252" font-size="15" fill="#d62728">&#8711;f = (4,4)</text>
+
+  <!-- Gradient of g at (2,2): parallel direction, offset and dashed -->
+  <line x1="208" y1="308" x2="233" y2="283" stroke="#9467bd" stroke-width="3" stroke-dasharray="5,4" marker-end="url(#arrowpurple)"/>
+  <text x="238" y="315" font-size="15" fill="#9467bd">&#8711;g = (1,1)</text>
+
+  <!-- Caption -->
+  <text x="30" y="30" font-size="15" fill="#333333">At the constrained optimum, &#8711;f is parallel to &#8711;g (&#8711;f = &#955;&#8711;g, &#955;=2)</text>
+</svg>
