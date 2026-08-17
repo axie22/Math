@@ -1,6 +1,13 @@
 # Alex's Daily Math Practice — Progress Log
 
-Tracking daily math problems, sequenced toward ML/AI and rockets/aerospace applications.
+Append-only historical log. For where things stand *now* see [`STATE.md`](STATE.md);
+for where they're going see [`CURRICULUM.md`](CURRICULUM.md).
+
+> **2026-08-17 — restructured.** Retargeted from "ML/AI + rockets/aerospace" to **ML at
+> research depth + mathematical maturity**. Days 1–6 below are reclassified as a
+> *preview* of Phase 2 material rather than completed coverage — they were generated
+> without any record of how they went, so no mastery can be inferred from them.
+> Next: the [calibration diagnostic](diagnostics/2026-08-18-calibration.md).
 
 | Date | Topic | Difficulty | Problem Summary | Link |
 |------|-------|------------|------------------|------|
