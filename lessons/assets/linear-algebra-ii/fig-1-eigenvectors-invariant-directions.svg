@@ -1,0 +1,58 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#27ae60"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8e44ad"/>
+    </marker>
+    <marker id="arrowBlack" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#2c3e50"/>
+    </marker>
+    <marker id="arrowAxis" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="450" fill="#ffffff"/>
+
+  <text x="300" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Eigenvectors are the directions a matrix does not rotate</text>
+  <text x="300" y="46" text-anchor="middle" font-size="14" fill="#444444">A = [[2, 1], [1, 2]] acting on the unit circle</text>
+
+  <!-- axes -->
+  <line x1="40" y1="225" x2="560" y2="225" stroke="#7f8c8d" stroke-width="1.5" marker-end="url(#arrowAxis)"/>
+  <line x1="300" y1="410" x2="300" y2="40" stroke="#7f8c8d" stroke-width="1.5" marker-end="url(#arrowAxis)"/>
+  <text x="552" y="218" font-size="14" fill="#7f8c8d">x</text>
+  <text x="308" y="50" font-size="14" fill="#7f8c8d">y</text>
+
+  <!-- unit circle -->
+  <circle cx="300" cy="225" r="50" fill="none" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <!-- image ellipse: rx=150 (lambda1=3*50), ry=50 (lambda2=1*50), rotated -45 -->
+  <ellipse cx="300" cy="225" rx="150" ry="50" fill="#3498db" fill-opacity="0.12" stroke="#3498db" stroke-width="1.5" transform="rotate(-45 300 225)"/>
+
+  <!-- generic vector w = (1,0), preimage -->
+  <line x1="300" y1="225" x2="345" y2="225" stroke="#2c3e50" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowBlack)"/>
+  <text x="330" y="242" font-size="14" fill="#2c3e50">w</text>
+
+  <!-- image Aw = (2,1), direction changes -->
+  <line x1="300" y1="225" x2="395" y2="175" stroke="#2c3e50" stroke-width="2.5" marker-end="url(#arrowBlack)"/>
+  <text x="400" y="168" font-size="14" fill="#2c3e50">Aw (direction changes!)</text>
+
+  <!-- eigenvector v1 preimage, direction (1,1), unit length -->
+  <line x1="300" y1="225" x2="335" y2="190" stroke="#27ae60" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowGreen)"/>
+  <text x="300" y="178" font-size="14" fill="#27ae60">v&#8321; (before)</text>
+
+  <!-- eigenvector v1 image, stretched by lambda1=3 -->
+  <line x1="300" y1="225" x2="401" y2="119" stroke="#c0392b" stroke-width="3" marker-end="url(#arrowRed)"/>
+  <text x="404" y="112" font-size="14" fill="#c0392b">&#955;&#8321;v&#8321; = 3v&#8321;</text>
+
+  <!-- eigenvector v2, eigenvalue 1, unchanged (preimage = image) -->
+  <line x1="300" y1="225" x2="335" y2="260" stroke="#8e44ad" stroke-width="3" marker-end="url(#arrowPurple)"/>
+  <text x="340" y="282" font-size="14" fill="#8e44ad">v&#8322;, &#955;&#8322;v&#8322; = v&#8322; (&#955;&#8322;=1, unchanged)</text>
+
+  <text x="300" y="430" text-anchor="middle" font-size="13" fill="#555555">Eigenvectors keep their direction under A, only scaled by &#955;. A generic vector w does not.</text>
+</svg>
