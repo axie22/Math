@@ -1,0 +1,49 @@
+<svg viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#2980b9"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#d35400"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">SVD: orthogonal input axes map to orthogonal output axes</text>
+  <text x="450" y="46" text-anchor="middle" font-size="14" fill="#444444">A = U&#931;V&#7488;  —  even when A itself is not symmetric</text>
+
+  <!-- LEFT PANEL: domain -->
+  <text x="200" y="80" text-anchor="middle" font-size="14" fill="#333333">Domain (input space)</text>
+  <line x1="60" y1="225" x2="340" y2="225" stroke="#bdbdbd" stroke-width="1"/>
+  <line x1="200" y1="365" x2="200" y2="85" stroke="#bdbdbd" stroke-width="1"/>
+  <circle cx="200" cy="225" r="50" fill="none" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <!-- v1 at 30 degrees -->
+  <line x1="200" y1="225" x2="243" y2="200" stroke="#2980b9" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="248" y="196" font-size="14" fill="#2980b9">v&#8321;</text>
+  <!-- v2 at 120 degrees -->
+  <line x1="200" y1="225" x2="175" y2="182" stroke="#d35400" stroke-width="3" marker-end="url(#arrowOrange)"/>
+  <text x="140" y="176" font-size="14" fill="#d35400">v&#8322;</text>
+  <text x="200" y="400" text-anchor="middle" font-size="13" fill="#555555">orthonormal basis {v&#8321;, v&#8322;}</text>
+
+  <!-- ARROW between panels -->
+  <line x1="370" y1="225" x2="530" y2="225" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <text x="450" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c3e50">A = U&#931;V&#7488;</text>
+
+  <!-- RIGHT PANEL: range -->
+  <text x="700" y="80" text-anchor="middle" font-size="14" fill="#333333">Range (output space)</text>
+  <line x1="560" y1="225" x2="840" y2="225" stroke="#bdbdbd" stroke-width="1"/>
+  <line x1="700" y1="365" x2="700" y2="85" stroke="#bdbdbd" stroke-width="1"/>
+  <ellipse cx="700" cy="225" rx="125" ry="50" fill="#2980b9" fill-opacity="0.10" stroke="#2980b9" stroke-width="1.5" transform="rotate(-20 700 225)"/>
+
+  <!-- u1 scaled by sigma1=2.5 at 20 degrees -->
+  <line x1="700" y1="225" x2="817" y2="182" stroke="#2980b9" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="822" y="178" font-size="14" fill="#2980b9">u&#8321; (&#963;&#8321;=2.5)</text>
+  <!-- u2 scaled by sigma2=1 at 110 degrees -->
+  <line x1="700" y1="225" x2="633" y2="178" stroke="#d35400" stroke-width="3" marker-end="url(#arrowOrange)"/>
+  <text x="565" y="172" font-size="14" fill="#d35400">u&#8322; (&#963;&#8322;=1)</text>
+  <text x="700" y="400" text-anchor="middle" font-size="13" fill="#555555">orthonormal basis {u&#8321;, u&#8322;}, axes scaled by singular values</text>
+</svg>
