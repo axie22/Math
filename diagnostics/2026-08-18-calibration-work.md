@@ -98,6 +98,8 @@ _(your work)_
 
 _(your work)_
 
+**Section D — time taken: ___ / confidence (1–5): ___**
+
 ---
 
 ## Notes to self
