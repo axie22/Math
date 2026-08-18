@@ -1,13 +1,14 @@
 # Start here
 
-**Right now: [Session 2 — 2026-08-18](weeks/2026-08-17/08-18.md).** One hour. Read §0,
-§1, §3 of the [proof foundations lesson](lessons/proof-foundations.md) first (~10 min),
-then work the problems into
-[`08-18-work.md`](weeks/2026-08-17/08-18-work.md).
+**Right now: [Session 3 — 2026-08-19](weeks/2026-08-17/08-19.md).** One hour. Read §4
+of the [proof foundations lesson](lessons/proof-foundations.md) (contradiction, ~3 min)
+if you haven't already, then work the problems into
+[`08-19-work.md`](weeks/2026-08-17/08-19-work.md).
 
-That's the answer. Everything below is context you can read later.
-
----
+Two rules carried over from yesterday's grading, no exceptions today: **Setup states
+only the hypothesis** (not the thing you're proving), and **witnesses live in
+$\mathbb{Z}$**, not $\mathbb{N}$. Full grading of session 2:
+[`08-18-feedback.md`](weeks/2026-08-17/08-18-feedback.md).
 
 ## What phase you're in and why
 

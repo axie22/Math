@@ -18,12 +18,16 @@ concept is not a retrieved one, and the difference is the entire mechanism.
 
 ---
 
-## Due 2026-08-18 (session 2)
+## Due 2026-08-19 (session 3)
 
 | Item | Why it's here |
 |---|---|
-| **Prove: $n^2$ even ⟹ $n$ even** | Calibration A1 — set up correctly, never finished |
-| **Definitions: even, odd, $a \mid b$** | Prerequisite for everything in §1. Must be automatic |
+| **Contrapositive vs. contradiction — when/why** | Queued 08-17, tested cold in R1 |
+| **Setup line: sum of two evens is even** | New item, see "Failed" below — tests the setup-discipline bug directly |
+
+*Injective/surjective is due today too, but it's being tested as a full Core problem
+(session 3, Core 1) rather than a review-block recall, since it's never actually been
+attempted — there's nothing to "retrieve" yet. See the Failed section.*
 
 ---
 
@@ -31,32 +35,47 @@ concept is not a retrieved one, and the difference is the entire mechanism.
 
 | Item | Topic | Last seen | Interval | Due | Streak |
 |---|---|---|---|---|---|
+| Unfold-the-definition habit | §1 | 2026-08-18 | 3d | 2026-08-21 | 1 |
 | Contrapositive vs. contradiction | §3–4 | — | 1d | 2026-08-19 | 0 |
-| Unfold-the-definition habit | §1 | — | 1d | 2026-08-19 | 0 |
-| Injective / surjective definitions | §8 | — | 1d | 2026-08-19 | 0 |
 | Quantifier negation rule | §5 | — | — | 2026-08-20 (first taught) | — |
 | Σ: running total vs. *n*-th term | §6 | — | — | 2026-08-25 (first taught) | — |
 | Induction hypothesis as the engine | §6 | — | — | 2026-08-25 (first taught) | — |
+| Contradiction technique ($\sqrt3$ irrational) | §4 | — | — | 2026-08-20 (first taught) | — |
 
 *Items marked "first taught" enter the 1-day interval on the date they're introduced.*
+
+**Unfold-the-definition habit advanced 1d → 3d.** The actual substitution mechanics
+(replace the word with its definition, compute) were correct in all three of
+08-18's Core 1 problems — the failures there were in Setup and Land, not in the unfold
+step itself. Splitting "unfolding" from "setup discipline" as separate tracked skills
+starting today; see below.
 
 ---
 
 ## Failed — reset to 1-day, high priority
 
-*From the 2026-08-17 calibration. These re-surface until two clean cold retrievals at
-≥7-day spacing.*
+*These re-surface until two clean cold retrievals at ≥7-day spacing.*
 
-- **Completing a proof after setup** (A1) — bug #1
-- **Quantifier negation: flip quantifiers, not domain restrictions** (A3) — bug #3
-- **Induction: state and use the hypothesis** (A2) — bug #2
-- **Σ notation: sum of first *n* terms, not the *n*-th term** (A2)
-- **Definition of rank** (B1) — deferred to Phase 1, not drilled now
-- **Definition of linear independence** (B1) — deferred to Phase 1
-
-The two linear-algebra items are deliberately *not* being drilled during Phase 0.
-Memorizing definitions ahead of the phase that builds them produces recall without
-understanding. Phase 1 starts from the axioms and they'll be earned there.
+- **Setup discipline: state the hypothesis, never the conclusion.** New 2026-08-18 —
+  Session 2 Core 1(a) and 1(b) both began by assuming the thing being proved (e.g.
+  "assume $a+b$ is even" when only $a,b$ being even is given). Tested via R2 today.
+- **Existential witnesses: $k \in \mathbb{Z}$, not $\mathbb{N}$.** New 2026-08-18 —
+  every unfold in session 2 used $\mathbb{N}$. Doesn't break the specific proofs
+  attempted so far but silently excludes negative integers as a general habit.
+- **Injective / surjective — construct an example and prove both halves.** Calibration
+  A4, then session 2 Core 2 — blank both times, zero data. Session 3, Core 1,
+  non-optional.
+- **Completing a proof after setup** (A1) — bug #1. **One clean retrieval on
+  2026-08-18** (R1: contrapositive redo, carried through to a landing, though the
+  landing itself was under-specified — see feedback). One more clean, independent
+  instance closes this.
+- **Quantifier negation: flip quantifiers, not domain restrictions** (A3) — bug #3.
+  Not yet re-tested; first drill scheduled 2026-08-20.
+- **Induction: state and use the hypothesis** (A2) — bug #2. Not yet re-tested; block
+  scheduled starting 2026-08-25.
+- **Σ notation: sum of first *n* terms, not the *n*-th term** (A2). Not yet re-tested.
+- **Definition of rank** (B1) — deferred to Phase 1, not drilled now.
+- **Definition of linear independence** (B1) — deferred to Phase 1.
 
 ---
 
