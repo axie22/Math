@@ -19,16 +19,18 @@ Statistical learning theory is a sequence of quantifier arguments. Rigorous line
 algebra is a sequence of "suppose $\sum c_i v_i = 0$" moves. Starting anywhere else
 means arriving at those phases unable to read them.
 
-Three specific bugs to fix, in this order:
+Three named bugs, attacked in this order:
 
-| | Bug | Fixed by |
-|---|---|---|
-| 1 | You frame a proof and stop before executing | **Sessions 2–3** — unfolding definitions |
-| 2 | Quantifier negation is exactly backwards | Sessions 4–6 — mechanical drilling |
-| 3 | Induction never uses the hypothesis | Sessions 7–9 — the induction block |
+| Order | Bug | Sessions | Lesson § |
+|---|---|---|---|
+| 1st | **#1** — you frame a proof and stop before executing | 2–3 | §1 |
+| 2nd | **#3** — quantifier negation is exactly backwards | 4, 6 | §5 |
+| 3rd | **#2** — induction never uses the hypothesis | 7–9 | §6 |
 
-Bug 1 first because the habit it installs — *replace the word with its definition and
-compute* — is the move the other two also need.
+(The bug *numbers* are from the calibration feedback, where they're ordered by which
+question they showed up on. They're attacked in a different order: bug #1 first because
+the habit it installs — *replace the word with its definition and compute* — is the
+move the other two also need.)
 
 ## The hour
 
