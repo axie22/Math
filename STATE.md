@@ -4,7 +4,7 @@
 > `CURRICULUM.md` says where we're going; this file says where we are and what the
 > next two weeks look like.
 
-**Last updated:** 2026-08-17 (calibration graded)
+**Last updated:** 2026-08-17 (calibration graded, session 2 built)
 
 ---
 
@@ -20,9 +20,12 @@
 
 ### Immediate next action
 
-Session 2 (**2026-08-19**): redo **A1** with the mechanism explained, then **A4**, then
-begin quantifier negation. See
-[`diagnostics/2026-08-18-calibration-feedback.md`](diagnostics/2026-08-18-calibration-feedback.md).
+**[Session 2 — 2026-08-18](weeks/2026-08-17/08-18.md)** is built and waiting: unfolding
+definitions, A1 redone by contrapositive, A4 redone. Read §0/§1/§3 of
+[`lessons/proof-foundations.md`](lessons/proof-foundations.md) first (~10 min), then work
+into [`weeks/2026-08-17/08-18-work.md`](weeks/2026-08-17/08-18-work.md).
+
+Grading context: [`diagnostics/2026-08-18-calibration-feedback.md`](diagnostics/2026-08-18-calibration-feedback.md).
 
 Also outstanding: **Section C redone, timed** (10 min). It is the last hole in the
 evidence table and it decides whether calculus repair needs its own sessions.
@@ -65,21 +68,23 @@ predicted and Phase 1 must not be compressed.
 *Revised 2026-08-17 from calibration results. Reordered to hit the three named bugs
 first, hardest-hitting first.*
 
-| # | Date | Topic | Type |
-|---|---|---|---|
-| 1 | 2026-08-18 | ~~Calibration diagnostic~~ | ✅ done |
-| 2 | 2026-08-19 | Redo A1 with the mechanism; A4; unfolding definitions | repair |
-| 3 | 2026-08-20 | **Quantifier negation drill I** — ~20 statements, mechanical | drill |
-| 4 | 2026-08-21 | **Review day** — A1/A3 retrieval + Section C, timed | review |
-| 5 | 2026-08-24 | **Quantifier negation drill II** — nested, ε-δ shaped | drill |
-| 6 | 2026-08-25 | Direct proof & contrapositive; when each is the lighter tool | new |
-| 7 | 2026-08-26 | **Induction I** — what the hypothesis is and why it's the engine | new |
-| 8 | 2026-08-27 | **Induction II** — telescoping sums, factoring the IH out | new |
-| 9 | 2026-08-28 | **Review day** — mixed; induction + negation retrieval | review |
-| 10 | 2026-08-31 | **Induction III** — strong induction, well-ordering | new |
+*Shifted one day earlier: calibration was completed Mon 2026-08-17, not the 18th.*
 
-Sessions 11–25 (contradiction, sets/functions, sup/inf, ε-arguments, calculus repair,
-Phase 0 gate) get scheduled at the 2026-08-28 review, once real throughput is known.
+| # | Date | Topic | Lesson § | Type |
+|---|---|---|---|---|
+| 1 | Mon 08-17 | ~~Calibration diagnostic~~ | — | ✅ done |
+| 2 | **Tue 08-18** | **Unfolding definitions**; A1 by contrapositive; A4 | §0, §1, §3 | ⬅ **built** |
+| 3 | Wed 08-19 | Unfolding II; contradiction; √2 irrational | §1, §4 | new |
+| 4 | Thu 08-20 | **Quantifier negation drill I** — ~20 statements, mechanical | §5 | drill |
+| 5 | Fri 08-21 | **Review day** — retrieval + Section C redone, timed | — | review |
+| 6 | Mon 08-24 | **Quantifier negation drill II** — nested, ε-δ shaped | §5 | drill |
+| 7 | Tue 08-25 | **Induction I** — the hypothesis *is* the engine | §6 | new |
+| 8 | Wed 08-26 | **Induction II** — sum recurrences, factoring the IH out | §6 | new |
+| 9 | Thu 08-27 | **Induction III** — strong induction, well-ordering | §6 | new |
+| 10 | Fri 08-28 | **Review day** — mixed; induction + negation retrieval | — | review |
+
+Sessions 11–25 (sets/functions, counterexamples, sup/inf, ε-arguments, calculus repair,
+Phase 0 gate) get scheduled at the 08-28 review, once real throughput is known.
 
 ---
 
@@ -123,6 +128,9 @@ around a rate you actually hit beats slipping quietly against one you don't.
 
 ## Changelog
 
+- **2026-08-17** — Session 2 built. Phase 0 lesson written
+  (`lessons/proof-foundations.md`). `START-HERE.md` added as the repo entry point;
+  `lessons/README.md` marks the multivariable and linear-algebra lessons as preview.
 - **2026-08-17** — Calibration graded. Evidence log populated with real data for the
   first time. Horizon reordered around the three named bugs. Amendments proposed to
   `CURRICULUM.md` §7 (Phase 0: 3→5 weeks).
