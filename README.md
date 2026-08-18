@@ -3,16 +3,20 @@
 Self-directed mathematics, ~1 hour/day, 5 days/week, aimed at **ML at research depth**
 and **mathematical maturity** (reading and writing proofs).
 
+> ### 👉 [**START-HERE.md**](START-HERE.md) — what to do today.
+> Currently: Phase 0 (proof foundations), [session 2](weeks/2026-08-17/08-18.md).
+
 ## Files
 
 | File | Job | Who writes it |
 |---|---|---|
+| [`START-HERE.md`](START-HERE.md) | Today's session and why | The daily run |
 | [`CURRICULUM.md`](CURRICULUM.md) | The master plan — destination, phases, prerequisites, exit gates | Alex, at monthly reviews |
 | [`STATE.md`](STATE.md) | Where we are now — evidence log, rolling 10-session horizon, open weaknesses | The daily run |
 | [`REVIEW-QUEUE.md`](REVIEW-QUEUE.md) | Spaced-repetition queue (1d → 3d → 7d → 21d → 60d) | The daily run |
 | [`RUN-PROMPT.md`](RUN-PROMPT.md) | The prompt the scheduled task uses | Alex |
 | [`progress.md`](progress.md) | Append-only historical log | The daily run |
-| `lessons/` | Reference material, written once per topic — **not daily reading** | The daily run |
+| [`lessons/`](lessons/README.md) | Reference material, written once per topic — **not daily reading**. Only `proof-foundations.md` is current | The daily run |
 | `weeks/<monday>/` | `<MM-DD>.md` problems · `-work.md` your answers · `-solution.md` key (one day late) · `-feedback.md` grading | mixed |
 | `diagnostics/` | Calibration and phase-gate assessments | The daily run |
 
@@ -60,5 +64,8 @@ thing in the repo.
 
 ## Status
 
-Phase 0 (proof foundations), not yet started. Next action: the
-[calibration diagnostic](diagnostics/2026-08-18-calibration.md).
+**Phase 0 — proof foundations**, session 2 of ~25. Calibration complete
+([results](diagnostics/2026-08-18-calibration-feedback.md)); three named bugs identified
+and the horizon reordered around them.
+
+Next: [`START-HERE.md`](START-HERE.md).
