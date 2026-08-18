@@ -67,6 +67,11 @@ The A- in Probability & Statistics is the asset to lean on — Phase 3 can move 
 than its length suggests, and probabilistic intuition can be used as scaffolding when
 introducing rigor elsewhere.
 
+**Confirmed by the 2026-08-17 calibration diagnostic.** Section A (proof) scored ~20%
+and Section B (linear algebra) ~5% — rank was defined as "the number of non-empty
+values in the matrix." The hypothesis above was, if anything, too optimistic. See
+`diagnostics/2026-08-18-calibration-feedback.md`.
+
 ---
 
 ## 3. Operating constraints
@@ -105,6 +110,9 @@ time and the strictest gate.
 ### Phase 0 — Proof foundations & calculus repair (3 weeks, ~15 sessions)
 
 *The most important phase in this document, and the one most tempting to skip.*
+
+> **Amendment pending (§7):** calibration results propose extending this to 5 weeks
+> (~25 sessions) with a dedicated induction block and a quantifier-negation drill.
 
 - Logic and quantifiers: negation, order of quantifiers, vacuous truth. Why
   "for all ε > 0 there exists δ" is a game with a specific structure.
@@ -162,7 +170,9 @@ the matrix picture too.
 
 **Why 8 weeks:** because this is the hub of the DAG, because a B+ two years ago is not
 a foundation to build a research-depth stack on, and because eigen/SVD material was
-already touched on Days 5–6 at a pace that will not retain.
+already touched on Days 5–6 at a pace that will not retain. **The calibration settled
+this** — Section B scored ~5% and the definitions of rank, basis, and null space were
+absent or wrong. Start from the axioms. Do not compress this phase.
 
 **Exit gate:** cold, closed-book, across two sessions —
 1. Prove rank–nullity.
@@ -194,9 +204,9 @@ Pass = 5 of 6.
   conventions; differentiating through a softmax and a cross-entropy loss.
 
 **Note:** Days 1–4 of the current log covered partials → directional derivatives →
-Hessian → Lagrange in four sessions. Treat that as a *preview*, not as completion.
-Phase 2 revisits all of it at the correct depth and with the linear-map framing that
-was missing.
+Hessian → Lagrange in four sessions. Treat that as a *preview*, not as completion —
+and note that Days 3–5 were never actually attempted. Phase 2 revisits all of it at
+the correct depth and with the linear-map framing that was missing.
 
 **Exit gate:**
 1. State the definition of differentiability at a point for f: ℝⁿ → ℝᵐ and use it to
@@ -311,6 +321,10 @@ Nine months. That is the honest price of the stated destination at one hour a da
 alternative — the current pace of roughly one course per week — reaches the end of the
 topic list by October and retains almost none of it.
 
+> **Amendment pending (§7):** Phase 0 → 5 weeks moves the total to ~36 weeks. A
+> separate open question is whether to re-price the whole table at 3 sessions/week
+> (observed) rather than 5 (planned), which would put it nearer ~60 weeks.
+
 ### Weekly shape
 
 | Day | Session |
@@ -332,7 +346,37 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
-_(none yet)_
+**[2026-08-17] Proposed after the calibration diagnostic. Not yet applied.**
+
+- **Phase 0: 3 weeks → 5 weeks (~25 sessions).** Calibration Section A scored ~20% and
+  exposed three *separate* structural gaps, not one soft spot. Three weeks was priced
+  for polishing existing proof ability; the evidence says we are constructing it.
+- **Insert a dedicated 3-session induction block.** The inductive step never referenced
+  the induction hypothesis — the mechanism of induction is absent, not rusty. That is
+  not a one-session fix, and induction underwrites the recursive arguments in Phases 4
+  and 5.
+- **Insert a 2-session quantifier-negation drill** — pure mechanical repetition,
+  ~20 statements. The observed bug is a single consistent rule applied backwards
+  (domain restrictions negated, quantifiers left alone). Highest ROI item in the whole
+  diagnostic: one rule, and it gates every ε-argument, convergence proof, and
+  generalization bound downstream.
+- **Session 2 re-attempts calibration A1 and A4** rather than introducing new material.
+  Re-running a failed problem with the mechanism explained beats a fresh one.
+- **Phase 1 stays at 8 weeks and explicitly starts from the vector-space axioms.**
+  Section B scored ~5%; rank was defined as "the number of non-empty values in the
+  matrix." A B+ in MATH-UA 140 (Spring 2024) has left no usable conceptual layer. If
+  anything this is the phase most at risk of being under-budgeted — do not compress it.
+- **Net effect on §6:** total to research depth ~34 weeks → **~36 weeks**.
+
+**Deferred pending data:**
+
+- Calibration Section C (calculus mechanics) was left entirely blank, so it cannot be
+  scored. If a timed re-attempt shows the chain rule is genuinely gone, calculus repair
+  should be promoted from "interleaved throughout Phase 0" to ~4 sessions of its own.
+- Actual throughput is running ~3 sessions/week against a plan priced at 5. If that is
+  the steady state rather than a bad fortnight, §6 should be re-priced at ~60 weeks
+  rather than allowed to slip silently. A plan that gets hit beats a plan that looks
+  better.
 
 ---
 
