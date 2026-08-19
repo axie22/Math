@@ -4,7 +4,7 @@
 > `CURRICULUM.md` says where we're going; this file says where we are and what the
 > next two weeks look like.
 
-**Last updated:** 2026-08-18 (session 2 graded, session 3 built)
+**Last updated:** 2026-08-19 (session 3 graded, session 4 built)
 
 ---
 
@@ -13,45 +13,49 @@
 | | |
 |---|---|
 | **Phase** | 0 — Proof foundations & calculus repair |
-| **Session** | 2 of ~25 (complete) |
+| **Session** | 3 of ~25 (complete) |
 | **Started** | 2026-08-17 |
 | **Phase gate** | not yet attempted |
-| **Days completed overall** | 5 of 8 offered (Days 1, 2, 6 + calibration + Session 2) |
+| **Days completed overall** | 6 of 9 offered (Days 1, 2, 6 + calibration + Sessions 2–3) |
 
 ### Immediate next action
 
-**[Session 3 — 2026-08-19](weeks/2026-08-17/08-19.md)** is built and waiting:
-injective/surjective (non-optional — third attempt after two blanks), the
-$3\mid n^2 \implies 3\mid n$ lemma, and $\sqrt3$ irrational by contradiction. Read §4 of
-[`lessons/proof-foundations.md`](lessons/proof-foundations.md) if you haven't already
-(~3 min), then work into
-[`weeks/2026-08-17/08-19-work.md`](weeks/2026-08-17/08-19-work.md).
+**[Session 4 — 2026-08-20](weeks/2026-08-17/08-20.md)** is built and waiting:
+quantifier negation (bug #3, first real drill), plus a pigeonhole proof (no injective
+$\{1,\dots,6\}\to\{1,\dots,5\}$) that directly repairs yesterday's Core 1(b)/(c) gap.
+Read §5 (new) and skim §8 (finite case) of
+[`lessons/proof-foundations.md`](lessons/proof-foundations.md), then work into
+[`weeks/2026-08-17/08-20-work.md`](weeks/2026-08-17/08-20-work.md).
 
-Grading context: [`weeks/2026-08-17/08-18-feedback.md`](weeks/2026-08-17/08-18-feedback.md).
+Grading context: [`weeks/2026-08-17/08-19-feedback.md`](weeks/2026-08-17/08-19-feedback.md).
 
 Also outstanding: **Section C redone, timed** (10 min) — still not done, carried over
-from 2026-08-17. It is the last hole in the evidence table and it decides whether
-calculus repair needs its own sessions.
+from 2026-08-17, and now the plan for Friday 2026-08-21's review day. It is the last
+hole in the evidence table and it decides whether calculus repair needs its own
+sessions.
 
 ---
 
 ## Evidence log
 
 *Observed work in this repo is strong evidence; transcript grades are weak evidence
-(old, and about a different kind of task). Updated 2026-08-18 from Session 2.*
+(old, and about a different kind of task). Updated 2026-08-19 from Session 3.*
 
 | Skill | Evidence | Verdict |
 |---|---|---|
 | Negating an implication (P⟹Q to P ∧ ¬Q) | Calibration A1 — done correctly | **competent** |
 | Partial derivatives | Calibration D1 — both partials correct, 8 days after Day 1 | **competent** |
 | Unfolding a definition and computing | Session 2 Core 1 — substitution mechanics correct in all 3 problems (a, b, c) | **competent** |
-| Completing a proof after setting it up | Calibration A1: stopped at setup. Session 2 R1: carried through to a landing, though landing was under-specified (claim stated, witness not named) | **improving — bug #1, 1 of 2 clean retrievals** |
-| Setup discipline (state the hypothesis, not the conclusion) | Session 2 Core 1(a), 1(b) — setup assumed the thing being proved. Core 1(c) — done correctly | **gap — new, split out from bug #1** |
-| Existential witness domain ($\mathbb{Z}$ vs $\mathbb{N}$) | Session 2 R1, R2, Core 1 — $\mathbb{N}$ used throughout where $\mathbb{Z}$ was needed | **gap — new, mechanical** |
+| Completing a proof after setting it up | Calibration A1: stopped at setup. Session 2 R1: carried to a landing (under-specified). Session 3 Core 2(b): every fact derived, closing contradiction sentence never written — relapse on a longer, multi-step proof | **gap — bug #1, relapsed on longer proofs. Retest 2026-08-20** |
+| Setup discipline (state the hypothesis, not the conclusion) | Session 2 Core 1(a), 1(b) — setup assumed the thing being proved. Session 3: clean 4/4 (R2, Core 1(a), Core 2(a), Core 2(b)) | **competent — closing, needs one more clean instance at ≥7-day spacing (due 2026-08-22)** |
+| Existential witness domain ($\mathbb{Z}$ vs $\mathbb{N}$) | Session 2: $\mathbb{N}$ used throughout. Session 3: clean in both places a witness was needed (Core 2(a), 2(b)) | **competent — closing, needs one more clean instance at ≥7-day spacing (due 2026-08-22)** |
+| Injective/surjective — construct an example, prove both halves | Calibration A4, Session 2 Core 2 — blank twice. Session 3 Core 1(a) — correct mechanics (injectivity and non-surjectivity both proved), notation for stating the function itself needed a fix | **competent (mechanics)** |
+| Pigeonhole — finite injective ⟹ surjective | Session 3 Core 1(b), 1(c) — restated the claim without deriving it; mechanism exists in lesson §8 but wasn't read | **gap — new. Retest 2026-08-20 Core 2** |
+| Contrapositive vs. contradiction, conceptual distinction | Session 3 R1 — correct, well-articulated | **competent (concept)** |
+| Contrapositive vs. contradiction, applied to own proof | Session 3 Core 2(a) — used the contrapositive correctly per the problem's instructions, but narrated the ending as a contradiction against a nonexistent "given" | **gap — new, concept/application split** |
 | Induction: using the hypothesis | Calibration A2 — IH never written down or used | **gap — bug #2, structural** |
 | Induction: reading Σ notation | Calibration A2 — read closed form as the *n*-th term, not the sum | **misconception** |
-| Quantifier negation | Calibration A3 — negated domain restrictions, kept quantifiers. Backwards, 4×, consistently | **gap — bug #3, highest ROI** |
-| Injection / surjection | Calibration A4 — blank. Session 2 Core 2 — blank again | **no data, 2× skipped — Session 3 Core 1, non-optional** |
+| Quantifier negation | Calibration A3 — negated domain restrictions, kept quantifiers. Backwards, 4×, consistently | **gap — bug #3, highest ROI. First drill 2026-08-20** |
 | Rank | Calibration B1 — "number of non-empty values." Incorrect | **gap — significant** |
 | Linear independence | Calibration B1 — circular definition | **gap** |
 | Basis, null space, rank–nullity | Calibration B1/B2 — blank | **no data, presumed gap** |
@@ -80,8 +84,8 @@ first, hardest-hitting first.*
 |---|---|---|---|---|
 | 1 | Mon 08-17 | ~~Calibration diagnostic~~ | — | ✅ done |
 | 2 | Tue 08-18 | ~~Unfolding definitions; A1 by contrapositive; A4~~ | §0, §1, §3 | ✅ done (Core 2/A4 still blank) |
-| 3 | **Wed 08-19** | **Setup discipline repair; injective/surjective (non-optional); contradiction — √3 irrational** | §1, §4 | ⬅ **built** |
-| 4 | Thu 08-20 | **Quantifier negation drill I** — ~20 statements, mechanical | §5 | drill |
+| 3 | Wed 08-19 | ~~Setup discipline repair; injective/surjective (non-optional); contradiction — √3 irrational~~ | §1, §4 | ✅ done (setup + witness domain clean; pigeonhole + landing gaps found) |
+| 4 | **Thu 08-20** | **Quantifier negation drill I** (~10 statements) + pigeonhole proof (repairs session 3 Core 1b/c) | §5, §8 | ⬅ **built** |
 | 5 | Fri 08-21 | **Review day** — retrieval + Section C redone, timed | — | review |
 | 6 | Mon 08-24 | **Quantifier negation drill II** — nested, ε-δ shaped | §5 | drill |
 | 7 | Tue 08-25 | **Induction I** — the hypothesis *is* the engine | §6 | new |
@@ -99,16 +103,22 @@ Phase 0 gate) get scheduled at the 08-28 review, once real throughput is known.
 *Review days bias toward this list. Remove only after two clean cold retrievals at
 ≥7-day spacing.*
 
-- [ ] **Bug #1 — stopping at the setup.** Improving: Session 2 carried every attempted proof to a landing. One clean retrieval logged (08-18 R1); needs one more independent clean instance before closing.
-- [ ] **New — setup discipline.** Setup states the conclusion instead of only the hypothesis (Session 2 Core 1a, 1b). Split out from bug #1 because the failure is different: it's not stopping early, it's smuggling the answer into the assumptions.
-- [ ] **New — existential witness domain.** $\exists k \in \mathbb{N}$ used where $\mathbb{Z}$ was required, consistently, Session 2. Mechanical, should close fast.
-- [ ] **Injective/surjective — construct an example, prove both halves.** Calibration A4 and Session 2 Core 2 both blank. Zero data after two attempts. Session 3 Core 1, non-optional.
+- [ ] **Bug #1 — landing the proof.** Session 2: every attempted proof reached a landing (one clean instance, 08-18 R1). Session 3 Core 2(b): relapsed on a longer, multi-step proof — every fact derived, closing contradiction sentence never written. Retest 2026-08-20 R1.
+- [ ] **New — pigeonhole / finite injective ⟹ surjective.** Session 3 Core 1(b), 1(c) restated the claim without deriving it. Mechanism is in lesson §8, wasn't pointed to. Retest 2026-08-20 Core 2.
+- [ ] **New — contrapositive vs. contradiction, applied.** Session 3 Core 2(a) used the contrapositive correctly per instructions but narrated the ending as a contradiction against a nonexistent "given." Concept (R1, same day) was correct in the abstract; the gap is applying it while writing. Quick fix queued 2026-08-20 R2.
 - [ ] **Bug #2 — induction without an engine.** Verifying at *n+1* instead of building from *n*. IH never written. Not yet re-tested.
-- [ ] **Bug #3 — negation flips the wrong things.** Domain restrictions negated, quantifiers left alone. Exactly backwards. Not yet re-tested.
+- [ ] **Bug #3 — negation flips the wrong things.** Domain restrictions negated, quantifiers left alone. Exactly backwards. First drill 2026-08-20 Core 1.
 - [ ] Rank / linear independence / basis / null space — definitions absent
 - [ ] Σ notation: closed form vs. *n*-th term
-- [ ] Arithmetic slips when moving terms across an equals sign / FOIL under time pressure (Session 2 Core 1(b): $4xy \to 4xy^2$)
+- [ ] Arithmetic slips when moving terms across an equals sign / FOIL under time pressure, or transcribing a binomial expansion (Session 2 Core 1(b): $4xy \to 4xy^2$; Session 3 Core 2(a): "$12k\,3$" for $12k+4$ — didn't affect the final result either time, but worth slowing down on)
 - [ ] Gradient stated precisely (vector of partials, steepest ascent, ⊥ level curves)
+
+**Closed this session (setup discipline, existential witness domain in $\mathbb{Z}$):**
+four clean, independent instances each across Session 3 — see evidence log. Not
+removed from tracking yet (need one more clean instance at ≥7-day spacing per the
+retirement rule), but no longer active open weaknesses; only in `REVIEW-QUEUE.md`'s
+scheduled table now. Constructing an injective-not-surjective example and proving both
+halves is also off this list — Session 3 Core 1(a) did it cleanly.
 
 ---
 
@@ -127,7 +137,7 @@ Phase 0 gate) get scheduled at the 08-28 review, once real throughput is known.
 | Week | Offered | Completed | Rate |
 |---|---|---|---|
 | 2026-08-10 | 5 | 2 (Days 1, 2) | 40% |
-| 2026-08-17 | 3 so far | 3 (Day 6, calibration, Session 2) | 100% |
+| 2026-08-17 | 4 so far | 4 (Day 6, calibration, Sessions 2–3) | 100% |
 
 At a sustained 3/week, the ~36-week plan becomes ~60. **Open question for review:** were
 the misses circumstantial, or is 3/week the honest steady state? Re-pricing the plan
@@ -137,6 +147,21 @@ around a rate you actually hit beats slipping quietly against one you don't.
 
 ## Changelog
 
+- **2026-08-19** — Session 3 graded, Session 4 built. Setup discipline and
+  existential-witness domain ($\mathbb{Z}$ vs $\mathbb{N}$) both closed clean 4/4
+  across today's problems — real, independent evidence, not one repeated example.
+  Injective/surjective got its first real data (Core 1(a)): mechanics correct,
+  notation needed a fix. Two new issues found: Core 1(b)/(c) restated the pigeonhole
+  claim without deriving it (mechanism exists in lesson §8, wasn't pointed to), and
+  Core 2(b) ($\sqrt3$ irrational) derived every fact and never wrote the closing
+  contradiction sentence — bug #1 relapsing on a longer proof than the one it looked
+  fixed on yesterday. Also: Core 2(a) applied the contrapositive correctly but
+  narrated it with contradiction language — a concept/application split, since R1 the
+  same day got the distinction right in the abstract. Session 4 advances to the next
+  new topic (quantifier negation, bug #3) since nothing today was a method-level
+  failure of what was actually being taught, while folding both open repairs into the
+  review block and a pigeonhole Core problem. Full grading in
+  `weeks/2026-08-17/08-19-feedback.md`.
 - **2026-08-18** — Session 2 graded, Session 3 built. Bug #1 (stopping at setup)
   showed real improvement — every attempted proof was carried to a landing. Two new
   mechanical issues surfaced and are now tracked separately: setup discipline
