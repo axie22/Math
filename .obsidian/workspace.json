@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "5d11444ef02927fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b33b853022442b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59c7262d4f445395",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lessons/proof-foundations.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "proof-foundations"
+            }
+          },
+          {
+            "id": "e150ee6f41fa64b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "weeks/2026-08-17/08-19.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-19"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "4757892596bc0679",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42f4a6af31839bde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "weeks/2026-08-17/08-19-work.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-19-work"
+            }
+          },
+          {
+            "id": "ce1235fa028b6029",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "weeks/2026-08-17/08-18-work.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-18-work"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b64d072e94a94b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc08665ca0150531",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b90935e5bd9f0c59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "afb09e0a1c30f1d2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "da5d07c3a8d578d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "30625f05eccd86f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d034aab832ee1928",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4018bd90dca83a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "weeks/2026-08-17/08-19-work.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "dc5881213c92602c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "weeks/2026-08-17/08-19-work.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "798114e6491a7be3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0193177ebc078b39",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3d0511c78ec45509",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "weeks/2026-08-17/08-19-work.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "42f4a6af31839bde",
+  "lastOpenFiles": [
+    "weeks/2026-08-17/08-19.md",
+    "weeks/2026-08-17/08-19-work.md",
+    "weeks/2026-08-17/08-18-work.md",
+    "weeks/2026-08-17/08-18-solution.md",
+    "weeks/2026-08-17/08-18-feedback.md",
+    "weeks/2026-08-17/08-18.md",
+    "lessons/proof-foundations.md",
+    "weeks/2026-08-17/08-17.md",
+    "START-HERE.md",
+    "STATE.md",
+    "RUN-PROMPT.md",
+    "lessons/README.md",
+    "REVIEW-QUEUE.md",
+    "CURRICULUM.md",
+    "README.md",
+    "progress.md",
+    "diagnostics/2026-08-18-calibration-work.md",
+    "diagnostics/2026-08-18-calibration-feedback.md",
+    "lessons/multivariable-calculus.md",
+    "diagnostics/2026-08-18-calibration.md",
+    "lessons/linear-algebra-ii.md",
+    "weeks/2026-08-17/08-17-solution.md",
+    "weeks/2026-08-17",
+    "diagnostics",
+    "weeks/2026-08-10/08-16.md",
+    "weeks/2026-08-10/08-16-solution.md",
+    "lessons/assets/linear-algebra-ii/fig-2-svd-orthogonal-axes.svg",
+    "lessons/assets/linear-algebra-ii/fig-1-eigenvectors-invariant-directions.svg",
+    "lessons/assets/linear-algebra-ii",
+    "weeks/2026-08-10/08-13.md",
+    "weeks/2026-08-10/08-13-solution.md",
+    "lessons/assets/multivariable-calculus/fig-3-lagrange-tangency.svg",
+    "lessons/assets/multivariable-calculus/fig-2-saddle-point.svg",
+    "lessons/assets/multivariable-calculus/fig-1-gradient-contour.svg",
+    "lessons/assets/multivariable-calculus",
+    "lessons/assets",
+    "lessons"
+  ]
+}
