@@ -1,14 +1,17 @@
 # Start here
 
-**Right now: [Session 3 — 2026-08-19](weeks/2026-08-17/08-19.md).** One hour. Read §4
-of the [proof foundations lesson](lessons/proof-foundations.md) (contradiction, ~3 min)
-if you haven't already, then work the problems into
-[`08-19-work.md`](weeks/2026-08-17/08-19-work.md).
+**Right now: [Session 4 — 2026-08-20](weeks/2026-08-17/08-20.md).** One hour. Read §5
+of the [proof foundations lesson](lessons/proof-foundations.md) (quantifiers and
+negation — new today) and skim §8 (the finite case), then work the problems into
+[`08-20-work.md`](weeks/2026-08-17/08-20-work.md).
 
-Two rules carried over from yesterday's grading, no exceptions today: **Setup states
-only the hypothesis** (not the thing you're proving), and **witnesses live in
-$\mathbb{Z}$**, not $\mathbb{N}$. Full grading of session 2:
-[`08-18-feedback.md`](weeks/2026-08-17/08-18-feedback.md).
+Setup discipline and $\mathbb{Z}$-witnesses both went clean 4/4 yesterday — good, keep
+doing that, but they're not fully retired yet. Two things carried over from
+yesterday's grading instead: the review block asks you to land the $\sqrt3$ proof's
+final sentence explicitly (you derived everything and stopped one line short), and
+Core 2 reuses lesson §8's pigeonhole argument, which yesterday's Core 1(b)/(c) was
+missing. Full grading of session 3:
+[`08-19-feedback.md`](weeks/2026-08-17/08-19-feedback.md).
 
 ## What phase you're in and why
 
