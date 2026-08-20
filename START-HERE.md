@@ -1,17 +1,20 @@
 # Start here
 
-**Right now: [Session 4 — 2026-08-20](weeks/2026-08-17/08-20.md).** One hour. Read §5
-of the [proof foundations lesson](lessons/proof-foundations.md) (quantifiers and
-negation — new today) and skim §8 (the finite case), then work the problems into
-[`08-20-work.md`](weeks/2026-08-17/08-20-work.md).
+**Right now: [Session 5 — 2026-08-21](weeks/2026-08-17/08-21.md).** Friday review
+day — no new material, closed book throughout. Part 1 is the timed Section C redo
+(chain rule / Taylor / integration by parts) that's been outstanding since the
+2026-08-18 calibration; Part 2 is mixed retrieval; Part 3 is a synthesis problem.
+Work into [`08-21-work.md`](weeks/2026-08-17/08-21-work.md).
 
-Setup discipline and $\mathbb{Z}$-witnesses both went clean 4/4 yesterday — good, keep
-doing that, but they're not fully retired yet. Two things carried over from
-yesterday's grading instead: the review block asks you to land the $\sqrt3$ proof's
-final sentence explicitly (you derived everything and stopped one line short), and
-Core 2 reuses lesson §8's pigeonhole argument, which yesterday's Core 1(b)/(c) was
-missing. Full grading of session 3:
-[`08-19-feedback.md`](weeks/2026-08-17/08-19-feedback.md).
+Yesterday's quantifier-negation drill split cleanly: plain ∀/∃ negation is solid, but
+negating an implication or an "or" statement both failed — the connective-specific
+rule wasn't applied even though it was printed right there in the problem. Pigeonhole
+showed real progress — the specific $\{1,\dots,6\}\to\{1,\dots,5\}$ case got properly
+derived and landed this time — but stating the *general* principle in words was weak.
+And two review-block retests (landing the $\sqrt3$ proof, fixing the
+contrapositive/contradiction framing) went unattempted two sessions running — today's
+review day leads with both of those. Full grading of session 4:
+[`08-20-feedback.md`](weeks/2026-08-17/08-20-feedback.md).
 
 ## What phase you're in and why
 
@@ -70,9 +73,10 @@ Solutions post the next day, never the same day. Sitting stuck is the mechanism.
 
 ## Still outstanding
 
-- **Redo calibration Section C, timed (10 min).** It was left blank so the chain rule /
-  Taylor / integration picture is the one hole in the evidence table. It decides
-  whether calculus repair needs its own sessions or can stay interleaved.
+- **Section C, timed (10 min) — now Part 1 of today's session.** It was left blank at
+  the calibration; it's the one hole left in the evidence table and decides whether
+  calculus repair needs its own sessions or can stay interleaved.
 - **Decide the honest session rate.** The plan is priced at 5/week; you've been running
-  ~3. If 3 is real, the plan should be re-priced at ~60 weeks rather than quietly
-  slipping against a number that was never going to happen.
+  ~3, though this week (2026-08-17) is on pace for 5/5 pending today. If 3 is real, the
+  plan should be re-priced rather than quietly slipping against a number that was never
+  going to happen — worth a real look once a few weeks of post-restructure data exist.
