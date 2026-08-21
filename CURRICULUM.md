@@ -60,17 +60,17 @@ worst.
 
 So: **the binding constraint is not topic coverage. It is proof fluency and a shaky
 linear-algebra foundation.** A curriculum that races through new topics is optimizing
-the wrong variable. This plan deliberately spends its first four months on ground he
-has technically already "covered," done properly.
+the wrong variable.
 
-The A- in Probability & Statistics is the asset to lean on — Phase 3 can move faster
-than its length suggests, and probabilistic intuition can be used as scaffolding when
-introducing rigor elsewhere.
-
-**Confirmed by the 2026-08-17 calibration diagnostic.** Section A (proof) scored ~20%
-and Section B (linear algebra) ~5% — rank was defined as "the number of non-empty
-values in the matrix." The hypothesis above was, if anything, too optimistic. See
-`diagnostics/2026-08-18-calibration-feedback.md`.
+**Refined after week 1 (2026-08-24).** The calibration read this as a deep deficit; a
+week of actual work says it was narrower than that. Alex cleared unfolding,
+contrapositive vs. contradiction, contradiction proofs, injective/surjective and a
+general pigeonhole proof inside four sessions, and produced genuine synthesis on the
+last one. What was missing was proof *technique* — a small set of mechanical moves he
+had never been taught — not reasoning ability. Teach the moves and he picks them up
+fast. **Phase 0 shortened accordingly.** Phase 1 is unchanged: the Section B result
+(rank defined as "the number of non-empty values") was about missing content, not
+missing technique, and content takes the time it takes.
 
 ---
 
@@ -111,8 +111,10 @@ time and the strictest gate.
 
 *The most important phase in this document, and the one most tempting to skip.*
 
-> **Amendment pending (§7):** calibration results propose extending this to 5 weeks
-> (~25 sessions) with a dedicated induction block and a quantifier-negation drill.
+**Progress:** sessions 1–5 done. Retired: unfolding definitions, direct proof,
+contrapositive, contradiction, counterexamples, injective/surjective, pigeonhole.
+Remaining: compound-predicate negation (in progress), ε-N arguments, quantifier order,
+induction, sup/inf, Taylor with remainder.
 
 - Logic and quantifiers: negation, order of quantifiers, vacuous truth. Why
   "for all ε > 0 there exists δ" is a game with a specific structure.
@@ -125,13 +127,11 @@ time and the strictest gate.
   Taylor series with remainder, integration by parts (it is how expectations of
   transformed variables get computed), geometric and exponential series.
 
-**Why:** this directly attacks the C+ and it is a hard prerequisite for Phases 1, 3,
-4, and 5 to be anything other than symbol-shuffling.
-
 **Exit gate:** cold, closed-book, in one 60-minute session —
 1. Prove √2 is irrational, and prove that between any two reals lies a rational.
 2. Prove by induction that a set of size *n* has 2ⁿ subsets.
-3. Negate, correctly and in words, a three-quantifier statement.
+3. Negate, correctly and in words, a three-quantifier statement **with an implication
+   at the bottom**, and say which rule you used at each step.
 4. Give a function that is injective but not surjective, and one that is neither,
    with justification.
 5. State the definition of sup and prove sup(A + B) = sup A + sup B for bounded sets.
@@ -168,11 +168,10 @@ Strang, *Introduction to Linear Algebra* for computational grounding and applica
 Use both — Axler is deliberately determinant-light, and ML needs the determinant and
 the matrix picture too.
 
-**Why 8 weeks:** because this is the hub of the DAG, because a B+ two years ago is not
-a foundation to build a research-depth stack on, and because eigen/SVD material was
-already touched on Days 5–6 at a pace that will not retain. **The calibration settled
-this** — Section B scored ~5% and the definitions of rank, basis, and null space were
-absent or wrong. Start from the axioms. Do not compress this phase.
+**Why 8 weeks, unchanged even though Phase 0 shrank:** Phase 0 shortened because the
+gap there was *technique*, which teaches fast. Phase 1's gap is *content* — Section B
+scored ~5% and the definitions of rank, basis, and null space were absent or wrong.
+Content does not compress the same way. Start from the axioms. Do not shorten this.
 
 **Exit gate:** cold, closed-book, across two sessions —
 1. Prove rank–nullity.
@@ -203,7 +202,7 @@ Pass = 5 of 6.
 - **Matrix calculus for ML:** ∂/∂X of tr(AX), XᵀAX, log det X, ‖Ax − b‖²; layout
   conventions; differentiating through a softmax and a cross-entropy loss.
 
-**Note:** Days 1–4 of the current log covered partials → directional derivatives →
+**Note:** Days 1–4 of the original log covered partials → directional derivatives →
 Hessian → Lagrange in four sessions. Treat that as a *preview*, not as completion —
 and note that Days 3–5 were never actually attempted. Phase 2 revisits all of it at
 the correct depth and with the linear-map framing that was missing.
@@ -317,13 +316,11 @@ Chosen at the Phase 5 review based on what is actually biting. Candidates:
 | 5 — Statistical learning theory | 6 wk | ~30 | mid May 2027 |
 | **Total to research-depth** | **~34 wk** | **~170** | **~May 2027** |
 
-Nine months. That is the honest price of the stated destination at one hour a day. The
-alternative — the current pace of roughly one course per week — reaches the end of the
-topic list by October and retains almost none of it.
+Nine months. That is the honest price of the stated destination at one hour a day.
 
-> **Amendment pending (§7):** Phase 0 → 5 weeks moves the total to ~36 weeks. A
-> separate open question is whether to re-price the whole table at 3 sessions/week
-> (observed) rather than 5 (planned), which would put it nearer ~60 weeks.
+> **Open question:** this table is priced at 5 sessions/week. Week 1 ran 4 of 5, which
+> is fine. If the sustained rate settles nearer 3, re-price at ~55 weeks rather than
+> letting it slip silently.
 
 ### Weekly shape
 
@@ -346,37 +343,34 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
-**[2026-08-17] Proposed after the calibration diagnostic. Not yet applied.**
+**[2026-08-24] Week 1 review. APPLIED — §5 and §6 updated above.**
 
-- **Phase 0: 3 weeks → 5 weeks (~25 sessions).** Calibration Section A scored ~20% and
-  exposed three *separate* structural gaps, not one soft spot. Three weeks was priced
-  for polishing existing proof ability; the evidence says we are constructing it.
-- **Insert a dedicated 3-session induction block.** The inductive step never referenced
-  the induction hypothesis — the mechanism of induction is absent, not rusty. That is
-  not a one-session fix, and induction underwrites the recursive arguments in Phases 4
-  and 5.
-- **Insert a 2-session quantifier-negation drill** — pure mechanical repetition,
-  ~20 statements. The observed bug is a single consistent rule applied backwards
-  (domain restrictions negated, quantifiers left alone). Highest ROI item in the whole
-  diagnostic: one rule, and it gates every ε-argument, convergence proof, and
-  generalization bound downstream.
-- **Session 2 re-attempts calibration A1 and A4** rather than introducing new material.
-  Re-running a failed problem with the mechanism explained beats a fresh one.
-- **Phase 1 stays at 8 weeks and explicitly starts from the vector-space axioms.**
-  Section B scored ~5%; rank was defined as "the number of non-empty values in the
-  matrix." A B+ in MATH-UA 140 (Spring 2024) has left no usable conceptual layer. If
-  anything this is the phase most at risk of being under-budgeted — do not compress it.
-- **Net effect on §6:** total to research depth ~34 weeks → **~36 weeks**.
+- **Phase 0: 5 weeks → 3 weeks (~15 sessions).** Reverses the 2026-08-17 extension.
+  Four sessions cleared unfolding, contrapositive vs. contradiction, contradiction
+  proofs, injective/surjective, and a general pigeonhole proof — plus real synthesis on
+  session 5. The calibration mistook missing *technique* for missing ability. Technique
+  teaches fast.
+- **Phase 1 stays at 8 weeks.** Its gap is content, not technique, and content doesn't
+  compress. Noted explicitly in §5 so a future review doesn't shorten it by analogy.
+- **Phase 0 exit gate item 3 sharpened** to require an implication at the bottom of the
+  quantifier stack and the rule named at each step — the atomic/compound split is
+  exactly where the real weakness sits, and the old wording would have passed someone
+  who could only do the atomic case.
 
-**Deferred pending data:**
+**Diagnosis worth recording: the ~25-session figure was partly an artifact of the run
+rules, not the material.** Week 1 spent four consecutive sessions on the same
+injective/surjective/pigeonhole cluster because (a) blank answers were graded as
+failures, so one question skipped for time got re-issued indefinitely; (b) three
+separate channels — the review queue, open-weaknesses, and yesterday's carry-forward —
+all drew from the same failure list, so one miss appeared three times in one session;
+(c) the retirement rule ("two clean retrievals at ≥7-day spacing") was unreachable at
+five sessions a week, so nothing ever retired. Fixed in `RUN-PROMPT.md` 2026-08-24.
 
-- Calibration Section C (calculus mechanics) was left entirely blank, so it cannot be
-  scored. If a timed re-attempt shows the chain rule is genuinely gone, calculus repair
-  should be promoted from "interleaved throughout Phase 0" to ~4 sessions of its own.
-- Actual throughput is running ~3 sessions/week against a plan priced at 5. If that is
-  the steady state rather than a bad fortnight, §6 should be re-priced at ~60 weeks
-  rather than allowed to slip silently. A plan that gets hit beats a plan that looks
-  better.
+**Still deferred:**
+
+- Calculus repair sizing. Taylor came back blank twice, so it moves from tested to
+  taught (Wednesday). If that session shows the gap is wider than Taylor alone, promote
+  calculus repair to ~4 dedicated sessions.
 
 ---
 
