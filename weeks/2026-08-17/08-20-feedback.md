@@ -61,17 +61,13 @@ quantifier flipped correctly, but the implication itself was left as an implicat
 and both sides just got their inequality flipped. That produces something closer to
 the *inverse* of the original (¬A ⟹ ¬B), which isn't what negation means here.
 
-The rule, stated right above this problem in the file: $\lnot(A\implies B) \equiv
-A \wedge \lnot B$. $A$ (the antecedent, $x>0$) is **not** negated — it becomes a
-conjunct exactly as written. Only $B$ (the consequent, $x^2>0$) gets negated.
+The rule, stated right above this problem in the file: $\lnot(A\implies B) \equiv A \wedge \lnot B$. $A$ (the antecedent, $x>0$) is **not** negated — it becomes a conjunct exactly as written. Only $B$ (the consequent, $x^2>0$) gets negated.
 
 **Correct answer:** $\exists x\in\mathbb{R}, \big(x>0 \wedge x^2\le0\big)$.
 
 **(d)** Bounded: $\exists M>0, \forall n\in\mathbb{N}, |a_n|\le M$.
 **Incorrect, but closer than it looks.** You wrote
-$\forall M\le0, \exists n\in\mathbb{N}, |a_n|>M$ — the quantifier swap ($\exists\to
-\forall$, $\forall\to\exists$) is exactly right, and the final inequality flip
-($\le\to>$) is exactly right. The one broken piece: $M>0$ is a domain restriction, not
+$\forall M\le0, \exists n\in\mathbb{N}, |a_n|>M$ — the quantifier swap ($\exists\to \forall$, $\forall\to\exists$) is exactly right, and the final inequality flip ($\le\to>$) is exactly right. The one broken piece: $M>0$ is a domain restriction, not
 part of what's being asserted, so it should stay $M>0$ — you wrote $M\le0$. This is
 the original bug #3 move, but notice it only touched one restriction out of several
 across today's six problems, not all of them the way the calibration did.
