@@ -18,19 +18,38 @@ concept is not a retrieved one, and the difference is the entire mechanism.
 
 ---
 
-## Due 2026-08-21 (session 5, review day)
+## Resolved 2026-08-21 (session 5, review day) — results
 
-| Item | Why it's here |
+| Item | Result |
 |---|---|
-| **Bug #1 landing ($\sqrt3$ irrational)** | Carried over — 08-20's R1 retest was not attempted (blank). Zero new evidence two days running. Retest is 08-21 Part 2a. |
-| **Contrapositive vs. contradiction, applied** | Carried over — 08-20's R2 retest was not attempted (blank). Retest is 08-21 Part 2b. |
-| **Quantifier negation — compound predicates** | 08-20 Core 1 split cleanly: atomic ∀/∃-over-one-predicate negation clean (a, b, f), but negating an implication (c) and a disjunction (e) both failed — the connective-specific rule (implication→conjunction, De Morgan swap) wasn't applied despite being printed in the problem file. Retest is 08-21 Part 2c. |
-| **Pigeonhole — general principle in words** | 08-20 Core 2(a)/(b) derived the specific case cleanly (real repair of 08-19's gap), but Core 2(c) — state the general principle, connect to 08-19 — was circular/incomplete ("finite" alone, not the actual $|A|>|B|$ condition; no connection made). Retest is 08-21 Part 2d, then generalized as a full proof in Part 3. |
+| Bug #1 landing ($\sqrt3$ irrational) | ✅ **landed it, third attempt.** Retired — see Scheduled, 3-day interval. |
+| Contrapositive vs. contradiction, applied | 🟡 half — named the technique but didn't write why proving the contrapositive settles the original claim. Still open, tracked in Failed. |
+| Quantifier negation — compound predicates | ❌ failed again, both items (implication, De Morgan) — second failure in a row. Still open, tracked in Failed. |
+| Pigeonhole — general principle in words | ✅ correct, and the Part 3 synthesis proof was the best work in the repo so far. Retired — see Scheduled, 3-day interval. |
 
-*Quantifier negation's **atomic** case (single ∀/∃ over a plain predicate, no
-implication or and/or inside) is now holding — see Scheduled below, split out as its
-own line rather than bundled with the compound case, since they're behaving
-differently.*
+## Due 2026-08-25 (session 6 retry — Monday 08-24 came back blank)
+
+*Monday's session had zero evidence, so nothing here advanced and nothing new
+resolved between 08-21 and today. Only one review slot exists per the hard cap, so
+today pulls the single most-overdue item and the rest carry forward again — this is
+what a review queue backing up actually looks like, traceable to one blank session
+rather than four separate problems.*
+
+| Item | Due since | Status today |
+|---|---|---|
+| Quantifier negation — atomic case | 08-21 (missed — 08-21's review day only covered the compound case) | **Pulled into today's R1**, fresh instance. |
+| Contrapositive vs. contradiction (concept) | 08-22 | Carries forward. |
+| Setup discipline | 08-22 | Carries forward. |
+| Existential witnesses in $\mathbb{Z}$ | 08-22 | Carries forward. |
+| Bug #1 — landing (retirement-interval check) | 08-24 | Carries forward — first check since retirement, still needed. |
+| Pigeonhole — general principle (retirement-interval check) | 08-24 | Carries forward — first check since retirement, still needed. |
+
+Compound-predicate negation and contrapositive-applied are **not** in this table —
+they're active repairs (see Failed, below), not spaced-review items. The hard cap
+gives compound-predicate negation the one repair slot today: it's failed twice with
+real attempts (08-20, 08-21) and is the higher-leverage item, since it blocks the
+Phase 0 exit gate's "implication at the bottom of the quantifier stack" requirement
+directly.
 
 ---
 
@@ -42,9 +61,11 @@ differently.*
 | Contrapositive vs. contradiction | §3–4 | 2026-08-19 | 3d | 2026-08-22 | 1 |
 | Setup discipline | §1 | 2026-08-19 | 3d | 2026-08-22 | 1 |
 | Existential witnesses in $\mathbb{Z}$ | §1 | 2026-08-19 | 3d | 2026-08-22 | 1 |
-| Quantifier negation — atomic case | §5 | 2026-08-20 | 1d | 2026-08-21 | 1 |
-| Σ: running total vs. *n*-th term | §6 | — | — | 2026-08-25 (first taught) | — |
-| Induction hypothesis as the engine | §6 | — | — | 2026-08-25 (first taught) | — |
+| Quantifier negation — atomic case | §5 | 2026-08-20 | 1d | 2026-08-21 (retested 08-25) | 1 |
+| Bug #1 — landing ($\sqrt3$ irrational) | §4 | 2026-08-21 | 3d | 2026-08-24 | 1 (retired) |
+| Pigeonhole — general principle | §8 | 2026-08-21 | 3d | 2026-08-24 | 1 (retired) |
+| Σ: running total vs. *n*-th term | §6 | — | — | first taught, TBD (Induction block slides one day, now Thu 08-27) | — |
+| Induction hypothesis as the engine | §6 | — | — | first taught, TBD (Induction block slides one day, now Thu 08-27) | — |
 
 *Items marked "first taught" enter the 1-day interval on the date they're introduced.*
 
@@ -67,38 +88,46 @@ Core 1(a), Core 2(a), Core 2(b)) — no circularity anywhere.
 witness was needed on 08-19 (Core 2(a)'s $k \in \mathbb{Z}$, Core 2(b)'s
 $c \in \mathbb{Z}$).
 
+**Bug #1 — landing, new line, retired at 3-day interval (2026-08-21).** 08-21 Part 2a
+finally included the missing sentence — "...since $3\mid b$ and $3\mid a$, so we have
+reached a contradiction" — closing a gap that relapsed on 08-19 and went untested on
+08-20. One clean demonstration retires it from active repair per the current rules;
+this line is the retention check going forward. First retirement-interval check due
+2026-08-24, not yet attempted (08-24 was blank).
+
+**Pigeonhole — general principle, new line, retired at 3-day interval (2026-08-21).**
+08-21 Part 2d stated the actual condition ($|A|>|B|$, not just "both finite") and
+connected it correctly to 08-19's equal-size case; Part 3a/3b then generalized it to a
+full proof and explained the finiteness requirement in original language — the
+strongest work in the repo so far. Retired from active repair. First
+retirement-interval check due 2026-08-24, not yet attempted (08-24 was blank).
+
 ---
 
 ## Failed — reset to 1-day, high priority
 
-*These re-surface until two clean cold retrievals at ≥7-day spacing.*
+*These re-surface until two clean cold retrievals at ≥27-day spacing.*
 
-- **Completing a proof after setup** (A1) — bug #1. **Relapsed 2026-08-19, then not
-  attempted at all 2026-08-20.** The 2026-08-18 clean retrieval still counts as one
-  data point, but 08-19's Core 2(b) ($\sqrt3$ irrational) derived every fact needed
-  and never wrote the closing contradiction sentence, and 08-20's R1 retest was left
-  blank — zero new evidence, two days running. Retest is 2026-08-21 Part 2a.
 - **Contrapositive narrated as contradiction, applied to own writing.** New
   2026-08-19 — Core 2(a) used the contrapositive correctly per instructions but
-  closed with contradiction language against a nonexistent "given." 08-20's R2, a
-  direct targeted fix, was left blank — not attempted. Retest is 2026-08-21 Part 2b.
+  closed with contradiction language against a nonexistent "given." 08-20's R2 was
+  left blank. **08-21 Part 2b: half right** — named the technique (contrapositive)
+  correctly but still didn't write the sentence explaining *why proving the
+  contrapositive settles the original claim*. Two genuine attempts (08-19, 08-21),
+  neither fully clean — stays open. Not pulled today (hard cap gives the one repair
+  slot to compound-predicate negation); next retest whenever a repair slot opens.
 - **Quantifier negation — compound predicates (implication, De Morgan)** (A3) —
-  narrower descendant of bug #3. First drilled 2026-08-20: negating an implication
-  (Core 1c) and a disjunction (Core 1e) both failed, in each case because the
-  connective-specific transformation wasn't applied — the implication was left as an
-  implication with both sides' inequalities flipped, and "or" wasn't swapped to
-  "and." The **atomic** case (plain ∀/∃ over one predicate) is holding — see
-  Scheduled — so this line now tracks specifically the compound-predicate piece, not
-  quantifier negation as a whole. Retest is 2026-08-21 Part 2c.
-- **Pigeonhole — general principle stated precisely, connected across sessions.**
-  Narrowed 2026-08-20 — Core 2(a)/(b) now derive the specific case cleanly (real
-  repair of the 08-19 gap below), but Core 2(c) gave "both sets are finite" instead
-  of the actual condition ($|A|>|B|$) and didn't connect to 08-19's equal-size case.
-  *Deriving a specific pigeonhole instance is no longer on this list* — 08-20 Core
-  2(a)/(b) did that cleanly. Retest is 2026-08-21 Part 2d, generalized to a full proof
-  in Part 3.
+  narrower descendant of bug #3. Failed 2026-08-20 (Core 1c, 1e) **and again
+  2026-08-21** (Part 2c(i), 2c(ii)) — same two sub-errors both times: the arrow
+  surviving instead of becoming "and," and De Morgan applied to only one side. Two
+  genuine failures in a row now — this is today's repair item (2026-08-25), with new
+  problem instances and a domain-restriction-plus-connective item added since 08-20's
+  (d) showed the restriction rule can relapse under load even once the connective
+  rule looks separately solid.
 - **Induction: state and use the hypothesis** (A2) — bug #2. Not yet re-tested; block
-  scheduled starting 2026-08-25.
+  was scheduled to start 2026-08-25, now slides to 2026-08-27 (Thursday) since
+  08-24/08-25 are both compound-negation-repair sessions (08-24 blank, retried
+  08-25).
 - **Σ notation: sum of first *n* terms, not the *n*-th term** (A2). Not yet re-tested.
 - **Definition of rank** (B1) — deferred to Phase 1, not drilled now.
 - **Definition of linear independence** (B1) — deferred to Phase 1.
