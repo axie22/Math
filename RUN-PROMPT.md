@@ -26,15 +26,29 @@ it we are. Your job is to execute today's slot well and report back honestly.
 ## Step 2 — Grade yesterday's work FIRST
 
 If a -work.md exists for the previous session and is non-empty:
-  - Grade each problem: correct / partially correct / incorrect / not attempted.
+  - Grade each problem into one of THREE states — they are not the same and they get
+    different responses:
+
+      RIGHT     → the skill is demonstrated. RETIRE it from active repair. Push it to
+                  REVIEW-QUEUE.md at the 3-day interval and stop generating problems
+                  about it. One clean demonstration is enough to stop repairing; the
+                  queue handles long-term retention from here.
+      WRONG     → repeat the SKILL, never the instance. Generate a NEW problem that
+                  exercises the same move. Re-asking the identical question trains
+                  recall of that question, not the skill.
+      BLANK     → NOT the same as wrong. Blank usually means "ran out of time" or
+                  "skipped," not "cannot do." Re-offer ONCE, early in the next session
+                  so it isn't the thing that gets cut again. If it comes back blank a
+                  second time, DROP IT and note it in STATE.md as untested. Two blanks
+                  is a time-budget problem, not a knowledge problem, and continuing to
+                  re-issue it burns sessions on a question that never gets read.
+
   - Diagnose *why* anything went wrong. Distinguish: arithmetic slip, wrong method,
     missing prerequisite, missing concept. These call for different responses.
   - Write the grading into weeks/<week>/<date>-feedback.md. Be specific and direct.
     Point at the exact line where reasoning broke. Do not soften it — vague
     encouragement produces no correction.
-  - Update REVIEW-QUEUE.md: advance items retrieved successfully, reset failed ones
-    to the 1-day interval.
-  - Update the evidence log in STATE.md.
+  - Update REVIEW-QUEUE.md and the evidence log in STATE.md.
 
 If no -work.md exists or it is empty:
   - Assume nothing was mastered. **Default to HOLD, never advance.**
@@ -50,6 +64,21 @@ Based on the grade:
 
 Difficulty is a response to observed performance. It is not a ladder climbed on a
 schedule. Never advance two levels in one day.
+
+**Judge each SKILL separately, not the session as a whole.** A session where the
+quantifier work was wrong and the proof work was right should advance the proof track
+and repair the negation track. Holding everything because one thing broke is what makes
+the curriculum crawl.
+
+**HARD CAP ON REPAIR — obey this even when the review queue disagrees.**
+A normal session is **at most one review item and at most one repair item**; everything
+else is new material. If more than two items are due for repair, take the two with the
+highest downstream leverage and let the rest wait for Friday. Friday is the only session
+allowed to be mostly repair.
+
+Repair is only worth its slot when the skill is actually still broken. Check the last
+TWO gradings before repairing anything: if it was right once, it is retired — do not
+re-open it because it appears in an old open-weaknesses list.
 
 ## Step 4 — Build the session
 
@@ -69,6 +98,16 @@ Write weeks/<week-of-monday>/<MM-DD>.md with this shape and this time budget:
   and fine to skip. It must never be a prerequisite for tomorrow.
 
 Rules for problems:
+  - **Two genuinely new ideas per session** is the target, not one. One-new-idea-per-day
+    finishes Phase 0 in 25 sessions and Phase 1 in a year; that is too slow for the
+    stated destination.
+  - **Never reproduce a previous problem verbatim.** If a skill needs another pass,
+    write a new instance of it. Copying yesterday's wording forward is the single
+    fastest way to make the week feel redundant, and it teaches the instance instead
+    of the skill.
+  - **No topic appears in more than three consecutive sessions.** If it is still broken
+    after three, the problem is the teaching, not the practice — change the explanation
+    or the representation, do not issue a fourth drill.
   - Fewer, deeper problems beat more, shallower ones. Three total is the ceiling.
   - Prefer problems that force a connection to a *previous* phase over problems that
     only exercise today's topic.
@@ -142,6 +181,12 @@ above, save.
 
 ## Change log
 
+- **2026-08-24** — Anti-redundancy pass, after week 1 spent four consecutive sessions on
+  the same pigeonhole/injective-surjective cluster. Adds: three-way grading
+  (right/wrong/blank) with retirement after one clean demonstration, a hard cap of one
+  review + one repair item per session, a ban on verbatim re-asks, a three-consecutive-
+  session ceiling per topic, per-skill rather than per-session difficulty judgement, and
+  a target of two new ideas per session.
 - **2026-08-17** — Rewritten. Adds: grading of prior work as step 1, difficulty driven
   by evidence rather than schedule, spaced-repetition review block, mandatory daily
   proof component, one-day solution lag, lessons decoupled from the daily cadence,
