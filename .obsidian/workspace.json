@@ -6,7 +6,6 @@
       {
         "id": "4b33b853022442b1",
         "type": "tabs",
-        "dimension": 42.764857881136955,
         "children": [
           {
             "id": "e150ee6f41fa64b7",
@@ -23,6 +22,20 @@
             }
           },
           {
+            "id": "59c7262d4f445395",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "weeks/2026-08-24/08-25.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-25"
+            }
+          },
+          {
             "id": "baa75ef31d8f3ded",
             "type": "leaf",
             "state": {
@@ -36,25 +49,25 @@
               "title": "proof-foundations"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "ab2e7bfa98636e7d",
+        "id": "4c197686f48ab96a",
         "type": "tabs",
-        "dimension": 57.235142118863045,
         "children": [
           {
-            "id": "59c7262d4f445395",
+            "id": "f9d43816fb04ad62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weeks/2026-08-17/08-21-work.md",
+                "file": "weeks/2026-08-24/08-25-work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-21-work"
+              "title": "08-25-work"
             }
           }
         ]
@@ -136,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weeks/2026-08-17/08-21-work.md",
+                "file": "weeks/2026-08-24/08-25-work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "weeks/2026-08-17/08-21-work.md",
+                "file": "weeks/2026-08-24/08-25-work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -198,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "weeks/2026-08-17/08-21-work.md",
+                "file": "weeks/2026-08-24/08-25-work.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -225,11 +238,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "59c7262d4f445395",
+  "active": "f9d43816fb04ad62",
   "lastOpenFiles": [
-    "weeks/2026-08-17/08-21.md",
-    "weeks/2026-08-17/08-21-work.md",
+    "weeks/2026-08-24/08-25.md",
+    "weeks/2026-08-24/08-25-work.md",
+    "weeks/2026-08-24/08-24.md",
     "lessons/proof-foundations.md",
+    "weeks/2026-08-24/08-24-solution.md",
+    "weeks/2026-08-24/08-24-work.md",
+    "RUN-PROMPT.md",
+    "weeks/2026-08-17/08-21-solution.md",
+    "weeks/2026-08-17/08-21-work.md",
+    "weeks/2026-08-24",
+    "weeks/2026-08-17/08-21-feedback.md",
+    "weeks/2026-08-17/08-21.md",
     "weeks/2026-08-17/08-19-solution.md",
     "weeks/2026-08-17/08-19-work.md",
     "weeks/2026-08-17/08-19-feedback.md",
@@ -245,14 +267,6 @@
     "weeks/2026-08-17/08-18.md",
     "weeks/2026-08-17/08-17.md",
     "START-HERE.md",
-    "RUN-PROMPT.md",
-    "lessons/README.md",
-    "REVIEW-QUEUE.md",
-    "CURRICULUM.md",
-    "README.md",
-    "progress.md",
-    "diagnostics/2026-08-18-calibration-work.md",
-    "diagnostics/2026-08-18-calibration-feedback.md",
     "weeks/2026-08-17",
     "diagnostics",
     "lessons/assets/linear-algebra-ii/fig-2-svd-orthogonal-axes.svg",
