@@ -18,38 +18,41 @@ concept is not a retrieved one, and the difference is the entire mechanism.
 
 ---
 
-## Resolved 2026-08-21 (session 5, review day) — results
+## Resolved 2026-08-25 (Session 6 retry) — results
+
+*First real work since Session 5 (08-21) — Monday 08-24 came back blank.*
 
 | Item | Result |
 |---|---|
-| Bug #1 landing ($\sqrt3$ irrational) | ✅ **landed it, third attempt.** Retired — see Scheduled, 3-day interval. |
-| Contrapositive vs. contradiction, applied | 🟡 half — named the technique but didn't write why proving the contrapositive settles the original claim. Still open, tracked in Failed. |
-| Quantifier negation — compound predicates | ❌ failed again, both items (implication, De Morgan) — second failure in a row. Still open, tracked in Failed. |
-| Pigeonhole — general principle in words | ✅ correct, and the Part 3 synthesis proof was the best work in the repo so far. Retired — see Scheduled, 3-day interval. |
+| Quantifier negation — atomic case | ✅ **correct, second clean cold instance.** Advances 1d → 3d. |
+| Quantifier negation — compound predicates | ✅ **all five items correct**, including the restriction+connective trap. Third pass — **retired**, see Scheduled below. |
+| Negation as a proof obligation — writing $\lnot(a_n\to L)$ + the three-move structure | ✅ correct, first exposure. New line, enters at 1-day interval. |
+| Negation as a proof obligation — executing the construction | 🔲 blank both times attempted (§2c, §2d). No data yet — re-offered once, compact, 2026-08-26. |
+| Quantifier order — determine true/false, prove the true one | ✅ correct, first exposure. New line, enters at 1-day interval. |
+| Quantifier order — disprove the false one cleanly | 🟡 right strategy, arithmetic slip. Tracked with `STATE.md`'s arithmetic-slips line, not a separate repair track. |
+| Quantifier statements — plain-English meaning (not transliteration) | ❌ **new gap.** Symbol restatement given instead of substantive explanation. Becomes 2026-08-26's repair item. |
+| $\delta$–$\varepsilon$ role-swap, conceptual consequence | 🔲 blank, no content. Carries forward, lower priority than the plain-English gap. |
 
-## Due 2026-08-25 (session 6 retry — Monday 08-24 came back blank)
+## Due 2026-08-26 (Session 7)
 
-*Monday's session had zero evidence, so nothing here advanced and nothing new
-resolved between 08-21 and today. Only one review slot exists per the hard cap, so
-today pulls the single most-overdue item and the rest carry forward again — this is
-what a review queue backing up actually looks like, traceable to one blank session
-rather than four separate problems.*
+*Five items have been overdue since 08-22/08-24, all traceable to the one blank
+session on 08-24. Hard cap allows one review slot — today it goes to setup
+discipline, the oldest-waiting item closest to permanent retirement.*
 
 | Item | Due since | Status today |
 |---|---|---|
-| Quantifier negation — atomic case | 08-21 (missed — 08-21's review day only covered the compound case) | **Pulled into today's R1**, fresh instance. |
-| Contrapositive vs. contradiction (concept) | 08-22 | Carries forward. |
-| Setup discipline | 08-22 | Carries forward. |
+| Setup discipline | 08-22 | **Pulled into Session 7's R1**, fresh instance. |
 | Existential witnesses in $\mathbb{Z}$ | 08-22 | Carries forward. |
+| Contrapositive vs. contradiction (concept) | 08-22 | Carries forward. |
 | Bug #1 — landing (retirement-interval check) | 08-24 | Carries forward — first check since retirement, still needed. |
 | Pigeonhole — general principle (retirement-interval check) | 08-24 | Carries forward — first check since retirement, still needed. |
+| Negation-as-proof-obligation (definitional part) | 08-26 (first taught 08-25) | Not pulled — brand new, lower priority than the four above; will surface once a slot opens. |
+| Quantifier order (true/false construction) | 08-26 (first taught 08-25) | Not pulled — same reasoning as above. |
 
-Compound-predicate negation and contrapositive-applied are **not** in this table —
-they're active repairs (see Failed, below), not spaced-review items. The hard cap
-gives compound-predicate negation the one repair slot today: it's failed twice with
-real attempts (08-20, 08-21) and is the higher-leverage item, since it blocks the
-Phase 0 exit gate's "implication at the bottom of the quantifier stack" requirement
-directly.
+Compound-predicate negation is **not** in this table anymore — it retired 08-25 (see
+Scheduled, 3-day interval, due 08-28). The plain-English gap and the divergence-proof
+re-offer are **not** spaced-review items — they're the active repair item and the
+one-time re-offer for Session 7 (see `STATE.md`), not drawn from this queue.
 
 ---
 
@@ -61,46 +64,48 @@ directly.
 | Contrapositive vs. contradiction | §3–4 | 2026-08-19 | 3d | 2026-08-22 | 1 |
 | Setup discipline | §1 | 2026-08-19 | 3d | 2026-08-22 | 1 |
 | Existential witnesses in $\mathbb{Z}$ | §1 | 2026-08-19 | 3d | 2026-08-22 | 1 |
-| Quantifier negation — atomic case | §5 | 2026-08-20 | 1d | 2026-08-21 (retested 08-25) | 1 |
-| Bug #1 — landing ($\sqrt3$ irrational) | §4 | 2026-08-21 | 3d | 2026-08-24 | 1 (retired) |
-| Pigeonhole — general principle | §8 | 2026-08-21 | 3d | 2026-08-24 | 1 (retired) |
-| Σ: running total vs. *n*-th term | §6 | — | — | first taught, TBD (Induction block slides one day, now Thu 08-27) | — |
-| Induction hypothesis as the engine | §6 | — | — | first taught, TBD (Induction block slides one day, now Thu 08-27) | — |
+| Quantifier negation — atomic case | §5 | 2026-08-25 | 3d | 2026-08-28 | 2 |
+| Quantifier negation — compound predicates | §5 | 2026-08-25 | 3d | 2026-08-28 | 1 (retired) |
+| Bug #1 — landing ($\sqrt3$ irrational) | §4 | 2026-08-21 | 3d | 2026-08-24 (missed, still open) | 1 (retired) |
+| Pigeonhole — general principle | §8 | 2026-08-21 | 3d | 2026-08-24 (missed, still open) | 1 (retired) |
+| Negation as a proof obligation — definition + structure | §5 | 2026-08-25 | 1d | 2026-08-26 | 1 (first taught) |
+| Quantifier order — construct and prove true/false | §5 | 2026-08-25 | 1d | 2026-08-26 | 1 (first taught) |
+| Σ: running total vs. *n*-th term | §6 | — | — | first taught, TBD (Induction block, Thu 08-27) | — |
+| Induction hypothesis as the engine | §6 | — | — | first taught, TBD (Induction block, Thu 08-27) | — |
 
-*Items marked "first taught" enter the 1-day interval on the date they're introduced.*
+**Quantifier negation — atomic case, advanced 1d → 3d (2026-08-25).** Second clean
+cold instance (first was Session 4's 3/3 on 08-20; this one crossed a real 5-day
+gap). Streak now 2.
 
-**Quantifier negation — atomic case, new line, 1-day interval.** 08-20 Core 1(a), (b),
-(f) were all clean: quantifier flipped, domain restriction untouched, predicate
-negated, and (f) carried a witness proof through correctly too. Kept at a short
-interval for now since it's only one data point — advances properly once it's held
-across a real gap, not just the day it was taught.
+**Quantifier negation — compound predicates, new line, retired at 3-day interval
+(2026-08-25).** Failed 08-20 and 08-21 with the identical two sub-errors both times
+(arrow surviving instead of becoming "and"; De Morgan applied to only one side).
+Session 6 retry (08-25) §1(a)–(e): all five correct, including the
+restriction+connective trap in (d) that specifically caused the 08-20 relapse.
+Third pass, clean — real repair, not a recognized-shape effect. One clean
+demonstration retires it per the current rules; this line is the retention check
+going forward.
 
-**Contrapositive vs. contradiction advanced 1d → 3d.** R1 on 08-19 was correct and
-well-articulated (the "lighter tool, specific target" framing). Note the irony tracked
-above: correct in the abstract on the same day the same distinction got blurred in
-Core 2(a)'s execution — the review item measures the concept, not yet the applied
-habit, so it advances on its own terms while R2 above targets the applied gap directly.
+**Negation as a proof obligation — definition + structure, new line, 1-day interval
+(2026-08-25).** §2(a), 2(b) both correct on first exposure: the negated definition
+and the three-move breakdown (choose ε, accept arbitrary N, construct n). Kept
+short since it's only one data point — this is the *setup* half of the skill; the
+*execution* half (§2c/2d) is still blank and tracked separately below, not in this
+queue.
 
-**Setup discipline advanced 1d → 3d.** Four independent clean uses on 08-19 (R2,
-Core 1(a), Core 2(a), Core 2(b)) — no circularity anywhere.
+**Quantifier order — construct and prove true/false, new line, 1-day interval
+(2026-08-25).** §3(a) true case clean ($\forall x\exists y$, $y=-x$); false case
+right strategy with an arithmetic slip in the final line. Kept at a short interval;
+the slip is tracked in `STATE.md`'s arithmetic-slips line, not here.
 
-**Existential witnesses in $\mathbb{Z}$ advanced 1d → 3d.** Clean in both places a
-witness was needed on 08-19 (Core 2(a)'s $k \in \mathbb{Z}$, Core 2(b)'s
-$c \in \mathbb{Z}$).
+**Setup discipline / Existential witnesses / Contrapositive (concept) — unchanged.**
+Still overdue since 08-22, still one clean instance short of retirement. Setup
+discipline pulled into Session 7 (08-26); the other two carry forward again.
 
-**Bug #1 — landing, new line, retired at 3-day interval (2026-08-21).** 08-21 Part 2a
-finally included the missing sentence — "...since $3\mid b$ and $3\mid a$, so we have
-reached a contradiction" — closing a gap that relapsed on 08-19 and went untested on
-08-20. One clean demonstration retires it from active repair per the current rules;
-this line is the retention check going forward. First retirement-interval check due
-2026-08-24, not yet attempted (08-24 was blank).
-
-**Pigeonhole — general principle, new line, retired at 3-day interval (2026-08-21).**
-08-21 Part 2d stated the actual condition ($|A|>|B|$, not just "both finite") and
-connected it correctly to 08-19's equal-size case; Part 3a/3b then generalized it to a
-full proof and explained the finiteness requirement in original language — the
-strongest work in the repo so far. Retired from active repair. First
-retirement-interval check due 2026-08-24, not yet attempted (08-24 was blank).
+**Bug #1 — landing / Pigeonhole — general principle — unchanged.** Both retired
+2026-08-21, both had their first retirement-interval check due 08-24, both missed
+(08-24 was blank). Neither has been re-tested since — still the oldest unresolved
+item in this queue, carried forward again pending an open slot.
 
 ---
 
@@ -109,28 +114,35 @@ retirement-interval check due 2026-08-24, not yet attempted (08-24 was blank).
 *These re-surface until two clean cold retrievals at ≥7-day spacing.*
 
 - **Contrapositive narrated as contradiction, applied to own writing.** New
-  2026-08-19 — Core 2(a) used the contrapositive correctly per instructions but
-  closed with contradiction language against a nonexistent "given." 08-20's R2 was
-  left blank. **08-21 Part 2b: half right** — named the technique (contrapositive)
-  correctly but still didn't write the sentence explaining *why proving the
-  contrapositive settles the original claim*. Two genuine attempts (08-19, 08-21),
-  neither fully clean — stays open. Not pulled today (hard cap gives the one repair
-  slot to compound-predicate negation); next retest whenever a repair slot opens.
-- **Quantifier negation — compound predicates (implication, De Morgan)** (A3) —
-  narrower descendant of bug #3. Failed 2026-08-20 (Core 1c, 1e) **and again
-  2026-08-21** (Part 2c(i), 2c(ii)) — same two sub-errors both times: the arrow
-  surviving instead of becoming "and," and De Morgan applied to only one side. Two
-  genuine failures in a row now — this is today's repair item (2026-08-25), with new
-  problem instances and a domain-restriction-plus-connective item added since 08-20's
-  (d) showed the restriction rule can relapse under load even once the connective
-  rule looks separately solid.
-- **Induction: state and use the hypothesis** (A2) — bug #2. Not yet re-tested; block
-  was scheduled to start 2026-08-25, now slides to 2026-08-27 (Thursday) since
-  08-24/08-25 are both compound-negation-repair sessions (08-24 blank, retried
-  08-25).
+  2026-08-19 — used the contrapositive correctly per instructions but closed with
+  contradiction language against a nonexistent "given." **08-21 Part 2b:** half
+  right — named the technique but still didn't write the sentence explaining *why*
+  proving the contrapositive settles the original claim. Two genuine attempts
+  (08-19, 08-21), neither fully clean. Not pulled 08-25 (repair slot went to
+  compound-predicate negation, which then closed) — **next open repair slot goes
+  here.**
+- **Quantifier statements — plain-English meaning, not symbol transliteration.**
+  New 2026-08-25. §3(b) asked what $\forall x\exists y\,P(x,y)$ and $\exists
+  y\forall x\,P(x,y)$ *assert* about the reals; the answer given was a
+  transliteration of the quantifier symbols into English words ("for all x there
+  exists a y"), not an explanation of the mathematical content (additive
+  inverses). One data point — **this is Session 7's (08-26) repair item**, a fresh
+  predicate, isolating the explanation skill from the (already-demonstrated)
+  construction skill.
+- **Induction: state and use the hypothesis** (A2) — bug #2. Not yet re-tested;
+  block starts Thursday 2026-08-27.
 - **Σ notation: sum of first *n* terms, not the *n*-th term** (A2). Not yet re-tested.
 - **Definition of rank** (B1) — deferred to Phase 1, not drilled now.
 - **Definition of linear independence** (B1) — deferred to Phase 1.
+
+**Not in this list — tracked separately, not as active repair:**
+- The arithmetic slip in 08-25's §3(a) false case (dropped a constant term) is
+  logged in `STATE.md`'s recurring arithmetic-slips line, alongside two earlier
+  instances. Three data points now; worth a dedicated callout if a fourth appears,
+  but not yet its own repair track.
+- The divergence-proof *construction* (08-25 §2c/2d, blank) and the δ–ε role-swap
+  question (08-25 §3c, blank) are first-exposure blanks, not failures — handled per
+  the no-evidence rule (re-offer once), not the Failed-list mechanism.
 
 ---
 
@@ -153,4 +165,5 @@ it properly; nothing here is treated as known.
 
 ## Retired
 
-*(none)*
+*(none — retired items stay listed under Scheduled with their interval, per the
+convention already in use above)*
