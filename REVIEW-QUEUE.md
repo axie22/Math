@@ -30,24 +30,35 @@ concept is not a retrieved one, and the difference is the entire mechanism.
 | Quantifier statements — plain-English meaning | 🔲 **not reached (blank)** — the actual repair item, never got to it. Not a second wrong (that would reset harder); still one wrong (08-25) + now one blank. Re-offered once more 08-27, fresh predicate. |
 | Taylor's theorem, geometric series (new material) | 🔲 **not reached (blank)** — zero evidence either way. Held, re-offered 08-27 with fresh instances. |
 
-## Due 2026-08-27 (Session 8)
+## Resolved 2026-08-27 (Session 8) — results
 
-*Six items are now overdue at once — five carried from the 08-24 blank day
-(traceable to that one miss), plus one more that just came due. Hard cap allows
-2–3 review-block slots; the rest wait for Friday's review day, which is built to
-absorb exactly this kind of backlog.*
+*Session 8's work file came back completely blank — no attempt on anything,
+including R1/R2. Not graded as failed (blank ≠ wrong); every item below simply
+carries forward unresolved, same as before 08-27, plus one day older.*
+
+| Item | Result |
+|---|---|
+| Existential witnesses in $\mathbb{Z}$ | 🔲 **not attempted** — carries forward, now overdue since 08-22 (5 days), pulled into Session 9's Item 1 with a fresh instance. |
+| Quantifier statements — plain-English meaning | 🔲 **not attempted** — third exposure still pending (wrong 08-25, blank 08-26, blank 08-27). Pulled into Session 9's Item 3, fresh predicate. |
+| Divergence proof execution | 🔲 **not attempted** — third instance still pending (blank 08-25, wrong 08-26, blank 08-27). Pulled into Session 9's Item 4. |
+| Taylor's theorem, geometric series (Core, held from Session 7) | 🔲 **not attempted, second consecutive blank.** Per the two-blank rule, dropped from active rotation — not re-offered Session 9 (or immediately after). See `STATE.md`. |
+
+## Due 2026-08-28 (Session 9, Friday review)
+
+*Same backlog as 08-27, one day older, plus the items that were already scheduled
+to come due this week. Friday's hard-cap exemption ("mostly repair" allowed) is
+what makes room for all of these in one session — five items total, all review,
+no new material.*
 
 | Item | Due since | Status today |
 |---|---|---|
-| Existential witnesses in $\mathbb{Z}$ | 08-22 | **Pulled into Session 8's R1**, fresh instance. |
-| Quantifier statements — plain-English meaning | 08-25 (repair) | **Pulled into Session 8's R2** (re-offer, not a queue item — see Failed list). |
-| Contrapositive vs. contradiction (concept) | 08-22 | Carries forward — next open slot, likely Friday. |
-| Bug #1 — landing (retirement-interval check) | 08-24 | Carries forward — still the oldest unresolved retirement check. |
-| Pigeonhole — general principle (retirement-interval check) | 08-24 | Carries forward — same status as Bug #1. |
-| Negation-as-proof-obligation (definitional part) | 08-26 | Carries forward — not yet retested since first taught 08-25. |
-
-Divergence-proof execution is **not** in this table — it's the active repair item
-(see Failed list), not a spaced-review item; same for the plain-English gap.
+| Existential witnesses in $\mathbb{Z}$ | 08-22 | **Session 9 Item 1**, fresh instance ($n<-50$, divisible by 3). |
+| Quantifier statements — plain-English meaning | 08-25 (repair) | **Session 9 Item 3**, fresh predicate ($x+y=0$) — third exposure. |
+| Contrapositive vs. contradiction (concept, applied) | 08-22 | **Session 9 Item 2** — finally back in an open slot. |
+| Bug #1 — landing (retirement-interval check) | 08-24 | Still carries forward — did not fit Session 9, next in line. |
+| Pigeonhole — general principle (retirement-interval check) | 08-24 | **Session 9 Item 5**, folded into the synthesis problem. |
+| Negation-as-proof-obligation (definitional part) | 08-26 | **Session 9 Item 4**, folded into the divergence-proof problem's setup. |
+| Divergence-proof execution (repair, not a queue item) | — | **Session 9 Item 4**, third instance ($c_n=3+5(-1)^n$). |
 
 ---
 
@@ -79,14 +90,17 @@ full proof; 08-26's 1(a) was a lighter true/false confirmation on a new predicat
 ($y=x^2$), explicitly framed as "you did this correctly yesterday, just confirm" —
 still a real cold retrieval, still counts.
 
-**Negation as a proof obligation — definition + structure, unchanged, now missed.**
-Due 08-26, not retested (08-26's R2 tested the *execution* half, a related but
-distinct skill — see Failed list). Carries forward to the next open slot.
+**Negation as a proof obligation — definition + structure.** Due 08-26, not
+retested 08-26 or 08-27. **Folded into Session 9's (08-28) Item 4**, as the
+explicit setup step before the divergence-proof computation.
 
-**Bug #1 — landing / Pigeonhole — general principle — unchanged, now the oldest
-items in the queue.** Both retired 2026-08-21, both missed their first
-retirement-interval check (due 08-24, the blank day), neither retested since.
-Should be next in line once a slot opens — likely Friday 08-28.
+**Bug #1 — landing / Pigeonhole — general principle — split as of 08-28.** Both
+retired 2026-08-21, both missed their first retirement-interval check (due
+08-24), neither retested since. **Pigeonhole folded into Session 9's (08-28)
+Item 5** (the pigeonhole+existential synthesis problem). **Bug #1 remains
+unresolved** — the one backlog item that didn't fit today, now the oldest open
+item in the whole queue (overdue since 08-24, five days). Next in line, most
+likely Monday 08-31 or next Friday.
 
 ---
 
@@ -96,24 +110,24 @@ Should be next in line once a slot opens — likely Friday 08-28.
 
 - **Contrapositive narrated as contradiction, applied to own writing.** New
   2026-08-19, half right 08-21 (technique named, closing reasoning missing). Two
-  genuine attempts, neither clean. Not pulled 08-25 or 08-26 (repair slot went
-  elsewhere both times) — **next open repair slot goes here**, most likely Friday.
+  genuine attempts, neither clean. Not pulled 08-25, 08-26, or 08-27 (repair slot
+  went elsewhere, then the session went unattempted) — **Session 9's (08-28)
+  Item 2, finally in an open slot.**
 - **Divergence proof execution — evaluating a sign instead of using $|\cdot|$.**
   08-25 §2(c): blank. 08-26 R2 (fresh instance, $b_n=1+(-1)^n$): wrong, stopped at
   the identical step — about to case-split on the parity of $N+1$ instead of noting
-  $|(-1)^{N+1}|=1$ regardless. Same obstacle twice now, on two different instances.
-  **This is 08-27's repair item**, a third instance built specifically to force the
-  "do I need the sign, or does $|\cdot|$ already answer this?" question.
+  $|(-1)^{N+1}|=1$ regardless. 08-27: blank, session not attempted, third instance
+  never reached. Still one genuine wrong attempt on record. **Session 9's (08-28)
+  Item 4**, third instance ($c_n=3+5(-1)^n$), same "do I need the sign, or does
+  $|\cdot|$ already answer this?" question.
 - **Quantifier statements — plain-English meaning, not symbol transliteration.**
   08-25: wrong (transliteration, not explanation). 08-26: blank (not reached — ran
-  out of time before the repair block finished). Zero clean attempts across two
-  exposures. **Re-offered again 08-27**, fresh predicate ($T(x,y)$: "$x<y$"),
-  placed early (review block, not repair — keeping the hard cap's one repair slot
-  free for the divergence-proof item above).
+  out of time before the repair block finished). 08-27: blank (session not
+  attempted at all). Zero clean attempts across three exposures. **Session 9's
+  (08-28) Item 3**, fresh predicate ($P(x,y)$: "$x+y=0$") — if this isn't clean
+  this time, it graduates from re-offer to a named, dedicated repair item.
 - **Induction: state and use the hypothesis** (A2) — bug #2. Not yet re-tested;
-  block now starts Monday 2026-08-31 (slipped one session from Thu 08-27 — Session
-  7/8's calculus-repair material wasn't reached until 08-27, so induction can't
-  start until it has been).
+  block starts Monday 2026-08-31.
 - **Σ notation: sum of first *n* terms, not the *n*-th term** (A2). Not yet re-tested.
 - **Definition of rank** (B1) — deferred to Phase 1, not drilled now.
 - **Definition of linear independence** (B1) — deferred to Phase 1.
