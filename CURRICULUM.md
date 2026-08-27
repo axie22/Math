@@ -372,6 +372,54 @@ five sessions a week, so nothing ever retired. Fixed in `RUN-PROMPT.md` 2026-08-
   taught (Wednesday). If that session shows the gap is wider than Taylor alone, promote
   calculus repair to ~4 dedicated sessions.
 
+**[2026-08-27] Proposed — calculus repair's Core has zero attempt evidence across
+four exposures; consider changing the approach, not just re-offering it.**
+
+Taylor's theorem has now been offered four separate times (calibration 08-17, the
+08-21 timed redo, Session 7's Core on 08-26, Session 8's Core on 08-27) and has
+zero attempt evidence on all four — not "attempted and wrong," genuinely never
+reached or never opened. The geometric series is 0-for-2 on the same pattern. Per
+the daily run's own two-blank rule, both are now paused rather than offered a
+fifth/third time back to back (see `STATE.md`, 08-27).
+
+Two things are true at once and worth separating: (1) every other new-material
+block this month that *did* get attempted produced real, gradeable evidence within
+one or two sessions (compound-predicate negation, quantifier order, pigeonhole,
+setup discipline) — so "the material is too hard" doesn't fit the pattern; but (2)
+Taylor/geometric series specifically have never once been reached, including on
+08-27 when *nothing in the entire session* was attempted, review and repair
+included. That second fact means the honest hypothesis for 08-27 at least isn't
+about Taylor at all — it's that the session didn't happen. But it doesn't explain
+08-26, where review and repair got real, careful attempts and Core still didn't.
+
+Two candidate explanations, not mutually exclusive, worth Alex's judgment rather
+than the daily run guessing: (a) calculus repair's Core is placed last in the
+session (~30 min in, after review and repair), so it's structurally the first
+thing cut whenever a session runs long or starts late — moving it earlier, or
+giving it its own dedicated session with nothing else competing for time, would
+test this directly; (b) something about calculus repair specifically (as opposed
+to the proof-technique material) is lower-pull right now, independent of time
+budget — worth naming if it's true rather than assumed away.
+
+**Not acted on.** The daily run is pausing the specific problems (per the
+two-blank rule) but not resequencing the curriculum or promoting calculus repair
+to dedicated sessions on its own authority — that decision point is explicitly
+what this amendment is for.
+
+**[2026-08-27] Proposed — re-price weekly throughput from 5/week toward 3–4/week
+using two full weeks of post-restructure data, not one.**
+
+Flagged as open since the 08-21 review on one week of data (4/5 sessions
+completed). Week 2026-08-24 adds a second data point and it's worse, not better:
+2 of 4 sessions offered before Friday produced real evidence (08-25 full, 08-26
+partial), with two entirely blank (08-24, 08-27). Across both post-restructure
+weeks: 5/5 then roughly 2.5/4 — average nowhere near 5/week sustained. The
+§6 schedule table is still priced at 5 sessions/week; if the real sustained rate
+is 3–4, the ~34-week estimate to research depth understates the honest number by
+something like 30–40%, and it's better to say that plainly now than let it
+surface later as a surprise. Not acted on — re-pricing §6 is exactly the kind of
+deliberate, human-reviewed change this section exists to gate.
+
 ---
 
 ## 8. Review cadence
