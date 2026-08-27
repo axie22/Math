@@ -4,9 +4,13 @@
 > `CURRICULUM.md` says where we're going; this file says where we are and what the
 > next two weeks look like.
 
-**Last updated:** 2026-08-26 (Session 7 graded — real work through the repair block,
-then time ran out. Setup discipline retired; a specific, recurring divergence-proof
-obstacle identified. Session 8 built for 08-27, Core held over from Session 7.)
+**Last updated:** 2026-08-27 (Session 8 graded — `08-27-work.md` came back completely
+blank, no timestamps, nothing attempted. Held, not advanced, not treated as wrong.
+Taylor's theorem and the geometric series now have two consecutive blank exposures
+(08-26, 08-27) and are dropped from active rotation per the standing two-blank rule,
+not offered a third time back-to-back. Session 9 — Friday review — built for 08-28,
+pulling the accumulated review/repair backlog into the mixed-retrieval slot Friday
+exists for.)
 
 ---
 
@@ -15,43 +19,42 @@ obstacle identified. Session 8 built for 08-27, Core held over from Session 7.)
 | | |
 |---|---|
 | **Phase** | 0 — Proof foundations & calculus repair |
-| **Session** | 8 of ~15 (Session 7 complete and graded — review/repair reached, Core did not; Session 8 built for 2026-08-27) |
+| **Session** | 9 of ~15 (Session 8 complete and graded — entirely blank, zero evidence; Session 9, Friday review, built for 2026-08-28) |
 | **Started** | 2026-08-17 |
 | **Phase gate** | not yet attempted |
-| **Days completed overall** | 10 of 14 offered (Days 1, 2, 6 + calibration + Sessions 2–5 + Session 6 retry (08-25) + Session 7 (08-26, partial); Session 6's first offering on 08-24 remains zero-evidence) |
+| **Days completed overall** | 10 of 15 offered (Days 1, 2, 6 + calibration + Sessions 2–5 + Session 6 retry (08-25) + Session 7 (08-26, partial); Session 6's first offering (08-24) and Session 8 (08-27) remain zero-evidence) |
 
 ### Immediate next action
 
-**[Session 8 — 2026-08-27](weeks/2026-08-24/08-27.md)** is built and waiting.
-**Core is held over from Session 7, not new:** Taylor's theorem and the geometric
-series got zero evidence yesterday (blank from time, not from difficulty), so today
-re-offers both with fresh instances (cos $x$ in place of $e^x$; $r=-\tfrac13$ in
-place of $r=\tfrac12$) rather than advancing to Induction. Induction I now starts
-Monday 08-31, a one-session slip.
+**[Session 9 — 2026-08-28, Friday review](weeks/2026-08-24/08-28.md)** is built and
+waiting. No new material — per curriculum, Fridays are retrieval-only. Five items,
+all pulled from the backlog that's been accumulating since 08-22: existential
+witness (retirement check, fresh instance), contrapositive-vs-contradiction applied
+(the actual "why does this establish the claim" gap, not just the technique — open
+since 08-19), plain-English quantifier meaning (third exposure, fresh predicate —
+if this comes back anything but clean it becomes a dedicated repair item, not a
+fourth re-offer), a third divergence-proof instance with the negation-as-obligation
+definitional check folded in, and a synthesis problem connecting pigeonhole to
+formal existential statements (which doubles as pigeonhole's retirement check).
+Bug #1's retirement check is the one backlog item that didn't fit — next in line.
+Work into [`weeks/2026-08-24/08-28-work.md`](weeks/2026-08-24/08-28-work.md).
 
-Two review items (existential witnesses, oldest-overdue; a second re-offer of the
-plain-English quantifier-meaning question, still zero clean attempts across two
-tries) and one repair item (a divergence-proof construction — same specific
-stopping point as 08-25's, now confirmed twice: evaluating a sign instead of
-noticing $|(-1)^k|=1$ regardless of it). Work into
-[`weeks/2026-08-24/08-27-work.md`](weeks/2026-08-24/08-27-work.md).
+**Taylor's theorem and the geometric series are paused, not in today's session.**
+Two consecutive blank exposures now (08-26: not reached, time; 08-27: session not
+attempted at all) — per the standing two-blank rule this is a time/engagement
+signal, not a knowledge gap, so they're dropped from active rotation rather than
+offered a third time immediately. They come back in a normal Monday–Thursday
+session once Induction I is under way, not automatically next — see Evidence log
+below and the proposed amendment in `CURRICULUM.md` §7.
 
-Grading context: [`weeks/2026-08-24/08-26-feedback.md`](weeks/2026-08-24/08-26-feedback.md)
-(Session 7).
-
-**What changed today (2026-08-26):** real work again through R1/R2/1(a), then the
-"did not have time today" note at the top of the work file turned out to be
-literal — everything from 1(b) on, including both new-material blocks, is blank.
-**Setup discipline retired** — second clean cold instance at 7-day spacing.
-Quantifier-order true/false construction confirmed a second time. The divergence
-proof (R2) came back wrong in a specific, informative way: stuck at the exact same
-step as 08-25's identical exposure (about to case-split on a sign that an absolute
-value would have handled directly) — two occurrences now, named as a real repair
-track rather than one-off noise. The actual repair target (plain-English
-explanation) and both new-material items remain untouched — no evidence, held,
-re-offered tomorrow. Today's Core was trimmed by one sub-part (Core 2(c)) to bring
-session length back toward what two consecutive sessions have shown is actually
-achievable in an hour.
+**What changed today (2026-08-27):** `08-27-work.md` came back completely blank —
+no timestamps, no partial attempts anywhere, not even the review block. This is not
+"ran out of time partway through" (that was 08-26's pattern); this is the session
+not having been opened. Graded per the standing rule for an empty work file:
+assume nothing mastered, default to hold, note it without nagging, move on. No
+feedback file was written (nothing to grade). Session 9 (Friday review) absorbs the
+overdue review/repair backlog that Session 8 was supposed to touch, since none of
+it is new material and Friday is built exactly for this.
 
 ---
 
@@ -90,8 +93,8 @@ real grading.*
 | Diagonalizability criteria | Calibration B4 — blank | **no data — deferred to Phase 1** |
 | Arithmetic under time pressure | Calibration A2 (2 slips), D1 (1 slip), Session 6 retry (08-25) §3(a) false case (dropped a constant term) | **minor, recurring — watch it, not a dedicated repair track** |
 | Chain rule, integration by parts | Calibration Section C — entirely blank, not yet re-tested since 08-21's Taylor-only redo | **NO DATA — Taylor now being taught (Session 7); chain rule/integration by parts remain untested, revisit before closing calculus repair** |
-| Taylor's theorem with remainder | Calibration — blank. 08-21 timed redo — blank again. Session 7 (08-26) — not reached (time) | **taught (lesson posted), zero attempt evidence yet — held, re-offered Session 8 (08-27) with a new function ($\cos x$)** |
-| Geometric series | Never tested (not on the calibration). Session 7 (08-26) — not reached (time) | **taught alongside Taylor, zero attempt evidence yet — held, re-offered Session 8 (08-27) with $r=-\tfrac13$** |
+| Taylor's theorem with remainder | Calibration — blank. 08-21 timed redo — blank again. Session 7 (08-26) — not reached (time). Session 8 (08-27) — not reached (session not attempted) | **untested, four blank exposures now. Two consecutive blanks in the Core slot specifically (08-26, 08-27) — per the standing rule, dropped from active rotation rather than re-offered a third time immediately. Not a knowledge verdict; genuinely no attempt evidence exists either way. Flagged in `CURRICULUM.md` §7 as a possible sizing/sequencing problem, not just a pacing one** |
+| Geometric series | Never tested (not on the calibration). Session 7 (08-26) — not reached (time). Session 8 (08-27) — not reached (session not attempted) | **untested, two blank exposures, both in the Core slot. Dropped from active rotation alongside Taylor per the same rule — same status, same reasoning** |
 | Gradient (conceptual) | Calibration D2a — right direction, imprecise; key properties absent | **partial** |
 | Eigenvectors, spectral theorem, SVD, Lagrange | Not attempted since Days 4–6 preview | **not taught yet — re-teach in Phases 1–2** |
 | Probability | MATH-UA 235, A- (Fall 2024) | weak evidence, **presumed strength** |
@@ -99,21 +102,28 @@ real grading.*
 
 **The headline:** two of the three named bugs from the calibration are now closed
 (#1 landing a proof, #3 quantifier negation including its compound-predicate
-descendant). The third (#2, induction) now starts Monday 08-31, slipped one session
-because calculus repair's Core still hasn't been attempted. Two narrower patterns
-are now confirmed rather than single data points: mechanical quantifier manipulation
-is ahead of verbal explanation of what quantifiers mean (wrong once, blank once,
-zero clean attempts), and evaluating a sign explicitly instead of taking an absolute
-value stalls divergence proofs specifically at the moment a term like $(-1)^k$
-needs bounding (wrong twice, identical stopping point both times).
+descendant). The third (#2, induction) still starts Monday 08-31. Two narrower
+patterns are now confirmed rather than single data points: mechanical quantifier
+manipulation is ahead of verbal explanation of what quantifiers mean (wrong once,
+blank twice, zero clean attempts across three exposures), and evaluating a sign
+explicitly instead of taking an absolute value stalls divergence proofs specifically
+at the moment a term like $(-1)^k$ needs bounding (wrong twice, identical stopping
+point both times, third instance built for 08-28). A third pattern is now visible at
+the session level rather than the skill level: two of the last five offered
+sessions (08-24, 08-27) came back entirely blank rather than partially done — this
+looks less like specific material being hard and more like a scheduling/engagement
+question worth naming directly rather than working around silently (see
+`CURRICULUM.md` §7 and the throughput table below).
 
 ---
 
 ## Rolling horizon — next 10 sessions
 
 *Revised 2026-08-17 from calibration results, reordered around the three named bugs.
-Updated 2026-08-26: Session 7 graded (partial — Core not reached); Session 8 built,
-Induction I slipped to Monday 08-31.*
+Updated 2026-08-27: Session 8 graded (entirely blank); Session 9 (Friday review)
+built for 08-28, pulling forward the review/repair backlog. Taylor and geometric
+series paused (two consecutive blanks), not rescheduled to a specific date yet —
+see the note below the table.*
 
 | # | Date | Topic | Lesson § | Type |
 |---|---|---|---|---|
@@ -124,9 +134,16 @@ Induction I slipped to Monday 08-31.*
 | 5 | Fri 08-21 | ~~Review day~~ — Section C timed redo + mixed retrieval + synthesis | — | ✅ done |
 | 6 | Mon 08-24 → **retried Tue 08-25** | ~~Quantifier negation drill II — compound-predicate repair (third pass), plus two new ideas: divergence proof from a negation, quantifier order~~ | §5 | ✅ **done 08-25** — 08-24 was blank; the 08-25 retry landed the repair and produced real (if partial) new-material evidence |
 | 7 | Wed 08-26 | ~~Calculus repair — Taylor's theorem with remainder, geometric series~~ | new (calc) | ✅ **done 08-26 — partial.** Setup discipline retired, divergence-proof gap confirmed twice. Core (Taylor, geometric series) never reached — zero evidence, held |
-| 8 | Thu 08-27 | **Calculus repair, continued — Taylor ($\cos x$), geometric series ($r=-\tfrac13$), fresh instances.** Held from Session 7, not new content. Plus: existential-witness review, a second plain-English re-offer, and the divergence-proof repair item | new (calc) | **built, pending** |
-| 9 | Fri 08-28 | **Review day** — mixed; whatever's actually landed by then across negation, pigeonhole retention, Taylor/geometric series, plain-English explanation, and the divergence-proof gap | — | review |
-| 10 | Mon 08-31 | **Induction I** — the hypothesis *is* the engine (slipped from 08-27; runs once Session 8's calculus material has actually been attempted) | §6 | scheduled |
+| 8 | Thu 08-27 | ~~Calculus repair, continued — Taylor ($\cos x$), geometric series ($r=-\tfrac13$)~~ | new (calc) | ❌ **entirely blank — no attempt.** Zero evidence on everything, including review/repair. Not retried with a same-day-style redo (unlike 08-24→08-25) because 08-28 is Friday regardless; its content folds into Session 9 instead |
+| 9 | Fri 08-28 | **Review day (built).** Existential witness, contrapositive-vs-contradiction applied, plain-English quantifiers (3rd try), divergence proof (3rd instance) + negation-as-obligation definitional check, pigeonhole+existential synthesis | — | **built, pending** |
+| 10 | Mon 08-31 | **Induction I** — the hypothesis *is* the engine | §6 | scheduled, unchanged |
+
+**Taylor's theorem / geometric series — not on this table with a date.** Two
+consecutive blanks in the Core slot (08-26, 08-27) means they're paused per the
+standing rule rather than assigned a fixed next date. They resume in the first
+Monday–Thursday session after Induction I has had at least one real attempt,
+unless the 09-04 monthly-ish review decides the calculus-repair approach itself
+needs to change first (see `CURRICULUM.md` §7 amendment below).
 
 **Session 6 note, now closed out:** the compound-predicate negation repair that
 opened 08-20 and relapsed 08-21 finally closed clean on 08-25's retry, all five
@@ -141,12 +158,22 @@ everything) — it's partial, and the response is the same principle applied
 narrowly: hold only the pieces with no evidence (Core), keep the pieces with real
 evidence (retirements, the new repair track) moving forward.
 
-**Schedule status:** one new one-session slip. Induction I moves from Thu 08-27 to
-Mon 08-31 because Session 7's Core (Taylor, geometric series) was never attempted —
-starting Induction before calculus repair has had one real pass would mean holding
-two new topics with zero evidence at once. Everything else in the horizon shifts
-by the same one session; re-priced fully at the 08-28 review alongside the
-throughput question already flagged there.
+**Session 8 note:** entirely blank — the second such session in five offered
+(08-24 was the first). Graded per the no-work rule: hold, don't advance, note
+without nagging. Because none of Session 8's content was new (it was itself a
+held-over repeat of Session 7's Core plus review/repair items), nothing here
+needed re-teaching — it simply moves into Friday's review, which draws from
+exactly this kind of backlog by design.
+
+**Schedule status:** Induction I stays at Mon 08-31, unchanged from the 08-26
+plan — it doesn't need calculus repair's Core to have succeeded first, only to not
+be actively contending for the same session, and pausing Taylor/geometric series
+(rather than attempting them a third time immediately) clears that. Calculus
+repair itself doesn't get a new date yet; it resumes once Induction I has had a
+real pass, or sooner if the 08-28 review decides the material needs a different
+approach rather than just another attempt. Full re-pricing, including whether
+5 sessions/week is still the right planning assumption after two blank sessions
+in one week, happens at the 08-28 weekly review below.
 
 Sessions 11–25 (sets/functions, counterexamples, sup/inf, ε-arguments, remaining
 calculus repair, Phase 0 gate) get scheduled at the 08-28 review, once real
@@ -163,21 +190,29 @@ throughput is known.
   ending as a contradiction against a nonexistent "given." Session 5 (08-21) Part 2b:
   half right — named the technique but still didn't write why proving the
   contrapositive settles the original claim. Two genuine attempts, neither clean.
-  Not retested 08-25 (repair slot went to compound-predicate negation, which then
-  closed) — next open repair slot goes here.
+  Not retested 08-25 or 08-27 (08-27 was a full blank) — **Session 9's (08-28) Item
+  2, finally back in an open slot.**
 - [ ] **Quantifier statements — plain-English meaning, not symbol transliteration.**
   2026-08-25: wrong, transliteration instead of explanation. 2026-08-26: blank, not
-  reached (time). Two exposures, zero clean attempts. Re-offered again Session 8
-  (08-27), fresh predicate, in the review block (repair slot went to the
-  divergence-proof item instead).
+  reached (time). 2026-08-27: blank, session not attempted at all. Three exposures,
+  zero clean attempts. **Session 9's (08-28) Item 3, fresh predicate** — if this
+  comes back anything but clean, it stops being a re-offer and becomes a named
+  repair item with the hard cap's dedicated slot, not a fourth casual re-ask.
 - [ ] **Divergence proof execution — evaluating a sign instead of using $|\cdot|$.**
   2026-08-25 §2(c): blank. 2026-08-26 R2 (fresh instance): wrong, stuck at the
   identical step — about to case-split on parity instead of noting $|(-1)^k|=1$
-  regardless of $k$'s parity. Two occurrences, same specific stopping point.
-  Session 8's (08-27) repair item.
+  regardless of $k$'s parity. 2026-08-27: blank (session not attempted, third
+  instance never reached). Still only one genuine wrong attempt on record.
+  **Session 9's (08-28) Item 4, third instance**, now paired with the
+  negation-as-obligation definitional check that's also been overdue since 08-26.
 - [ ] **Bug #2 — induction without an engine.** Verifying at *n+1* instead of
-  building from *n*. IH never written. Block now starts Monday 2026-08-31 (slipped
-  one session — see Rolling horizon).
+  building from *n*. IH never written. Block starts Monday 2026-08-31.
+- [ ] **Taylor's theorem / geometric series — paused after two consecutive blank
+  Core exposures (08-26, 08-27).** Not a demonstrated gap (zero attempt evidence
+  either way) but flagged because it's now four total blank exposures for Taylor
+  across the whole curriculum (calibration, 08-21 redo, 08-26, 08-27). Not
+  re-offered until Induction I has had a real pass; see the proposed amendment in
+  `CURRICULUM.md` §7.
 - [ ] Rank / linear independence / basis / null space — definitions absent, deferred
   to Phase 1.
 - [ ] Σ notation: closed form vs. *n*-th term — untested since the calibration.
@@ -209,8 +244,16 @@ not open weaknesses anymore):**
   Session 5 (08-21) Part 2d/3a/3b.
 
 **Still closing (existential witness domain — one more clean instance retires it;
-overdue since 2026-08-22):** carried forward again, pulled into Session 8's (08-27)
-review slot.
+overdue since 2026-08-22):** carried forward again — 08-27's offer went unattempted,
+**pulled into Session 9's (08-28) Item 1** with a fresh instance.
+
+**Pigeonhole — general principle, retirement-interval check (overdue since 08-24):**
+folded into Session 9's (08-28) Item 5 as a synthesis problem rather than a bare
+retest, since it connects naturally to today's existential-statement rigor.
+
+**Bug #1 — landing, retirement-interval check (overdue since 08-24):** still the
+one backlog item that didn't fit Session 9 — next in line, most likely Monday or
+next Friday.
 
 ---
 
@@ -230,13 +273,15 @@ review slot.
 |---|---|---|---|
 | 2026-08-10 | 5 | 2 (Days 1, 2) | 40% |
 | 2026-08-17 | 5 (Mon–Fri) | 5 (Day 6, calibration, Sessions 2–5, all with real evidence) | 100% |
-| 2026-08-24 | 3 so far (08-24, 08-25, 08-26) | 2 (08-25 retry — full; 08-26 — partial, review/repair only, Core not reached) | ~67% so far, week in progress |
+| 2026-08-24 | 4 so far (08-24, 08-25, 08-26, 08-27) | 2 (08-25 retry — full; 08-26 — partial, review/repair only, Core not reached) | 50% so far, 08-28 still to come |
 
 At a sustained 3–4/week, the ~36-week plan stretches toward 45–55 weeks. Week
-2026-08-24 opened with one fully missed day, a strong full recovery, then a partial
-day where the session itself ran long relative to available time — worth weighing
-at the 08-28 review alongside the still-open question of whether sessions are sized
-right for the time actually available, not just whether days get missed.
+2026-08-24 has now produced two entirely blank sessions out of four offered
+(08-24, 08-27) alongside one full completion (08-25) and one partial (08-26) — the
+worst week yet by completion rate, even though every session that *did* get real
+attempts produced real evidence and real progress. This is no longer a single
+missed-day artifact; it's two data points in one week. Addressed directly in the
+08-28 weekly review below rather than deferred again.
 
 ---
 
@@ -269,8 +314,70 @@ breaking.
 
 ---
 
+## Weekly review — 2026-08-28 (Friday)
+
+*Per `CURRICULUM.md` §8: written when building the Friday session, not after
+grading it — Session 9 (08-28) is what triggers this.*
+
+**On plan?** Mechanically yes — still Phase 0, session 9 of ~15, on the sequence
+`CURRICULUM.md` lays out. But the honest read of this week is worse than "on plan."
+Week 2026-08-24 offered four sessions before today and produced two entirely blank
+ones (08-24, 08-27) against one full completion (08-25) and one partial (08-26).
+That's the lowest completion rate of any week so far, and unlike 08-24 (which read
+as a single missed day with a clean recovery the next day), 08-27's blank has no
+comparably clean explanation — it isn't paired with a same-day-style retry the way
+08-24 was, because the calendar put a Friday next rather than another weekday.
+Nothing here changes the phase or the gate; it changes how much confidence to put
+in the ~15-session estimate for finishing Phase 0.
+
+**Amendments in `CURRICULUM.md` §7 to accept?** Not this week — deferring to Alex's
+judgment per the file's own rule, as always. A new amendment is appended below
+rather than acted on: calculus repair's Core (Taylor, geometric series) has now
+produced zero attempt evidence across four total exposures (calibration, the 08-21
+redo, and both of its Core offerings on 08-26 and 08-27), which is different from
+"blank because a session ran long" — it's blank on *every* occasion it's been
+offered, including a session where nothing else was attempted either. Worth
+Alex's judgment on whether the material, its placement in the session, or
+something about calculus repair specifically needs to change, rather than
+continuing to re-offer it and treating each blank as independent. The
+throughput re-pricing question (3–4/week vs. 5/week), flagged as open since
+08-21, is now sharper: two full weeks of post-restructure data say 3/5 and 2/4 —
+consistent with 3–4/week being the real number, not 5. Not changing the plan
+unilaterally; naming it plainly so the re-pricing decision isn't deferred a third
+time.
+
+**Is the review queue backing up?** Yes, further. As of today, six items have been
+simultaneously overdue at some point this week (existential witnesses, Bug #1,
+pigeonhole, negation-as-obligation, plus the plain-English and divergence-proof
+repair items that don't formally live in the queue but function the same way).
+Today's session clears four of them at once (existential witness, plain-English,
+divergence-proof + its definitional check, pigeonhole via the synthesis problem);
+Bug #1 remains the one item still waiting, now overdue since 08-24 — four days,
+soon five. If Bug #1 is still waiting after Monday's session, that becomes worth a
+direct callout rather than continued silent carry-forward.
+
+---
+
 ## Changelog
 
+- **2026-08-27 (grading + build)** — Session 8's work file (`08-27-work.md`) came
+  back completely blank — no timestamps, no attempts anywhere, not even the review
+  block. Graded per the no-work rule: assume nothing mastered, hold, don't
+  advance, note without nagging. No feedback file written (nothing to grade).
+  Solutions posted to `weeks/2026-08-24/08-27-solution.md` per the standing
+  one-day lag, regardless of whether the problems were attempted. **Taylor's
+  theorem and the geometric series now have two consecutive blank Core exposures
+  (08-26, 08-27)** — per the standing two-blank rule, dropped from active
+  rotation rather than offered a third time immediately; flagged in
+  `CURRICULUM.md` §7. Session 9 (`weeks/2026-08-24/08-28.md`), Friday review,
+  built: no new material, five items pulled from the accumulated backlog
+  (existential witness, contrapositive-vs-contradiction applied, plain-English
+  quantifiers third try, divergence proof third instance with the
+  negation-as-obligation check folded in, and a pigeonhole+existential synthesis
+  problem). Bug #1's retirement check is the one backlog item still waiting.
+  Weekly review written (see above): this week's completion rate is the lowest
+  yet (2 of 4 sessions before today), and the throughput and calculus-repair
+  amendments are both sharpened rather than deferred again.
 - **2026-08-26 (grading + build)** — Session 7's work file showed real work through
   the repair block, then stopped ("did not have time today," and the file bears
   that out — everything from 1(b) on is blank). Graded in
