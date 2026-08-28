@@ -257,7 +257,7 @@ is adding rigor and the linear-algebraic layer.*
 - Momentum/Nesterov, and the accelerated rate.
 - SGD: variance, decreasing step sizes, and what the convergence guarantee actually
   promises about a neural network (spoiler: not much — understanding *why* is the point).
-- Proximal methods, subgradients, and the ℓ¹/LASSO story.
+- Proximal methods, subgradients, and the ℓ1/LASSO story.
 
 **Spine:** Boyd & Vandenberghe, *Convex Optimization* (free PDF); supplemented by
 Nesterov's introductory lectures for the rate proofs.
@@ -405,6 +405,38 @@ budget — worth naming if it's true rather than assumed away.
 two-blank rule) but not resequencing the curriculum or promoting calculus repair
 to dedicated sessions on its own authority — that decision point is explicitly
 what this amendment is for.
+
+**[2026-08-28] Proposed — three of the last six offered sessions have now come
+back entirely blank, and the most recent two were consecutive.**
+
+08-24, 08-27, and 08-28 all came back with the `-work.md` file completely
+untouched — no timing box, no partial attempts, nothing. 08-24's blank was
+followed by a same-week retry the next day that produced real, substantial work
+(08-25). 08-27 and 08-28's blanks were not — two sessions in a row with zero
+engagement, the first time that's happened back-to-back rather than scattered
+across a week.
+
+This is now doing more than lowering the completion rate — it's actively shaping
+*which skills get evidence at all*. Three separate items (Taylor's theorem, the
+geometric series, and now existential witnesses) are paused not because they were
+attempted and found wanting, but because their scheduled retest happened to land
+inside a session that never got opened, twice in a row, purely by calendar
+coincidence. The two-blank rule is doing its job correctly given what it's fed,
+but what it's being fed increasingly looks like "the hour didn't happen" rather
+than "this specific material is the sticking point." A rule built to distinguish
+knowledge gaps from time-budget problems can't do that job when the missing
+ingredient is whether the session happened at all.
+
+Worth Alex's judgment on: whether something about the daily cadence itself (time
+of day, day of week, competing demands) is worth naming and adjusting, separate
+from the throughput-repricing question below, which is about the *rate* assuming
+sessions that happen produce real work — this amendment is about *whether* the
+session happens in the first place, a different and more basic thing. **Not acted
+on** — the daily run keeps holding, pausing per the two-blank rule, and building
+the next scheduled session regardless, exactly as it would for any other cause of
+a blank session. It does not skip sessions, shorten the plan, or change pacing on
+its own authority because of this pattern; it only names it plainly, as this
+section exists for.
 
 **[2026-08-27] Proposed — re-price weekly throughput from 5/week toward 3–4/week
 using two full weeks of post-restructure data, not one.**
