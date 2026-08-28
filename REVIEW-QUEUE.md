@@ -43,6 +43,24 @@ carries forward unresolved, same as before 08-27, plus one day older.*
 | Divergence proof execution | 🔲 **not attempted** — third instance still pending (blank 08-25, wrong 08-26, blank 08-27). Pulled into Session 9's Item 4. |
 | Taylor's theorem, geometric series (Core, held from Session 7) | 🔲 **not attempted, second consecutive blank.** Per the two-blank rule, dropped from active rotation — not re-offered Session 9 (or immediately after). See `STATE.md`. |
 
+## Resolved 2026-08-28 (Session 9, Friday review) — results
+
+*Session 9's work file came back completely blank — no attempt on anything, same
+as Session 8. Second entirely-blank session in a row now (08-27, 08-28), not just
+in the same week. Not graded as failed (blank ≠ wrong); every item below carries
+forward, but two items cross the two-blank line today and get dropped from active
+rotation per the standing rule rather than re-offered a third time immediately.*
+
+| Item | Result |
+|---|---|
+| Existential witnesses in $\mathbb{Z}$ | 🔲 **not attempted, second consecutive blank** (08-27 R1, 08-28 Item 1). Per the two-blank rule: **dropped from active rotation**, not re-offered Monday. Untested, not demoted — see `STATE.md`. |
+| Contrapositive vs. contradiction, applied | 🔲 **not attempted** — first blank in this re-offering cycle (prior data was a half-right attempt on 08-21, not a blank). Eligible for one more re-offer; waiting for an open slot. |
+| Quantifier statements — plain-English meaning | 🔲 **not attempted, third non-clean exposure** (wrong 08-25, blank 08-26, blank 08-27/08-28 pass). Per the plan set on 08-28: **graduates from re-offer to a dedicated repair item** — Monday's (08-31) Repair slot. |
+| Negation-as-proof-obligation (definitional part) | 🔲 **not attempted** — carries forward, folded back into whichever session next builds a divergence-proof problem. |
+| Divergence-proof execution (repair) | 🔲 **not attempted, third instance never delivered** — still just one genuine wrong attempt (08-26) on record. Waiting for an open repair slot (Monday's went to plain-English quantifiers per the pre-committed plan above). |
+| Pigeonhole — general principle (retirement check) | 🔲 **not attempted** — first blank in this checking cycle. Eligible for one more re-offer. |
+| Bug #1 — landing (retirement-interval check) | 🔲 **still did not fit** — now overdue since 08-24 (7 days). **Given Monday's (08-31) R1**, finally delivered. |
+
 ## Due 2026-08-28 (Session 9, Friday review)
 
 *Same backlog as 08-27, one day older, plus the items that were already scheduled
@@ -60,6 +78,23 @@ no new material.*
 | Negation-as-proof-obligation (definitional part) | 08-26 | **Session 9 Item 4**, folded into the divergence-proof problem's setup. |
 | Divergence-proof execution (repair, not a queue item) | — | **Session 9 Item 4**, third instance ($c_n=3+5(-1)^n$). |
 
+## Due 2026-08-31 (Session 10)
+
+*Two Mon–Thu review slots plus one repair slot, per the hard cap — everything else
+in this list waits for an open slot later in the week or the next Friday (09-04).*
+
+| Item | Due since | Status today |
+|---|---|---|
+| Bug #1 — landing (retirement-interval check) | 08-24 | **Session 10 R1**, fresh instance ($\sqrt5$ irrational) — finally delivered after a week carrying forward. |
+| Quantifier negation — atomic case | 08-28 | **Session 10 R2**, fresh single-quantifier statement. |
+| Quantifier statements — plain-English meaning | 08-25 (repair) | **Session 10 Repair slot**, fresh predicate ($xy=1$) — fourth exposure, now a named dedicated repair item per the 08-28 plan. |
+| Existential witnesses in $\mathbb{Z}$ | 08-22 | **Paused** — second consecutive blank (08-27, 08-28), dropped from active rotation per the two-blank rule. Not in Session 10. |
+| Contrapositive vs. contradiction, applied | 08-22 | Carries forward — one blank so far this cycle, eligible for a re-offer; didn't fit Session 10 alongside Induction I. |
+| Pigeonhole — general principle (retirement check) | 08-24 | Carries forward — one blank so far this cycle, eligible for a re-offer. |
+| Quantifier negation — compound predicates | 08-28 | Carries forward — not yet retested at its first 3-day check. |
+| Negation-as-proof-obligation (definitional part) | 08-26 | Carries forward — folds back into whichever session next needs a divergence proof. |
+| Divergence-proof execution (repair) | — | Carries forward — still one genuine wrong attempt on record; waiting for an open repair slot. |
+
 ---
 
 ## Scheduled
@@ -69,10 +104,10 @@ no new material.*
 | Unfold-the-definition habit | §1 | 2026-08-18 | 3d | 2026-08-21 | 1 |
 | Contrapositive vs. contradiction | §3–4 | 2026-08-19 | 3d | 2026-08-22 | 1 |
 | Setup discipline | §1 | 2026-08-26 | 7d | 2026-09-02 | 2 |
-| Existential witnesses in $\mathbb{Z}$ | §1 | 2026-08-19 | 3d | 2026-08-22 | 1 |
+| Existential witnesses in $\mathbb{Z}$ | §1 | 2026-08-19 | 3d | **paused — two consecutive blanks (08-27, 08-28)** | 1 |
 | Quantifier negation — atomic case | §5 | 2026-08-25 | 3d | 2026-08-28 | 2 |
 | Quantifier negation — compound predicates | §5 | 2026-08-25 | 3d | 2026-08-28 | 1 (retired) |
-| Bug #1 — landing ($\sqrt3$ irrational) | §4 | 2026-08-21 | 3d | 2026-08-24 (missed, still open) | 1 (retired) |
+| Bug #1 — landing ($\sqrt3$ irrational) | §4 | 2026-08-21 | 3d | **2026-08-31 (Session 10 R1)** | 1 (retired) |
 | Pigeonhole — general principle | §8 | 2026-08-21 | 3d | 2026-08-24 (missed, still open) | 1 (retired) |
 | Negation as a proof obligation — definition + structure | §5 | 2026-08-25 | 1d | 2026-08-26 (missed, still open) | 1 (first taught) |
 | Quantifier order — construct and prove true/false | §5 | 2026-08-26 | 3d | 2026-08-29 | 2 |
@@ -96,11 +131,26 @@ explicit setup step before the divergence-proof computation.
 
 **Bug #1 — landing / Pigeonhole — general principle — split as of 08-28.** Both
 retired 2026-08-21, both missed their first retirement-interval check (due
-08-24), neither retested since. **Pigeonhole folded into Session 9's (08-28)
-Item 5** (the pigeonhole+existential synthesis problem). **Bug #1 remains
-unresolved** — the one backlog item that didn't fit today, now the oldest open
-item in the whole queue (overdue since 08-24, five days). Next in line, most
-likely Monday 08-31 or next Friday.
+08-24). Pigeonhole was folded into Session 9's (08-28) Item 5, but Session 9 came
+back entirely blank, so both remain unresolved. **Bug #1 finally gets its slot in
+Session 10 (08-31) R1** — a week overdue by then. **Pigeonhole carries forward one
+more session**, one blank exposure so far, eligible for a re-offer whenever a
+review slot opens next.
+
+**Existential witnesses in $\mathbb{Z}$ — paused 2026-08-28.** Offered blank in
+Session 8 (08-27, R1) and blank again in Session 9 (08-28, Item 1) — two
+consecutive blank exposures of the same retirement check. Per the standing
+two-blank rule this is dropped from active rotation rather than re-offered a
+third time immediately, same treatment Taylor's theorem got. Not a knowledge
+verdict — the last actual attempt (Session 3) was clean — just paused pending a
+real re-engagement, noted in `STATE.md` as untested rather than demoted.
+
+**Quantifier statements — plain-English meaning — graduated to a named repair
+item, 2026-08-28.** Wrong (08-25), blank (08-26), blank (08-27/08-28 combined —
+offered as Session 9's Item 3, session came back blank). Three non-clean
+exposures with zero clean attempts. Per the plan set when Session 9 was built,
+this stops being a casual re-offer: **Session 10's (08-31) Repair slot**, fresh
+predicate ($xy=1$).
 
 ---
 
@@ -109,25 +159,23 @@ likely Monday 08-31 or next Friday.
 *These re-surface until two clean cold retrievals at ≥7-day spacing.*
 
 - **Contrapositive narrated as contradiction, applied to own writing.** New
-  2026-08-19, half right 08-21 (technique named, closing reasoning missing). Two
-  genuine attempts, neither clean. Not pulled 08-25, 08-26, or 08-27 (repair slot
-  went elsewhere, then the session went unattempted) — **Session 9's (08-28)
-  Item 2, finally in an open slot.**
+  2026-08-19, half right 08-21. Session 9's (08-28) Item 2 was offered but the
+  whole session came back blank — still just the one half-right attempt on
+  record. Carries forward, eligible for one more re-offer, didn't fit Session 10
+  alongside Induction I.
 - **Divergence proof execution — evaluating a sign instead of using $|\cdot|$.**
   08-25 §2(c): blank. 08-26 R2 (fresh instance, $b_n=1+(-1)^n$): wrong, stopped at
-  the identical step — about to case-split on the parity of $N+1$ instead of noting
-  $|(-1)^{N+1}|=1$ regardless. 08-27: blank, session not attempted, third instance
-  never reached. Still one genuine wrong attempt on record. **Session 9's (08-28)
-  Item 4**, third instance ($c_n=3+5(-1)^n$), same "do I need the sign, or does
-  $|\cdot|$ already answer this?" question.
+  the identical step. 08-27 and 08-28 both offered a third instance
+  ($d_n=4-2(-1)^n$, then $c_n=3+5(-1)^n$) and both sessions came back blank —
+  still just the one genuine wrong attempt on record. Carries forward; Session
+  10's one repair slot went to plain-English quantifiers instead (see below).
 - **Quantifier statements — plain-English meaning, not symbol transliteration.**
-  08-25: wrong (transliteration, not explanation). 08-26: blank (not reached — ran
-  out of time before the repair block finished). 08-27: blank (session not
-  attempted at all). Zero clean attempts across three exposures. **Session 9's
-  (08-28) Item 3**, fresh predicate ($P(x,y)$: "$x+y=0$") — if this isn't clean
-  this time, it graduates from re-offer to a named, dedicated repair item.
-- **Induction: state and use the hypothesis** (A2) — bug #2. Not yet re-tested;
-  block starts Monday 2026-08-31.
+  08-25: wrong (transliteration, not explanation). 08-26: blank. 08-27/08-28
+  (Session 9, Item 3): blank. Zero clean attempts across three non-clean
+  exposures. **Graduates to Session 10's (08-31) dedicated Repair slot**, fresh
+  predicate ($Q(x,y)$: "$xy=1$").
+- **Induction: state and use the hypothesis** (A2) — bug #2. First real test
+  **Session 10, Monday 2026-08-31** — see `weeks/2026-08-31/08-31.md`.
 - **Σ notation: sum of first *n* terms, not the *n*-th term** (A2). Not yet re-tested.
 - **Definition of rank** (B1) — deferred to Phase 1, not drilled now.
 - **Definition of linear independence** (B1) — deferred to Phase 1.
