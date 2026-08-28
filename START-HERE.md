@@ -1,22 +1,23 @@
 # Start here
 
-**Right now: [Session 9 — 2026-08-28, Friday review](weeks/2026-08-24/08-28.md).** One
-hour, no new material. Yesterday's session (08-27) came back completely blank — not
-graded as wrong, just held, and it's noted, not nagged about. Today pulls five items
-from the backlog that's been accumulating since 08-22: existential witness (fresh
-instance), contrapositive-vs-contradiction *applied* (finally back in an open slot
-after three sessions waiting), plain-English quantifier meaning (third try, fresh
-predicate — a clean pass here retires it, another miss makes it a named repair item),
-a third divergence-proof instance with the "state the three moves first" check folded
-in, and a synthesis problem connecting pigeonhole to a formal $\exists$ statement.
+**Right now: [Session 10 — 2026-08-31, Induction I](weeks/2026-08-31/08-31.md).** New
+material — the first real test of bug #2 (induction with no engine), open since the
+2026-08-17 calibration. Friday's session (08-28) came back completely blank, the
+**second blank session in a row** (08-27, then 08-28) — not graded as wrong, held,
+noted, not nagged about, but worth knowing it's now happened back-to-back rather than
+with a recovery day in between. Today: two review items (Bug #1's retirement check,
+$\sqrt5$ irrational, a week overdue — and a quick atomic-negation retest), one repair
+item (plain-English quantifier meaning, now a named dedicated slot after three
+non-clean tries), and two Core induction proofs — a sum formula and a divisibility
+claim, deliberately different shapes so "use the hypothesis" doesn't just mean "the
+sum trick."
 
-**Taylor's theorem and the geometric series are not in today's session, and won't be
-for a bit.** Two Core offerings in a row (08-26, 08-27) got zero attempts — not wrong,
-never reached. Per the standing rule, two blanks means the problem is likely
-time/engagement, not difficulty, so they're paused rather than offered a third time
-back to back. See `STATE.md` and `CURRICULUM.md` §7 for the reasoning and an open
-question worth your judgment: whether calculus repair needs a different placement in
-the session, not just another attempt.
+**Taylor's theorem, the geometric series, and now existential witnesses are all
+paused.** All three have two consecutive blank exposures in their tested slot — not
+wrong, never reached. Per the standing rule that pauses rather than re-offers a third
+time back to back. See `STATE.md` and `CURRICULUM.md` §7 — there's a new amendment
+there worth your judgment: three of the last six offered sessions have now come back
+entirely blank, and it's started shaping which skills get real evidence at all.
 
 That's the answer. Everything below is context you can read later.
 
@@ -24,8 +25,8 @@ That's the answer. Everything below is context you can read later.
 
 ## What phase you're in and why
 
-**Phase 0 — proof foundations.** ~15 sessions, 8 offered, 6 with real evidence (two —
-08-24 and 08-27 — came back entirely blank).
+**Phase 0 — proof foundations.** ~15 sessions, 9 offered, 6 with real evidence (three
+— 08-24, 08-27, 08-28 — came back entirely blank).
 
 Not because proofs are the goal, but because the [calibration](diagnostics/2026-08-18-calibration-feedback.md)
 showed they're the bottleneck. Convex optimization is a sequence of inequality proofs.
@@ -38,39 +39,37 @@ algebra is a sequence of "suppose $\sum c_i v_i = 0$" moves.
 |---|---|
 | **#1** — frame a proof and stop before executing | ✅ **closed** (08-21's √3, from memory, with the landing sentence) |
 | **#3** — quantifier negation backwards | ✅ **closed** — atomic clean twice, compound predicates clean on all five items 08-25 (third pass, after failing 08-20 and 08-21) |
-| **#2** — induction never uses the hypothesis | ⬜ untested since the calibration — scheduled for **Monday 08-31** |
+| **#2** — induction never uses the hypothesis | 🟡 **first real test today, Monday 08-31** |
 
 Also retired: unfolding definitions, contrapositive vs. contradiction (concept),
 divisibility transitivity, injective/surjective, pigeonhole (both the specific-case
 derivation and the general principle), setup discipline. None of it returns as
 repair. Contrapositive *applied* to one's own proof is a separate, still-open item —
-half right on its most recent attempt, waiting since 08-19 for an open slot; today's
-the day.
+half right on its most recent attempt, offered again 08-28 but the session was
+blank; still waiting for a clean pass.
 
-**Two patterns confirmed, not just noted once:** being able to manipulate quantifiers
-correctly isn't the same skill as explaining what they mean in plain English (wrong
-once, blank twice — zero clean attempts across three tries now); and divergence
-proofs specifically stall on terms like $(-1)^k$ — the instinct is to work out the
-sign instead of noticing $|(-1)^k|=1$ regardless of it (wrong twice, identical
-stopping point both times). Both get a fresh attempt today.
+**Plain-English quantifier meaning has moved from "pattern" to "named repair
+item."** Wrong once (08-25), blank twice (08-26, 08-28) — three exposures, zero
+clean attempts. Today's Repair slot is its fourth try, fresh predicate. Divergence
+proofs still stall on terms like $(-1)^k$ (wrong once, identical stopping point,
+then two blank sessions where its third instance never got reached) — still
+waiting on an open repair slot, not today's.
 
 ## The hour
 
-Today's Friday shape (no new material, five retrieval items, ~10-12 min each) — see
-the session file for the exact breakdown. Normal Mon–Thu shape is review → repair →
-core → optional stretch; that resumes Monday with Induction I.
-
-Reading isn't the session. Lesson files are handbooks to consult, not chapters to
-read front to back — nothing new to read today.
+Today's normal Mon–Thu shape: review (2 items) → repair (1 item) → Core (2 new
+Induction I problems) → optional stretch. See the session file for the exact
+breakdown. `lessons/proof-foundations.md` §6 is worth a look before Core if the
+mechanism isn't already clear — first time that section's actually been needed.
 
 ## The one rule that matters
 
 **Write into the `-work.md` file — including the timing and the "where I got stuck" box.**
 
-08-27 came back with literally nothing filled in, not even the timing box. If the
-session isn't happening on a given day, that's completely fine — but if you do sit
-down with it, even two words in the timing/stuck boxes turns a guess into a fact for
-the next session.
+08-27 *and* 08-28 both came back with literally nothing filled in, not even the
+timing box — two in a row now. If the session isn't happening on a given day,
+that's completely fine — but if you do sit down with it, even two words in the
+timing/stuck boxes turns a guess into a fact for the next session.
 
 Solutions post the next day, never the same day. Sitting stuck is the mechanism.
 
@@ -88,15 +87,21 @@ Solutions post the next day, never the same day. Sitting stuck is the mechanism.
 
 ## Still outstanding
 
+- **Three of the last six offered sessions came back entirely blank** (08-24,
+  08-27, 08-28), the last two consecutively — new amendment in `CURRICULUM.md` §7
+  naming this directly, since it's now pausing skills (Taylor, geometric series,
+  existential witnesses) purely because their retest kept landing inside a blank
+  session, not because they were attempted and found hard.
 - **Chain rule, integration by parts** — blank on the calibration, never re-tested.
   Still waiting on calculus repair's Core to produce any evidence at all before this
   can even be scheduled.
 - **Calculus repair itself.** Taylor's theorem has been offered four times total and
-  never once been attempted. That's no longer read as pacing — see `CURRICULUM.md`
-  §7's 08-27 amendment for the open question (placement in the session vs. something
-  about the material itself) that's waiting on your judgment.
+  never once been attempted. See `CURRICULUM.md` §7's 08-27 amendment for the open
+  question (placement in the session vs. something about the material itself) that's
+  waiting on your judgment.
 - **Throughput.** Two full weeks of data now say something closer to 3–4
-  sessions/week than the planned 5 — flagged plainly in this week's `STATE.md`
-  review rather than deferred again.
-- **Bug #1's retirement check** (√ irrational, general form) is the oldest item in
-  the review queue, overdue since 08-24. Didn't fit today; next in line.
+  sessions/week than the planned 5 — flagged plainly in `STATE.md`'s weekly review
+  rather than deferred again.
+- **Bug #1's retirement check** (√ irrational, general form) was the oldest item in
+  the review queue, overdue since 08-24 — it's today's R1, finally delivered a
+  week late.
