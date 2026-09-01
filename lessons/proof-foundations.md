@@ -90,7 +90,7 @@ proof move is to **name that $k$ and use it**.
 *Proof.* Suppose $n$ is odd. **Unfold:** then $n = 2k+1$ for some $k \in \mathbb{Z}$.
 **Work:**
 $$n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1.$$
-**Land:** since $2k^2 + 2k \in \mathbb{Z}$, this has the form $2m+1$, so $n^2$ is odd. ∎
+**Land:** since $2k^2 + 2k \in \mathbb{Z}$, this has the form $2m+1$, so $n^2$ is odd. ∘
 
 That's it. Three lines. The entire content is "write down what odd means, square it,
 notice the answer has the same shape."
@@ -153,7 +153,7 @@ Then $2 = p^2/q^2$, so $p^2 = 2q^2$, so $p^2$ is even, so **by §1's contraposit
 $p$ is even. Write $p = 2k$. Then $4k^2 = 2q^2$, so $q^2 = 2k^2$, so $q^2$ is even, so
 $q$ is even.
 
-But then $p$ and $q$ are both even, contradicting "lowest terms." ∎
+But then $p$ and $q$ are both even, contradicting "lowest terms." ∘
 
 Note the reuse: the whole proof turns on the A1 lemma. Small proved facts compound.
 
@@ -306,7 +306,7 @@ $$= (n+1)\left[\frac{n(2n+1)}{6} + (n+1)\right] = (n+1) \cdot \frac{2n^2 + n + 6
 
 Factor the quadratic: $2n^2 + 7n + 6 = (n+2)(2n+3)$. So
 $$= \frac{(n+1)(n+2)(2n+3)}{6} = \frac{(n+1)\big((n+1)+1\big)\big(2(n+1)+1\big)}{6},$$
-which is the formula at $n+1$. ∎
+which is the formula at $n+1$. ∘
 
 Look at where the work happened: **one substitution and some factoring.** The
 hypothesis did the heavy lifting. That's what induction is supposed to feel like — if
@@ -368,6 +368,49 @@ That failure is essentially the definition of "infinite."
 
 ---
 
+## 9. Supremum and infimum
+
+**Upper bound.** $s$ is an upper bound for $A\subseteq\mathbb{R}$ if $a\le s$ for
+every $a\in A$. **Supremum** ($\sup A$): the *least* upper bound — an upper bound
+that is $\le$ every other upper bound.
+
+The completeness axiom of $\mathbb{R}$ says every nonempty set bounded above has a
+supremum (this is what makes $\mathbb{R}$ different from $\mathbb{Q}$ — take it as
+given, don't prove it).
+
+### The two-part definition you actually use
+
+$s=\sup A$ iff **both**:
+1. $s$ is an upper bound: $\forall a\in A,\ a\le s$.
+2. $s$ is the *least* one — equivalently, **nothing smaller works**: for every
+   $\varepsilon>0$, there exists $a\in A$ with $a>s-\varepsilon$.
+
+Part 2 is the move people miss. "$s$ is the least upper bound" sounds like it should
+be proved by comparing $s$ to every other upper bound directly — instead you prove
+it by showing no room exists *below* $s$: however small a step $\varepsilon$ you cut
+off the bottom, some element of $A$ is already past that point. This is the same
+game as an $\varepsilon$–$N$ convergence proof (§5): you're handed an $\varepsilon>0$
+and have to *produce* something (there, an $N$; here, an $a\in A$) in response.
+
+**Infimum** is symmetric: $s=\inf A$ iff $s$ is a lower bound and $\forall
+\varepsilon>0\,\exists a\in A: a<s+\varepsilon$.
+
+### Worked: $\sup\{1-\tfrac1n : n\in\mathbb{N},\,n\ge1\}=1$
+
+**Upper bound:** $1-\frac1n<1$ for every $n\ge1$ since $\frac1n>0$. ✓
+
+**Least:** let $\varepsilon>0$. Want $n$ with $1-\frac1n>1-\varepsilon$, i.e.
+$\frac1n<\varepsilon$, i.e. $n>\frac1\varepsilon$. Such an $n$ exists (Archimedean
+property — $\mathbb{N}$ is unbounded above), so pick one. Then
+$1-\frac1n>1-\varepsilon$. ✓
+
+Both parts done $\implies\sup=1$. Notice the *only* new content next to an
+$\varepsilon$–$N$ proof is that $n$ isn't "how far out in the sequence" — it's
+"which element of the set" — but the shape (given $\varepsilon$, produce a witness,
+verify the inequality) is identical.
+
+---
+
 ## When you're stuck — run this checklist
 
 1. **Have I written down what every word in the hypothesis means?** (§1) — fixes it
@@ -399,6 +442,7 @@ That failure is essentially the definition of "infinite."
 | Induction | base case + **use the hypothesis** to get $n+1$ |
 | Sum recurrence | $S(n+1) = S(n) + a_{n+1}$ |
 | Injective / surjective | $f(a)=f(b) \Rightarrow a=b$ / $\forall y \exists x: f(x)=y$ |
+| $s=\sup A$ | upper bound, and $\forall\varepsilon>0\,\exists a\in A: a>s-\varepsilon$ |
 
 ---
 
@@ -406,6 +450,9 @@ That failure is essentially the definition of "infinite."
 
 §1 is "suppose $\sum c_i v_i = 0$" in Phase 1. §5 is every convergence rate in Phase 4
 ("$\forall \epsilon > 0$ there exists $T$ such that…") and every generalization bound in
-Phase 5. §6 is the spectral theorem, by induction on dimension.
+Phase 5. §6 is the spectral theorem, by induction on dimension. §9 is the Rayleigh
+quotient's variational characterization of eigenvalues in Phase 1, and it's the
+completeness fact that makes gradient descent's convergence proofs in Phase 4 well
+posed at all.
 
 Nothing here is a detour. This *is* the subject.
