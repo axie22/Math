@@ -343,6 +343,25 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-02] Procedural note — an inconsistency in the run prompt itself, not the
+curriculum; flagging rather than guessing which reading is intended.**
+
+`RUN-PROMPT.md`'s "HARD CAP ON REPAIR" section reads: "a normal session is **at
+most one review item and at most one repair item**." But Step 4's session-shape
+spec says the review block is "**2-3 items** pulled from `REVIEW-QUEUE.md`," and
+every session since the 08-24 rule change (08-25 through 09-01) has actually run
+**two** review items (R1 and R2), not one — that's the lived pattern the hard-cap
+language seems to have been written to *describe*, at least for review, even though
+its literal text caps review at one too. Session 12 (09-02) is the first session
+built under a literal reading of "at most one review item," on the theory that the
+explicit, emphasized "HARD CAP...obey this even when the review queue disagrees"
+framing is more likely the newer, intended rule than an artifact of imprecise
+wording — but this is a guess, not a confident resolution, and it's a real change
+in how many overdue items get touched per week (roughly half the rate, review-wise,
+of the last four sessions). Not acting further on it — flagging so the actual
+intended cap (one item, or two-to-three) gets settled explicitly rather than
+re-guessed differently by every future session.
+
 **[2026-09-01] Observation — bug #2 (induction) closed clean on first real test;
 worth noting as a second confirmation of the 08-24 diagnosis, not a new proposal.**
 
