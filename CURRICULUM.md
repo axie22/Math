@@ -343,19 +343,40 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
-**[2026-08-24] Week 1 review. APPLIED — §5 and §6 updated above.**
+**[2026-09-01] Observation — bug #2 (induction) closed clean on first real test;
+worth noting as a second confirmation of the 08-24 diagnosis, not a new proposal.**
 
-- **Phase 0: 5 weeks → 3 weeks (~15 sessions).** Reverses the 2026-08-17 extension.
-  Four sessions cleared unfolding, contrapositive vs. contradiction, contradiction
-  proofs, injective/surjective, and a general pigeonhole proof — plus real synthesis on
-  session 5. The calibration mistook missing *technique* for missing ability. Technique
-  teaches fast.
-- **Phase 1 stays at 8 weeks.** Its gap is content, not technique, and content doesn't
-  compress. Noted explicitly in §5 so a future review doesn't shorten it by analogy.
-- **Phase 0 exit gate item 3 sharpened** to require an implication at the bottom of the
-  quantifier stack and the rule named at each step — the atomic/compound split is
-  exactly where the real weakness sits, and the old wording would have passed someone
-  who could only do the atomic case.
+Session 10 (08-31) was the first real test of induction — the third named
+calibration bug, open since 2026-08-17 and deliberately not taught until the other
+two had real repair evidence. It landed clean on **both** Core problems (a sum
+formula and a divisibility claim) in one sitting, hypothesis visibly used in both,
+with no re-teaching needed beyond the single lesson section written for it. That's
+the same pattern the 08-24 amendment used to justify shortening Phase 0 from 5
+weeks to 3: technique gaps close fast once taught directly, in contrast to Phase 1's
+content gaps (rank, basis, null space), which won't. Not proposing any further
+change to §6's schedule — just recording that the diagnosis is holding up on its
+third and final named bug, which is reassuring evidence for the ~15-session Phase 0
+estimate specifically (separate from the broader throughput re-pricing question
+below, which is about *how many sessions per week actually happen*, not whether the
+material teaches fast once a session happens).
+
+**[2026-09-01] Observation — the paused-item resume condition (set 2026-08-28) has
+technically fired; flagging rather than acting unilaterally.**
+
+`STATE.md` paused Taylor's theorem, the geometric series, and existential witnesses
+on 08-28, with an explicit resume condition: "the first Monday–Thursday session that
+produces real evidence for whatever's ahead of them in the queue." Session 10
+(08-31) produced exactly that — real, complete evidence on induction, the item that
+was "ahead" of all three in the rolling horizon. Existential witnesses (the
+lowest-risk of the three — its last real evidence was clean, not a demonstrated gap)
+is being brought back in Session 12 on this basis. Taylor and the geometric series
+are **not** being resumed on the same basis, because the 08-27 amendment above them
+raised a separate, still-open question — whether their placement or the calculus
+repair approach itself needs to change before a fifth/third re-offer, not just
+whether the resume condition fired. Flagging the distinction explicitly so it
+doesn't read as an oversight: existential witnesses resuming and calculus repair
+staying paused are two different decisions with two different bases, not an
+inconsistent application of one rule.
 
 **Diagnosis worth recording: the ~25-session figure was partly an artifact of the run
 rules, not the material.** Week 1 spent four consecutive sessions on the same
@@ -385,12 +406,13 @@ fifth/third time back to back (see `STATE.md`, 08-27).
 Two things are true at once and worth separating: (1) every other new-material
 block this month that *did* get attempted produced real, gradeable evidence within
 one or two sessions (compound-predicate negation, quantifier order, pigeonhole,
-setup discipline) — so "the material is too hard" doesn't fit the pattern; but (2)
-Taylor/geometric series specifically have never once been reached, including on
-08-27 when *nothing in the entire session* was attempted, review and repair
-included. That second fact means the honest hypothesis for 08-27 at least isn't
-about Taylor at all — it's that the session didn't happen. But it doesn't explain
-08-26, where review and repair got real, careful attempts and Core still didn't.
+setup discipline, and now — as of 08-31 — induction too) — so "the material is too
+hard" doesn't fit the pattern; but (2) Taylor/geometric series specifically have
+never once been reached, including on 08-27 when *nothing in the entire session*
+was attempted, review and repair included. That second fact means the honest
+hypothesis for 08-27 at least isn't about Taylor at all — it's that the session
+didn't happen. But it doesn't explain 08-26, where review and repair got real,
+careful attempts and Core still didn't.
 
 Two candidate explanations, not mutually exclusive, worth Alex's judgment rather
 than the daily run guessing: (a) calculus repair's Core is placed last in the
@@ -438,6 +460,12 @@ a blank session. It does not skip sessions, shorten the plan, or change pacing o
 its own authority because of this pattern; it only names it plainly, as this
 section exists for.
 
+**Update 2026-09-01:** Session 10 (08-31) broke the pattern — full, careful work
+across every item in the session. One data point doesn't resolve the question
+(it's exactly the kind of thing that needs a few more days to read honestly), but
+it's worth recording that the most recent session is not more evidence for this
+amendment, it's the first evidence against it since 08-25.
+
 **[2026-08-27] Proposed — re-price weekly throughput from 5/week toward 3–4/week
 using two full weeks of post-restructure data, not one.**
 
@@ -450,7 +478,9 @@ weeks: 5/5 then roughly 2.5/4 — average nowhere near 5/week sustained. The
 is 3–4, the ~34-week estimate to research depth understates the honest number by
 something like 30–40%, and it's better to say that plainly now than let it
 surface later as a surprise. Not acted on — re-pricing §6 is exactly the kind of
-deliberate, human-reviewed change this section exists to gate.
+deliberate, human-reviewed change this section exists to gate. Week 2026-08-31 has
+one data point so far (08-31, full) — not enough to move this either way; revisit
+at the 09-04 review with the whole week's data.
 
 ---
 
