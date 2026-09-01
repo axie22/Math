@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weeks/2026-08-17/08-21.md",
+                "file": "weeks/2026-08-31/08-31-solution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-21"
-            }
-          },
-          {
-            "id": "59c7262d4f445395",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "weeks/2026-08-24/08-26.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "08-26"
+              "title": "08-31-solution"
             }
           },
           {
@@ -55,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lessons/proof-foundations.md",
+                "file": "weeks/2026-08-31/09-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "proof-foundations"
+              "title": "09-01"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4c197686f48ab96a",
@@ -76,12 +62,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weeks/2026-08-24/08-26-work.md",
+                "file": "weeks/2026-08-31/09-01-work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-26-work"
+              "title": "09-01-work"
             }
           }
         ]
@@ -163,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weeks/2026-08-24/08-26-work.md",
+                "file": "weeks/2026-08-31/09-01-work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "weeks/2026-08-24/08-26-work.md",
+                "file": "weeks/2026-08-31/09-01-work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -225,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "weeks/2026-08-24/08-26-work.md",
+                "file": "weeks/2026-08-31/09-01-work.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -254,33 +240,34 @@
   },
   "active": "f9d43816fb04ad62",
   "lastOpenFiles": [
-    "weeks/2026-08-24/08-26.md",
-    "weeks/2026-08-24/08-26-work.md",
+    "weeks/2026-08-31/09-01.md",
+    "weeks/2026-08-31/08-31-solution.md",
+    "weeks/2026-08-31/09-01-work.md",
+    "weeks/2026-08-31/08-31-feedback.md",
+    "weeks/2026-08-31/08-31.md",
+    "lessons/proof-foundations.md",
+    "weeks/2026-08-31/08-31-work.md",
+    "weeks/2026-08-17/08-21.md",
     "lessons/calculus-repair.md",
+    "weeks/2026-08-24/08-27-work.md",
+    "weeks/2026-08-31",
+    "weeks/2026-08-24/08-28-solution.md",
+    "weeks/2026-08-24/08-27.md",
+    "weeks/2026-08-24/08-28-work.md",
+    "weeks/2026-08-24/08-28.md",
+    "weeks/2026-08-24/08-26.md",
+    "weeks/2026-08-24/08-27-solution.md",
+    "weeks/2026-08-24/08-26-work.md",
+    "weeks/2026-08-24/08-26-solution.md",
+    "weeks/2026-08-24/08-26-feedback.md",
     "weeks/2026-08-24/08-25.md",
     "weeks/2026-08-24/08-25-work.md",
     "weeks/2026-08-24/08-25-solution.md",
     "weeks/2026-08-24/08-25-feedback.md",
     "weeks/2026-08-24/08-24.md",
-    "lessons/proof-foundations.md",
     "weeks/2026-08-24/08-24-solution.md",
     "weeks/2026-08-24/08-24-work.md",
-    "RUN-PROMPT.md",
-    "weeks/2026-08-17/08-21-solution.md",
-    "weeks/2026-08-17/08-21-work.md",
     "weeks/2026-08-24",
-    "weeks/2026-08-17/08-21-feedback.md",
-    "weeks/2026-08-17/08-21.md",
-    "weeks/2026-08-17/08-19-solution.md",
-    "weeks/2026-08-17/08-19-work.md",
-    "weeks/2026-08-17/08-19-feedback.md",
-    "weeks/2026-08-17/08-19.md",
-    "weeks/2026-08-17/08-20-work.md",
-    "weeks/2026-08-17/08-20.md",
-    "weeks/2026-08-17/08-20-feedback.md",
-    "weeks/2026-08-17/08-20-solution.md",
-    "STATE.md",
-    "weeks/2026-08-17/08-18-work.md",
     "weeks/2026-08-17",
     "diagnostics",
     "lessons/assets/linear-algebra-ii/fig-2-svd-orthogonal-axes.svg",
