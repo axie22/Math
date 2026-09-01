@@ -90,7 +90,7 @@ proof move is to **name that $k$ and use it**.
 *Proof.* Suppose $n$ is odd. **Unfold:** then $n = 2k+1$ for some $k \in \mathbb{Z}$.
 **Work:**
 $$n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1.$$
-**Land:** since $2k^2 + 2k \in \mathbb{Z}$, this has the form $2m+1$, so $n^2$ is odd. ∘
+**Land:** since $2k^2 + 2k \in \mathbb{Z}$, this has the form $2m+1$, so $n^2$ is odd. ∎
 
 That's it. Three lines. The entire content is "write down what odd means, square it,
 notice the answer has the same shape."
@@ -153,7 +153,7 @@ Then $2 = p^2/q^2$, so $p^2 = 2q^2$, so $p^2$ is even, so **by §1's contraposit
 $p$ is even. Write $p = 2k$. Then $4k^2 = 2q^2$, so $q^2 = 2k^2$, so $q^2$ is even, so
 $q$ is even.
 
-But then $p$ and $q$ are both even, contradicting "lowest terms." ∘
+But then $p$ and $q$ are both even, contradicting "lowest terms." ∎
 
 Note the reuse: the whole proof turns on the A1 lemma. Small proved facts compound.
 
@@ -306,7 +306,7 @@ $$= (n+1)\left[\frac{n(2n+1)}{6} + (n+1)\right] = (n+1) \cdot \frac{2n^2 + n + 6
 
 Factor the quadratic: $2n^2 + 7n + 6 = (n+2)(2n+3)$. So
 $$= \frac{(n+1)(n+2)(2n+3)}{6} = \frac{(n+1)\big((n+1)+1\big)\big(2(n+1)+1\big)}{6},$$
-which is the formula at $n+1$. ∘
+which is the formula at $n+1$. ∎
 
 Look at where the work happened: **one substitution and some factoring.** The
 hypothesis did the heavy lifting. That's what induction is supposed to feel like — if
