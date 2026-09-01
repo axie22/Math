@@ -4,16 +4,19 @@
 > `CURRICULUM.md` says where we're going; this file says where we are and what the
 > next two weeks look like.
 
-**Last updated:** 2026-09-01 (Session 10 graded — `08-31-work.md` came back real
-and substantial, the strongest single session since 08-25. **Both Core problems
-landed clean, the first fully clean evidence for bug #2 (induction) on two
-different shapes (a running sum, a divisibility claim) in one sitting.** Bug #1's
-retirement check and atomic negation both confirmed again, advancing 3d→7d. The
-plain-English quantifier repair came back blank a fourth time — but for the first
-time, blank while everything else in the session was filled in carefully, which is
-a different and more specific signal than the previous "whole session didn't
-happen" blanks. Session 11 — Induction II (counting + strong induction), a
-worked-example scaffold for the quantifier repair — built for 2026-09-01.)
+**Last updated:** 2026-09-02 (Session 11 graded — `09-01-work.md` came back as the
+**strongest session in this repo's history**: R1, R2, the Repair item, and Core 1
+all attempted, all four clean. **Two long-standing named gaps closed in one
+sitting** — contrapositive-applied (three prior non-clean attempts since 08-19) and
+plain-English quantifier meaning (the single longest-open item here: one wrong plus
+four blanks across five prior exposures, finally broken by a worked-scaffold
+approach). Bug #2 (induction) got its **second clean demonstration**, one day after
+the first, on the literal Phase 0 exit-gate counting problem. The only miss was
+Core 2 (strong induction, first real attempt at the mechanism) — blank, re-offered
+fresh today. Session 12 — existential witnesses resuming, divergence-proof
+execution finally getting its repair slot, strong induction's second attempt, and
+**sup/inf (§9, new lesson section) opening the last major untaught Phase 0 topic**
+— built for 2026-09-02.)
 
 ---
 
@@ -22,48 +25,43 @@ worked-example scaffold for the quantifier repair — built for 2026-09-01.)
 | | |
 |---|---|
 | **Phase** | 0 — Proof foundations & calculus repair |
-| **Session** | 11 of ~15 (Session 10, Induction I, complete and graded — real, strong work; Session 11, Induction II, built for 2026-09-01) |
+| **Session** | 12 of ~15 (Session 11, Induction II, complete and graded — the strongest session yet; Session 12, Sup/inf + strong induction retry, built for 2026-09-02) |
 | **Started** | 2026-08-17 |
 | **Phase gate** | not yet attempted |
-| **Days completed overall** | 11 of 17 offered (Days 1, 2, 6 + calibration + Sessions 2–5 + Session 6 retry (08-25) + Session 7 (08-26, partial) + Session 10 (08-31, strong); Session 6's first offering (08-24), Session 8 (08-27), and Session 9 (08-28) remain zero-evidence) |
+| **Days completed overall** | 12 of 19 offered (Days 1, 2, 6 + calibration + Sessions 2–5 + Session 6 retry (08-25) + Session 7 (08-26, partial) + Session 10 (08-31, strong) + Session 11 (09-01, strongest yet); Session 6's first offering (08-24), Session 8 (08-27), and Session 9 (08-28) remain zero-evidence) |
 
 ### Immediate next action
 
-**[Session 11 — 2026-09-01, Induction II](weeks/2026-08-31/09-01.md)** is built and
-waiting. Two review items (a 1-day induction retention check, fast — first-taught
-concepts get checked quickly on purpose; a fresh contrapositive-applied instance,
-now its fourth exposure and still without the one sentence that's been missing
-every time), one repair item (plain-English quantifier meaning, now with a worked
-scaffold example ahead of the fresh instance — a genuine change of approach, not a
-fifth identical re-ask), and two new Core problems that push yesterday's induction
-engine into new representations: a counting argument (a set of size $n$ has $2^n$
-subsets — literally exit-gate item 2) and strong induction (every integer $\ge2$ is
-a product of primes, connecting back to Bug #1's $\sqrt5$ proof). Work into
-[`weeks/2026-08-31/09-01-work.md`](weeks/2026-08-31/09-01-work.md).
+**[Session 12 — 2026-09-02, Sup/inf + strong induction's second attempt](weeks/2026-08-31/09-02.md)**
+is built and waiting. One review item (existential witnesses, resuming after the
+paused-condition was confirmed twice over), one repair item (divergence-proof
+execution, finally getting its own slot after two sessions of the quantifier item
+taking priority — the definitional part that's been overdue since 08-26 folds in),
+and Core: strong induction's first real attempt (blank yesterday, re-offered fresh
+as binary representation rather than primes) plus **the last major untaught Phase 0
+topic — supremum/infimum**, with a new short lesson section
+(`lessons/proof-foundations.md` §9) and a first real $\varepsilon$-style proof
+($\sup\{n/(n+1)\}=1$). Stretch previews exit-gate item 5 directly
+($\sup(A+B)=\sup A+\sup B$). Work into
+[`weeks/2026-08-31/09-02-work.md`](weeks/2026-08-31/09-02-work.md).
 
-**Taylor's theorem, the geometric series, and existential witnesses remain paused**
-— but the condition this file itself set for their return ("the first Monday–
-Thursday session that produces real evidence for whatever's ahead of them in the
-queue") was met by Session 10. Existential witnesses are the cheapest to bring
-back (a low-risk retention check on previously-clean evidence) and are slated for
-Session 12 (Wednesday), once today's session isn't already carrying two review
-items, one repair item, and two new-representation Core problems. Taylor and the
-geometric series stay paused pending Alex's judgment on the sizing question raised
-in `CURRICULUM.md` §7 (2026-08-27) — the daily run is not resuming calculus repair
-on its own authority just because the resume condition technically fired.
+**Taylor's theorem and the geometric series remain paused**, pending Alex's
+judgment on the sizing question raised in `CURRICULUM.md` §7 (2026-08-27) — not
+resumed on the daily run's own authority.
 
-**What changed today (2026-09-01, grading 08-31):** `08-31-work.md` came back with
-real, careful work on R1, R2, Core 1, and Core 2 — full grading in
-[`weeks/2026-08-31/08-31-feedback.md`](weeks/2026-08-31/08-31-feedback.md). Bug #1
-and atomic negation both confirmed a further clean cold retrieval, advancing 3d→7d
-(due 2026-09-07). **Both induction Core problems were clean** — the first complete,
-correct demonstration of bug #2 fixed, on two different shapes in one sitting. The
-plain-English quantifier repair was left entirely blank for the fourth time, but
-for the first time everything *around* it in the file was filled in — a specific,
-localized skip rather than the whole-session blanks of 08-27/08-28. Session 11 was
-built with a worked scaffold for that item rather than a fifth identical ask.
-Solutions posted to `weeks/2026-08-31/08-31-solution.md` per the standing one-day
-lag.
+**What changed today (2026-09-02, grading 09-01):** `09-01-work.md` came back as
+the strongest session in the repo's history — full grading in
+[`weeks/2026-08-31/09-01-feedback.md`](weeks/2026-08-31/09-01-feedback.md). R1
+(induction retention, second clean demonstration of bug #2), R2 (contrapositive-
+applied, **first-ever fully clean instance**, closing a gap open since 08-19), and
+the Repair item (plain-English quantifiers, **first-ever clean instance**, closing
+the single longest-open gap in the repo, one wrong plus four blanks deep) were all
+clean. Core 1 (counting, $2^n$ subsets — literal exit-gate item 2) was clean too.
+Only Core 2 (strong induction, first real attempt) came back blank, inside an
+otherwise fully-worked session — re-offered fresh today rather than dropped.
+Solutions posted to `weeks/2026-08-31/09-01-solution.md` per the standing one-day
+lag. Both newly-closed gaps entered `REVIEW-QUEUE.md` at the 3-day interval, due
+2026-09-04.
 
 ---
 
@@ -80,22 +78,25 @@ grading.*
 | Unfolding a definition and computing | Session 2 Core 1 — substitution mechanics correct in all 3 problems (a, b, c) | **competent** |
 | Completing a proof after setting it up | Session 5 (08-21) Part 2a — landed it, third attempt | **retired 2026-08-21 — see `REVIEW-QUEUE.md`, 3-day interval** |
 | Setup discipline (state the hypothesis, not the conclusion) | Session 3 (08-19): clean 4/4. Session 7 (08-26) R1: clean again, 7 days later | **closed 2026-08-26 — two clean cold retrievals at ≥7-day spacing. Retired to `REVIEW-QUEUE.md`'s 7-day interval** |
-| Existential witness domain ($\mathbb{Z}$ vs $\mathbb{N}$) | Session 3: clean in both places needed. Session 8/9 (08-27, 08-28): two consecutive blank offerings, paused | **still competent on the last real evidence (Session 3) — untested since. Paused-condition (a real-evidence session ahead of it in the queue) met by Session 10; slated to resume Session 12 (09-02)** |
+| Existential witness domain ($\mathbb{Z}$ vs $\mathbb{N}$) | Session 3: clean in both places needed. Session 8/9 (08-27, 08-28): two consecutive blank offerings, paused | **resuming Session 12 (09-02) R1, fresh instance — last real evidence (Session 3) still the most recent data point** |
 | Injective/surjective — construct an example, prove both halves | Session 3 Core 1(a) — correct mechanics, notation fix needed | **competent (mechanics)** |
 | Pigeonhole — deriving a specific finite instance | Session 4 Core 2(a), 2(b) — full, landed derivation | **competent — real repair, first clean derivation** |
 | Pigeonhole — general principle stated precisely, connected across sessions | Session 5 (08-21) Part 2d/3a/3b — correct condition, correct connection, full proof. Retirement check offered Session 9 (08-28), blank | **retired 2026-08-21 — see `REVIEW-QUEUE.md`, 3-day interval. One blank retirement-check exposure so far (08-28); eligible for one more re-offer, not yet in Session 11** |
 | Quantifier negation — atomic (single ∀/∃ over one plain predicate) | Session 4 — clean 3/3 (08-20). Session 6 retry R1 (08-25) — clean again. **Session 10 R2 (08-31) — clean a third time** | **competent, confirmed — advances 3d→7d in `REVIEW-QUEUE.md`, due 2026-09-07** |
 | Quantifier negation — compound predicates (implication, De Morgan) | Failed 08-20 and 08-21. Session 6 retry (08-25) §1(a)–(e) — **all five correct**, including the restriction+connective trap. Retention check due 08-28, not yet retested | **retired 2026-08-25 — third pass, clean, real repair. Moved to `REVIEW-QUEUE.md` at the 3-day interval; first retention check overdue since 08-28, waiting for an open slot** |
 | Contrapositive vs. contradiction, conceptual distinction | Session 3 R1 — correct, well-articulated | **competent (concept)** |
-| Contrapositive vs. contradiction, applied to own proof | Session 5 (08-21) Part 2b — half right. Session 9 (08-28) offered, session blank | **gap — two genuine attempts (08-19, 08-21), neither fully clean; one blank offering since. Re-offered fresh in Session 11 (09-01) — still without the one sentence ("why does the contrapositive settle the original claim") that's been missing every time** |
+| Contrapositive vs. contradiction, applied to own proof | Session 5 (08-21) Part 2b — half right. Session 9 (08-28) offered, session blank. **Session 11 (09-01) R2 — clean, first time, including the "logically equivalent, same truth value" sentence** | **retired 2026-09-01 — first fully clean instance after three prior non-clean attempts. Moved to `REVIEW-QUEUE.md` at the 3-day interval, due 2026-09-04** |
 | Negation as a proof obligation — writing $\lnot(a_n\to L)$ and describing the three proof moves | Session 6 retry (08-25) §2(a),(b) — both correct on first exposure | **competent — entered `REVIEW-QUEUE.md` at the 1-day interval; retention check due 08-26, not yet retested, folds into the next divergence-proof problem** |
 | Negation as a proof obligation — actually executing the divergence proof | Session 6 retry (08-25) §2(c) blank. Session 7 (08-26) R2 — wrong, stuck evaluating a sign instead of $|\cdot|$. Session 8/9 (08-27, 08-28) both offered a third instance, both sessions blank | **real gap, still just one genuine wrong attempt — waiting for an open repair slot; Sessions 10 and 11 both went to other repair items instead** |
 | Quantifier order — determine which of ∀∃/∃∀ holds, prove the true one | Session 6 retry (08-25) §3(a) true case, Session 7 (08-26) 1(a) fresh predicate — both correct | **competent, confirmed — advances to the 3-day interval in `REVIEW-QUEUE.md`** |
 | Quantifier order — disprove the false one via negation + counterexample | Session 6 retry (08-25) §3(a) false case — right strategy, arithmetic slip | **partial — logged with the arithmetic-slips line below** |
-| Quantifier statements — plain-English meaning, not symbol transliteration | Session 6 retry (08-25) §3(b) — wrong (transliteration). Session 7 (08-26) — blank. Session 9 (08-28) — blank. **Session 10 (08-31), first fully dedicated slot — blank a fourth time, but this time with everything else in the session completed** | **gap — one wrong, four blanks, zero clean attempts across five total exposures. The 08-31 blank is the most informative one yet: it's not a time-budget problem (the rest of that session was thorough), it's specifically this task. Session 11 (09-01) adds a worked scaffold example before the fresh instance — a change in approach, not another identical re-ask. If this comes back blank a second time under the new approach, escalate to a direct conversation rather than a written repair item** |
+| Quantifier statements — plain-English meaning, not symbol transliteration | Session 6 retry (08-25) §3(b) — wrong. Session 7 (08-26), Session 9 (08-28), Session 10 (08-31) — blank ×3. **Session 11 (09-01), with a worked scaffold example first — clean**, including a self-generated counterexample construction better than the scaffold modeled | **retired 2026-09-01 — first clean pass after 1 wrong + 4 blanks, the longest-open item in the repo. Moved to `REVIEW-QUEUE.md` at the 3-day interval, due 2026-09-04. The scaffold-first approach is worth reusing generally: a fully worked, structurally-analogous example ahead of a stuck item, not another cold re-ask** |
 | $\delta$–$\varepsilon$ role-swap in continuity, conceptual consequence | Session 6 retry (08-25) §3(c) — blank, no content | **no data — carries forward, low priority** |
-| Bug #2 — induction never uses the hypothesis | Calibration A2 — IH never written down or used. **Session 10 (08-31) Core 1 and Core 2 — both clean**, hypothesis substituted visibly in both, on two different problem shapes (running sum, divisibility) | **first clean demonstration — real, direct evidence bug #2 is fixed. Not yet fully retired (needs a second, spaced clean retrieval per this file's own bar); 1-day retention check in Session 11's R1, then advances toward the 3-day interval in `REVIEW-QUEUE.md` if that lands too** |
+| Bug #2 — induction never uses the hypothesis | Calibration A2 — IH never written down or used. **Session 10 (08-31) Core 1 and Core 2 — both clean. Session 11 (09-01) R1 — clean again, one day later** | **two clean demonstrations, 1-day spacing so far — real, direct evidence bug #2 is fixed. Continuing on the normal review-queue interval (advanced 1d→3d, due 2026-09-04); a clean hit there moves toward this file's own ≥7-day-spacing bar for calling the open-weakness line fully closed, not just off active repair** |
+| Induction — counting (case-split, not a sum recurrence) | New representation, Session 11 (09-01) Core 1 — **clean**, literal Phase 0 exit-gate item 2 | **competent — first-taught 1d retention check due 2026-09-02, not yet retested (hard cap)** |
+| Induction — strong induction (assume a range, not just $n$) | Taught Session 11 (09-01) §6 lesson addendum; Core 2 (product of primes) — **blank, first attempt**. Re-offered fresh Session 12 (09-02) Core 1 (binary representation) | **no attempt evidence yet — one blank exposure, within the two-blank tolerance. If Session 12's fresh attempt also comes back blank, drop per the standing rule and log as untested rather than broken** |
 | Induction: reading Σ notation | Calibration A2 — read closed form as the *n*-th term, not the sum. **Session 10 (08-31) Core 1 — correctly identified $S(n)$ as the running total, not the term, unprompted** | **repaired — same evidence as bug #2 above, same session** |
+| Supremum — two-part ($\ge$ upper bound, $\varepsilon$-least) definition | New, Session 12 (09-02) — lesson §9 + Core 2 ($\sup\{n/(n+1)\}=1$) + optional Stretch ($\sup(A+B)=\sup A+\sup B$, exit-gate item 5) | **no data yet — first taught 2026-09-02, entering the queue at the 1-day interval once graded** |
 | Rank | Calibration B1 — "number of non-empty values." Incorrect | **gap — significant, deferred to Phase 1** |
 | Linear independence | Calibration B1 — circular definition | **gap — deferred to Phase 1** |
 | Basis, null space, rank–nullity | Calibration B1/B2 — blank | **no data, presumed gap — deferred to Phase 1** |
@@ -110,29 +111,31 @@ grading.*
 | Applied ML | CSCI-UA 473 A, DS-UA 301 A | **strength** |
 
 **The headline:** all three named bugs from the calibration now have real, direct
-evidence of repair. #1 (landing a proof) and #3 (quantifier negation, including its
-compound-predicate descendant) are retired and confirming cleanly on schedule. #2
-(induction with no engine) just produced its first completely clean evidence — on
-two different problem shapes in one sitting — five weeks after the calibration
-flagged it. One narrower, specific gap remains open and is now getting a different
-kind of help: plain-English explanation of what a quantifier statement claims, five
-non-clean exposures in, with a worked scaffold added today rather than a sixth
-identical ask.
+evidence of repair, and #2 (induction) has its second clean demonstration as of
+09-01. Beyond the three named bugs, **the two longest-standing secondary gaps in
+the repo — contrapositive-applied and plain-English quantifier meaning — both
+closed clean in the same session (09-01)**, the latter after five non-clean
+exposures across three weeks. What's left open now is narrower and more specific
+than at any point since the calibration: strong induction (one blank, within
+tolerance), divergence-proof execution (one wrong attempt, waiting on its repair
+slot — finally scheduled for Session 12), and the paused calculus-repair block
+(Taylor, geometric series), plus Phase 1 content gaps that aren't due yet (rank,
+basis, null space).
 
 **The session-level pattern flagged on 08-28 (three of six offered sessions
-entirely blank, two consecutive) did not repeat.** Session 10 was the first
-Monday–Thursday session in over a week to produce full, careful work across every
-item it contained. Worth watching whether that holds through the rest of this week
-before calling the pattern resolved — one strong session breaks a streak, it
-doesn't yet establish a new one.
+entirely blank, two consecutive) has not repeated since.** Sessions 10 and 11 both
+produced full, careful work — the first two-session stretch of complete engagement
+since the 08-24/08-25 retry. Worth continuing to watch, but two consecutive strong
+sessions is a real signal, not just the absence of a bad one.
 
 ---
 
 ## Rolling horizon — next 10 sessions
 
-*Revised 2026-09-01 from Session 10's clean induction results. Sessions 11–13 now
-scheduled directly (counting induction, strong induction, then existential-witness
-resumption); 14–20 remain open pending how this week actually goes.*
+*Revised 2026-09-02 from Session 11's results. Session 12 scheduled directly
+(existential witnesses, divergence-proof repair, strong induction retry, and
+sup/inf opening); 13–14 remain open pending how 09-02 actually goes, though 13 will
+very likely be sup/inf's second exposure plus whatever Session 12 leaves blank.*
 
 | # | Date | Topic | Lesson § | Type |
 |---|---|---|---|---|
@@ -146,18 +149,22 @@ resumption); 14–20 remain open pending how this week actually goes.*
 | 8 | Thu 08-27 | ~~Calculus repair, continued~~ | new (calc) | ❌ **entirely blank** |
 | 9 | Fri 08-28 | ~~Review day~~ — backlog clearing | — | ❌ **entirely blank** |
 | 10 | Mon 08-31 | ~~Induction I~~ — sum formula + divisibility, hypothesis as engine | §6 | ✅ **done, clean on both Core problems** |
-| 11 | Tue 09-01 | **Induction II** — counting ($2^n$ subsets), strong induction (prime factorization) | §6 | **built, pending** |
-| 12 | Wed 09-02 | Existential-witness resumption + review; Core topic TBD from 09-01's result | §1 | not yet built |
-| 13 | Thu 09-03 | TBD from 09-02's result | — | not yet built |
-| 14 | Fri 09-04 | **Review day** — mixed retrieval, weekly review written | — | not yet built |
+| 11 | Tue 09-01 | ~~Induction II~~ — counting ($2^n$ subsets), strong induction (prime factorization) | §6 | ✅ **done — strongest session yet; Core 2 (strong induction) blank** |
+| 12 | Wed 09-02 | **Sup/inf opens (§9, new); strong induction retry (binary rep.); existential-witness resumption; divergence-proof repair** | §6, §9 | **built, pending** |
+| 13 | Thu 09-03 | TBD from 09-02's result — likely sup/inf's second exposure ($\sup(A+B)$ if the Stretch wasn't reached) | §9 | not yet built |
+| 14 | Fri 09-04 | **Review day** — mixed retrieval (three items due: bug #2 retention, contrapositive-applied, plain-English quantifiers), weekly review written | — | not yet built |
 
-Sessions 15+ get scheduled once this week's actual throughput is known. Calculus
-repair (Taylor, geometric series) has no assigned date — see the note in
-`CURRICULUM.md` §7 (2026-08-27), still awaiting Alex's judgment on approach.
+Sessions 15+ get scheduled once this week's actual throughput is known. Phase 0's
+exit gate is close — sup/inf was the last untaught major topic — but not imminent;
+expect it to be raised as a real possibility once sup/inf gets a second clean pass
+and the backlog of overdue retention checks (setup discipline, pigeonhole,
+compound-predicate negation, quantifier order) clears. Calculus repair (Taylor,
+geometric series) has no assigned date — see the note in `CURRICULUM.md` §7
+(2026-08-27), still awaiting Alex's judgment on approach.
 
-**Session 9/10 note:** the two-consecutive-blank-session pattern named on 08-28
-broke with Session 10 — real, complete work across every item. Too early to call it
-resolved; Sessions 11–13 will say more.
+**Session 9/10/11 note:** the two-consecutive-blank-session pattern named on 08-28
+has now had two full sessions of complete counter-evidence (10, 11). Not calling it
+resolved outright, but it's a real, sustained signal, not a one-off.
 
 ---
 
@@ -166,44 +173,47 @@ resolved; Sessions 11–13 will say more.
 *Review days bias toward this list. Remove only after two clean cold retrievals at
 ≥7-day spacing.*
 
-- [ ] **Quantifier statements — plain-English meaning, not symbol transliteration.**
-  Five exposures now (wrong 08-25, blank 08-26, blank 08-27/08-28, blank 08-31),
-  zero clean. The 08-31 blank happened inside an otherwise fully-worked session —
-  the clearest signal yet that this is specifically about this task, not about time
-  running out. **Session 11 (09-01) changes the approach**: a worked scaffold
-  example ahead of the fresh instance, rather than a sixth identical cold ask.
-- [ ] **Contrapositive vs. contradiction, applied.** Session 3 Core 2(a): narrated
-  as contradiction against a nonexistent given. Session 5 (08-21) Part 2b: half
-  right — named the technique, not why it settles the claim. Session 9 (08-28):
-  blank. Three genuine/attempted exposures, zero clean. **Fresh instance in Session
-  11 (09-01) R2**, explicitly asking for the missing sentence.
 - [x] **Bug #2 — induction without an engine.** ~~Verifying at *n+1* instead of
-  building from *n*. IH never written.~~ **First real test Session 10 (08-31):
-  clean on both Core problems** (sum formula, divisibility), hypothesis visibly
-  used in both. One clean demonstration — needs a second, spaced clean retrieval
-  before this line comes off the list entirely (per this file's own bar). 1-day
-  retention check in Session 11's R1.
-- [ ] **Taylor's theorem, geometric series, existential witnesses — paused.**
-  Taylor/geometric series: two consecutive blanks (08-26, 08-27), no date assigned,
-  pending Alex's judgment on the sizing question in `CURRICULUM.md` §7. Existential
-  witnesses: two consecutive blanks (08-27, 08-28) — **resume condition met by
-  Session 10's real evidence; slated for Session 12 (09-02)**, the cheapest of the
-  three to bring back since its last real evidence (Session 3) was clean.
-- [ ] Rank / linear independence / basis / null space — definitions absent,
-  deferred to Phase 1.
+  building from *n*. IH never written.~~ **Session 10 (08-31): clean on both Core
+  problems. Session 11 (09-01) R1: clean again, one day later** — two clean
+  demonstrations so far, 1-day spacing. Off active repair; watch for a clean hit at
+  the 3-day check (due 2026-09-04) to move toward the ≥7-day-spacing bar this list
+  itself sets for calling the line fully closed.
+- [ ] **Strong induction, specifically (as distinct from ordinary induction).**
+  Taught 09-01, zero attempt evidence (blank Core 2). One blank exposure, within
+  the two-blank tolerance — **re-offered fresh (binary representation) Session 12
+  (09-02) Core 1**. Drop and log as untested if this comes back blank too.
 - [ ] Divergence proof execution — evaluating a sign instead of $|\cdot|$. One
   genuine wrong attempt (08-26), two blank third-instance offerings since
-  (08-27, 08-28); still waiting for an open repair slot (Sessions 10 and 11 both
-  went to other items).
+  (08-27, 08-28), then two sessions (10, 11) where the repair slot went elsewhere.
+  **Finally gets its own slot: Session 12 (09-02) Repair**, fresh instance.
+- [ ] **Taylor's theorem, geometric series — paused.** Two consecutive blanks
+  (08-26, 08-27), no date assigned, pending Alex's judgment on the sizing question
+  in `CURRICULUM.md` §7. Existential witnesses came off this line 2026-09-02 —
+  resuming in Session 12, per the resume condition confirmed twice over (Sessions
+  10 and 11 both real-evidence sessions).
+- [ ] Rank / linear independence / basis / null space — definitions absent,
+  deferred to Phase 1.
 - [ ] Arithmetic slips when moving terms across an equals sign, FOIL under time
   pressure, or dropping a constant term mid-simplification. Three instances across
-  three weeks; no new instance in Session 10 — watch for a fourth.
+  three weeks; no new instance in Sessions 10 or 11 — watch for a fourth.
 - [ ] Gradient stated precisely (vector of partials, steepest ascent, ⊥ level curves).
 - [ ] Chain rule, integration by parts — blank on the calibration, never re-tested.
   Revisit before Phase 0's calculus repair is considered closed.
 
+**Closed 2026-09-01 (real repair, retired to `REVIEW-QUEUE.md`'s 3-day interval):**
+- **Contrapositive vs. contradiction, applied.** Session 3 Core 2(a) and Session 5
+  (08-21) Part 2b were narrated/half-right; Session 9 (08-28) blank. **Session 11
+  (09-01) R2 — first fully clean instance**, including the missing "logically
+  equivalent, same truth value" sentence.
+- **Quantifier statements — plain-English meaning, not symbol transliteration.**
+  Wrong 08-25, blank ×4 (08-26, 08-27, 08-28, 08-31) — the longest-open item in the
+  repo. **Session 11 (09-01), with a worked scaffold example first — clean**,
+  including a self-generated counterexample construction.
+
 **Closed 2026-08-26 (retired to `REVIEW-QUEUE.md`'s 7-day interval):**
 - **Setup discipline.** Two clean cold instances at 7-day spacing (08-19, 08-26).
+  Retention check due again 2026-09-02 (not yet retested — hard cap).
 
 **Closed 2026-08-25 (real repair, retired to `REVIEW-QUEUE.md`'s 3-day interval):**
 - **Quantifier negation, compound predicates.** Failed 08-20, 08-21; all five items
@@ -235,11 +245,12 @@ resolved; Sessions 11–13 will say more.
 | 2026-08-10 | 5 | 2 (Days 1, 2) | 40% |
 | 2026-08-17 | 5 (Mon–Fri) | 5 (Day 6, calibration, Sessions 2–5, all with real evidence) | 100% |
 | 2026-08-24 | 5 (Mon–Fri) | 2 (08-25 retry — full; 08-26 — partial); three entirely blank (08-24, 08-27, 08-28) | 40% — worst week yet |
-| 2026-08-31 | 1 so far (Mon) | 1 (08-31 — full, strong) | 100% so far |
+| 2026-08-31 | 2 so far (Mon, Tue) | 2 (08-31 — full, strong; 09-01 — full, strongest yet) | 100% so far |
 
-One data point doesn't move the throughput re-pricing question raised 08-27/08-21
-(3–4/week vs. the plan's assumed 5/week) — that needs the rest of this week. Worth
-another direct look at the 09-04 Friday review with three more days of data.
+Two data points, both full sessions — better than either prior post-restructure
+week at this same point. Still not enough to resolve the throughput re-pricing
+question raised 08-27/08-21 (3–4/week vs. the plan's assumed 5/week); that needs
+the rest of this week. Direct look scheduled for the 09-04 Friday review.
 
 ---
 
@@ -268,6 +279,28 @@ formal weekly review is 2026-09-04.)*
 
 ## Changelog
 
+- **2026-09-02 (grading + build)** — Session 11's work file (`09-01-work.md`) came
+  back as the strongest session in the repo's history: R1 (induction retention,
+  second clean bug #2 demonstration), R2 (contrapositive-applied, **first-ever
+  clean instance**, closing a gap open since 08-19), and the Repair item
+  (plain-English quantifiers, **first-ever clean instance**, closing the single
+  longest-open gap in the repo — one wrong plus four blanks across five prior
+  exposures) were all clean, plus Core 1 (counting, $2^n$ subsets — literal
+  exit-gate item 2). Only Core 2 (strong induction, first real attempt at the
+  mechanism) came back blank, inside an otherwise fully-worked session — re-offered
+  fresh (binary representation) rather than dropped. Full grading in
+  [`weeks/2026-08-31/09-01-feedback.md`](weeks/2026-08-31/09-01-feedback.md);
+  solutions in
+  [`weeks/2026-08-31/09-01-solution.md`](weeks/2026-08-31/09-01-solution.md). Both
+  newly-closed gaps entered `REVIEW-QUEUE.md` at the 3-day interval, due
+  2026-09-04. Session 12 (`weeks/2026-08-31/09-02.md`) built: existential witnesses
+  resuming (R1, per the resume condition confirmed twice over), divergence-proof
+  execution finally getting its own repair slot (waiting since 08-26, crowded out
+  by the quantifier item twice), strong induction's second attempt (fresh instance,
+  Core 1), and **sup/inf opening as new material** (`lessons/proof-foundations.md`
+  §9, new short section) — the last major untaught Phase 0 topic, with a first real
+  proof (Core 2) and an optional Stretch previewing exit-gate item 5 directly
+  ($\sup(A+B)=\sup A+\sup B$).
 - **2026-09-01 (grading + build)** — Session 10's work file (`08-31-work.md`) came
   back with real, careful work: R1 (Bug #1 retirement check, $\sqrt5$) clean, R2
   (atomic negation) clean, both advancing 3d→7d. **Core 1 and Core 2 both clean —
