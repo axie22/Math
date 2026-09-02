@@ -343,6 +343,39 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-02, later same day] Observation — the entirely-blank-session pattern
+has recurred a fourth time, immediately after the two strongest sessions in the
+repo, and it has now produced a second paused topic through the identical
+mechanism already flagged for Taylor/geometric series.**
+
+Session 12 (09-02) came back entirely blank — no timing, no attempts on anything,
+including the review block. This is the fourth such session (after 08-24, 08-27,
+08-28), and the first to land directly after two full, strong sessions (10, 11)
+rather than during a visibly rough stretch. The 09-01 amendment above noted that
+two strong sessions were "the first evidence against" the blank-session pattern
+being a real, sustained signal; today's result is the opposite kind of evidence —
+a blank session that isn't preceded by any warning sign in the data this run has
+access to.
+
+Concretely, this also means **strong induction now joins Taylor's theorem and the
+geometric series as an item paused by the two-blank rule for a reason that isn't
+about the material.** Its two blank exposures (09-01 Core 2, 09-02 Core 1) are on
+two different representations of the same freshly-taught mechanism, and — same as
+Taylor/geometric series — neither blank came from a session where anything else
+was attempted either. The two-blank rule is doing exactly what it's specified to
+do, but it still can't distinguish "this specific skill is hard" from "the hour
+didn't happen today," and now has two independent items paused on data that could
+equally mean either one.
+
+Not proposing a rule change. Flagging two things for the weekly review: (1) the
+09-01 entry's read that the pattern might be resolving was premature — worth
+noting plainly rather than quietly letting it drop; (2) the daily run has no
+visibility into *why* a session goes blank (competing demands, timing, or
+something else) and so has no way to tell whether pausing items on this evidence
+is the right call or is needlessly slowing Phase 0 down right as its exit gate
+becomes reachable on content. That judgment call is exactly what this section
+exists to route to Alex rather than deciding unilaterally.
+
 **[2026-09-02] Procedural note — an inconsistency in the run prompt itself, not the
 curriculum; flagging rather than guessing which reading is intended.**
 
@@ -358,9 +391,11 @@ explicit, emphasized "HARD CAP...obey this even when the review queue disagrees"
 framing is more likely the newer, intended rule than an artifact of imprecise
 wording — but this is a guess, not a confident resolution, and it's a real change
 in how many overdue items get touched per week (roughly half the rate, review-wise,
-of the last four sessions). Not acting further on it — flagging so the actual
-intended cap (one item, or two-to-three) gets settled explicitly rather than
-re-guessed differently by every future session.
+of the last four sessions). Session 13 (09-03) continues the same literal reading
+for consistency, still without resolving it — 09-02 produced no data either way
+(entirely blank), so there's nothing new to inform the choice. Not acting further
+on it — flagging so the actual intended cap (one item, or two-to-three) gets
+settled explicitly rather than re-guessed differently by every future session.
 
 **[2026-09-01] Observation — bug #2 (induction) closed clean on first real test;
 worth noting as a second confirmation of the 08-24 diagnosis, not a new proposal.**
@@ -485,21 +520,29 @@ across every item in the session. One data point doesn't resolve the question
 it's worth recording that the most recent session is not more evidence for this
 amendment, it's the first evidence against it since 08-25.
 
+**Update 2026-09-02:** the pattern recurred — see the new top entry in this
+section. Two strong sessions (10, 11) were immediately followed by a third
+entirely-blank one (12), and the recurrence has now paused a second item (strong
+induction) the same way it already paused Taylor/geometric series. The 09-01
+update's optimism was premature; not resolved either direction, still routed to
+the weekly review rather than acted on here.
+
 **[2026-08-27] Proposed — re-price weekly throughput from 5/week toward 3–4/week
 using two full weeks of post-restructure data, not one.**
 
 Flagged as open since the 08-21 review on one week of data (4/5 sessions
 completed). Week 2026-08-24 adds a second data point and it's worse, not better:
-2 of 4 sessions offered before Friday produced real evidence (08-25 full, 08-26
+2 of 4 sessions completed before Friday produced real evidence (08-25 full, 08-26
 partial), with two entirely blank (08-24, 08-27). Across both post-restructure
 weeks: 5/5 then roughly 2.5/4 — average nowhere near 5/week sustained. The
 §6 schedule table is still priced at 5 sessions/week; if the real sustained rate
 is 3–4, the ~34-week estimate to research depth understates the honest number by
 something like 30–40%, and it's better to say that plainly now than let it
 surface later as a surprise. Not acted on — re-pricing §6 is exactly the kind of
-deliberate, human-reviewed change this section exists to gate. Week 2026-08-31 has
-one data point so far (08-31, full) — not enough to move this either way; revisit
-at the 09-04 review with the whole week's data.
+deliberate, human-reviewed change this section exists to gate. Week 2026-08-31
+finished at 2 full sessions and 1 entirely blank (08-31, 09-01 full; 09-02 blank) —
+still not enough on its own to move this either way; revisit at the 09-04 review
+with the whole week's data.
 
 ---
 
