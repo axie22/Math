@@ -343,6 +343,50 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-03] Observation — the two-strong-then-two-blank shape has now repeated
+exactly, and this is the clearest signal yet that something outside the material
+itself is driving these sessions to blank.**
+
+Yesterday's amendment named a fourth entirely-blank session landing immediately
+after Sessions 10 and 11, the two strongest in the repo. Today (09-03) is a
+*fifth* — meaning Sessions 12 and 13 are **both** entirely blank, back-to-back,
+immediately after those same two strong sessions. This is not a new kind of
+event; it is the identical shape as the first back-to-back pair (08-27, 08-28)
+recurring on top of the best evidence the repo has ever produced. Two
+independent instances of "two strong sessions, then two blank ones" is a
+pattern, not a coincidence worth explaining away individually.
+
+Concretely, this pause has now claimed a fourth item: existential witnesses,
+resumed 09-02 per the 08-28 resume condition, went blank on both offerings since
+(09-02, 09-03) and is paused again by the same two-blank mechanism already
+holding strong induction, Taylor's theorem, and the geometric series. Divergence-
+proof execution — the single most-offered, least-attempted item in the repo — now
+sits at four blank exposures across five total offers since 08-25, one genuine
+wrong attempt over a month old and no second data point since. Sup/inf, still
+brand new, has two blank exposures on both of its computational entry points.
+
+**A structural change worth naming plainly, not just flagging:** this run has no
+way to observe *why* a session goes blank — whether Alex sees the day's file
+promptly, whether the hour is being protected on the calendar, whether something
+about the repo-based delivery mechanism itself is a barrier compared to, say, a
+more visible reminder. Two instances of the identical two-strong-then-two-blank
+shape is enough evidence to say this is probably not about session difficulty or
+recent momentum (both cut against a difficulty explanation) and is more likely
+about *whether the hour happens at all* — which is a scheduling/reminder/habit
+question, not a curriculum question. This section exists to route exactly that
+kind of judgment call to Alex rather than deciding it unilaterally; today's
+strong recommendation is that this is worth a direct look rather than another
+week of the daily run quietly re-flagging the same pattern.
+
+**Not acted on** — as always, holding, pausing per the two-blank rule, and
+building the next scheduled session (today, a Friday review) regardless. One
+concrete, reversible experiment *was* taken inside the run's own existing
+authority, not as a plan change: Session 14 moves the divergence-proof repair to
+the *front* of the session, testing the 08-27 hypothesis that its usual
+last-in-session position contributes to it never being reached. This is
+diagnostic, not a permanent reordering — it only tells us anything if a
+non-blank session actually happens to test it against.
+
 **[2026-09-02, later same day] Observation — the entirely-blank-session pattern
 has recurred a fourth time, immediately after the two strongest sessions in the
 repo, and it has now produced a second paused topic through the identical
@@ -540,9 +584,12 @@ is 3–4, the ~34-week estimate to research depth understates the honest number 
 something like 30–40%, and it's better to say that plainly now than let it
 surface later as a surprise. Not acted on — re-pricing §6 is exactly the kind of
 deliberate, human-reviewed change this section exists to gate. Week 2026-08-31
-finished at 2 full sessions and 1 entirely blank (08-31, 09-01 full; 09-02 blank) —
-still not enough on its own to move this either way; revisit at the 09-04 review
-with the whole week's data.
+finished (through Thursday) at 2 full sessions and 2 entirely blank (08-31, 09-01
+full; 09-02, 09-03 blank) — matching the worst week on record (08-24's 40%)
+regardless of what Friday adds. The weekly review in `STATE.md` (2026-09-04) now
+reads this as active evidence for re-pricing, not just an open question; still not
+acted on here, per this section's own rule that trajectory changes are Alex's
+call.
 
 ---
 
