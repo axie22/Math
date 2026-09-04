@@ -18,6 +18,22 @@ concept is not a retrieved one, and the difference is the entire mechanism.
 
 ---
 
+## Resolved 2026-09-04 (Session 14) — results
+
+*Entirely blank session — the sixth in the repo's history (after 08-24, 08-27,
+08-28, 09-02, 09-03), and the first time three have landed back-to-back (09-02,
+09-03, 09-04). This one immediately follows the two strongest sessions in the
+repo (08-31, 09-01). Nothing graded as wrong; everything held. No feedback file —
+nothing to grade.*
+
+| Item | Result |
+|---|---|
+| Divergence-proof execution (repair, moved to the front of the session) | 🔲 **blank** — second consecutive blank exposure (09-03, 09-04). **Per the two-blank rule, paused.** See "Paused / off active rotation" below. |
+| Bug #2 retention check ($\sum k^3$) | 🔲 **blank** — first retention check since retirement (09-01), first blank. Re-offered once, Session 15 (09-07) R1, fresh instance ($\sum k^2$). |
+| Contrapositive-applied retention check ($n^3+5$) | 🔲 **blank** — first retention check since retirement (09-01), first blank. Re-offered once, Session 16 (09-08). |
+| Plain-English quantifier retention check ($P(x,y):x^2=y$) | 🔲 **blank** — first retention check since retirement (09-01), first blank. Re-offered once, Session 17 (09-09), reusing the scaffold-first approach that worked before. |
+| Synthesis — uniqueness of the supremum | 🔲 **blank** — third blank exposure for sup/inf material, third distinct framing (compute a sup, compute an inf + second sup, prove uniqueness), three consecutive sessions. Not re-offered as a fourth cold problem; Session 15's Core changes the representation entirely (worked scaffold + parallel instance). |
+
 ## Resolved 2026-09-03 (Session 13) — results
 
 *Entirely blank session — the fifth in the repo's history (after 08-24, 08-27,
@@ -28,44 +44,35 @@ everything held. No feedback file — nothing to grade.*
 
 | Item | Result |
 |---|---|
-| Existential witness, second offering since the 08-28 pause | 🔲 **blank** — second consecutive blank in the resumed cycle (09-02, 09-03). **Per the two-blank rule, paused again** — not offered Session 14, logged as untested in `STATE.md`. |
-| Divergence-proof execution (repair) | 🔲 **blank** — fourth blank exposure since the one wrong attempt (08-26). No new data either way; re-offered again, Session 14 Repair, moved to the front of the session this time. |
-| Sup/inf — infimum (Core 1) and second supremum instance (Core 2) | 🔲 **blank** — second blank exposure for this material (first was 09-02 Core 2). Zero real attempts across two exposures. Not re-offered as a third identical Core problem; Session 14's synthesis approaches sup from a different angle (uniqueness) instead. |
+| Existential witness, second offering since the 08-28 pause | 🔲 **blank** — second consecutive blank in the resumed cycle. **Per the two-blank rule, paused again** — logged as untested in `STATE.md`. |
+| Divergence-proof execution (repair) | 🔲 **blank** — fourth blank exposure since the one wrong attempt (08-26). |
+| Sup/inf — infimum (Core 1) and second supremum instance (Core 2) | 🔲 **blank** — second blank exposure for this material. |
 
-## Resolved 2026-09-02 (Session 12) — results
+## Due 2026-09-07 (Session 15 — Monday, first session of a new week)
 
-*Entirely blank session — third in the repo's history (after 08-24, 08-27,
-08-28), and the first since two full, strong sessions (10, 11). Nothing graded as
-wrong; everything held. No feedback file — nothing to grade.*
-
-| Item | Result |
-|---|---|
-| Existential witness, resuming after the 08-28 pause | 🔲 **blank** — first offering since the pause, whole session blank. One blank in this new cycle; re-offered once more, Session 13 (09-03) R1, before it would pause again. |
-| Divergence-proof execution (repair) | 🔲 **blank** — first dedicated repair slot since 08-26, still no attempt. No new data either way; re-offered again, Session 13 (09-03) Repair. |
-| Strong induction — binary representation (Core 1) | 🔲 **blank** — second blank exposure on the mechanism (first was 09-01, product of primes). **Per the two-blank rule, paused** — logged as untested in `STATE.md`, not offered in Session 13. |
-| Sup/inf — $\varepsilon$-characterization (Core 2, first exposure) | 🔲 **blank** — first exposure of new material, whole session blank. One blank exposure is within tolerance for material taught the same day; re-offered as Session 13's actual first real attempt (infimum, new, plus a second supremum instance). |
-
-## Due 2026-09-04 (Session 14 — Friday review)
-
-*Friday: no new material, so this is a mixed retrieval set, not a single "due
-today" list — see `weeks/2026-08-31/09-04.md` for the full session.*
+*Not a Friday, so back to the normal weekday cap: at most one review item, at most
+one repair item. No repair item is offered — divergence-proof execution just
+paused (see below). That freed slot is not repurposed for a second review item;
+the one-review-item cap is kept as stated in `RUN-PROMPT.md`, and the other two
+due retention checks are spread across the next two weekday sessions instead of
+crowded into one.*
 
 | Item | Due since | Status today |
 |---|---|---|
-| Induction hypothesis as engine (bug #2) | 2026-09-04, 3d interval | **Session 14 R1**, fresh instance ($\sum k^3$). First retention check since the two clean closures (08-31, 09-01). |
-| Contrapositive vs. contradiction, applied | 2026-09-04, 3d interval (first retired) | **Session 14 R2**, fresh predicate ($n^3+5$ even $\Rightarrow n$ odd). First retention check since the first-ever clean instance (09-01). |
-| Quantifier statements — plain-English meaning | 2026-09-04, 3d interval (first retired) | **Session 14 R3**, fresh predicate ($x^2=y$). First retention check since the first-ever clean instance (09-01), the longest-open gap in the repo before that. |
-| Divergence-proof execution (repair) | — | **Session 14 Repair**, fresh instance ($f_n=-2+3(-1)^n$), moved to the front of the session (testing `CURRICULUM.md` §7's position hypothesis). |
-| Sup/inf — uniqueness (different angle from computing a value) | first taught 09-02, zero attempt evidence on either angle | **Session 14 Synthesis** — combines contradiction (§4) with the $\varepsilon$-part of sup's definition (§9). |
+| Bug #2 — induction hypothesis as engine, retention check | 2026-09-04 (first check blank) | **Session 15 R1**, fresh instance ($\sum k^2$), re-offered once per the standing blank rule. |
+| Sup/inf | first taught 09-02, zero attempt evidence across three framings on three consecutive sessions | **Session 15 Core**, changing representation: worked scaffold (a fully solved sup proof, both parts of the definition shown) followed by a structurally parallel instance for Alex to complete, plus a second problem connecting the $\varepsilon$-part of sup's definition to quantifier/Archimedean reasoning already retired. |
+| Contrapositive-applied, retention check | 2026-09-04 (first check blank) | Carries forward to **Session 16 (09-08)** — one review item per weekday, R1's slot is bug #2 today. |
+| Plain-English quantifier meaning, retention check | 2026-09-04 (first check blank) | Carries forward to **Session 17 (09-09)** — same reasoning; reuses the scaffold-first approach that broke this gap open on 09-01. |
 | Setup discipline (retention check) | 2026-09-02 | Not selected — carries forward. |
 | Pigeonhole — general principle (retirement check) | 08-24 | Carries forward — oldest open item in the queue, one blank exposure so far (08-28). |
 | Quantifier negation — compound predicates (retention check) | 08-28 | Carries forward — not yet retested at its first 3-day check. |
 | Quantifier order — construct and prove true/false | 08-29 | Carries forward — not yet retested. |
 | Induction — counting ($2^n$ subsets), 1d retention check | 2026-09-02 | Carries forward — not yet retested. |
 
-**Existential witnesses removed from the "Due" rotation** as of 09-03's second
-blank exposure in the resumed cycle — see "Paused / off active rotation" below.
-**Strong induction** remains off rotation from 09-02, unchanged.
+**Divergence-proof execution removed from the "Due" rotation** as of 09-04's second
+consecutive blank exposure (09-03, 09-04) — see "Paused / off active rotation"
+below. Existential witnesses, strong induction, and Taylor/geometric series remain
+off rotation, unchanged.
 
 ---
 
@@ -80,20 +87,19 @@ blank exposure in the resumed cycle — see "Paused / off active rotation" below
 | Quantifier negation — compound predicates | §5 | 2026-08-25 | 3d | 2026-08-28 (overdue, not yet retested) | 1 (retired) |
 | Bug #1 — landing | §4 | 2026-08-31 | 7d | **2026-09-07** | 2 (retired) |
 | Pigeonhole — general principle | §8 | 2026-08-21 | 3d | 2026-08-24 (overdue; one blank offering 08-28, eligible for re-offer) | 1 (retired) |
-| Negation as a proof obligation — definition + structure | §5 | 2026-08-25 | 1d | **Session 14 Repair slot (09-04)**, folded into the divergence-proof problem again | 1 (first taught) |
+| Negation as a proof obligation — definition + structure | §5 | 2026-08-25 | 1d | folded into the divergence-proof problem repeatedly, still not retested (item paused 09-04) | 1 (first taught) |
 | Quantifier order — construct and prove true/false | §5 | 2026-08-26 | 3d | 2026-08-29 (overdue, not yet retested) | 2 |
-| **Induction hypothesis as the engine** | §6 | 2026-09-01 | 3d | **2026-09-04** | 2 (retired) |
+| **Induction hypothesis as the engine** | §6 | 2026-09-01 | 3d (first retired) | first retention check (09-04) blank — **re-offered Session 15 (09-07)** | 1 (retired) |
 | Σ: running total vs. *n*-th term | §6 | 2026-08-31 | — | folded into induction's evidence — no separate check needed | — |
-| **Contrapositive vs. contradiction, applied** | §4 | 2026-09-01 | 3d (first retired) | **2026-09-04** | 1 (retired) |
-| **Quantifier statements — plain-English meaning** | §5 | 2026-09-01 | 3d (first retired) | **2026-09-04** | 1 (retired) |
+| **Contrapositive vs. contradiction, applied** | §4 | 2026-09-01 | 3d (first retired) | first retention check (09-04) blank — **re-offered Session 16 (09-08)** | 1 (retired) |
+| **Quantifier statements — plain-English meaning** | §5 | 2026-09-01 | 3d (first retired) | first retention check (09-04) blank — **re-offered Session 17 (09-09)** | 1 (retired) |
 | Induction — counting ($2^n$ subsets) | §6 | 2026-09-01 | 1d (first taught) | 2026-09-02 (due, not selected — hard cap; carries forward) | 1 |
-| Sup/inf — $\varepsilon$-characterization | §9 | taught 09-02; Core attempts offered 09-02, 09-03, both blank | — | **Session 14 Synthesis (09-04)** — uniqueness of sup via contradiction, a different angle from computing a value | — |
+| Sup/inf — two-part definition | §9 | taught 09-02; attempts offered 09-02, 09-03, 09-04, all blank, three different framings | — | **Session 15 (09-07)** — representation changed (worked scaffold + parallel instance), per the three-consecutive-session rule | — |
 
-**Existential witnesses — paused again as of 09-03.** Both offerings since the
-08-28 resume (09-02, 09-03) landed inside entirely blank sessions — two
-consecutive blanks per the standing rule, so it's off active rotation again,
-same status as strong induction and Taylor/geometric series. Resumes only once
-a real-evidence session opens a slot ahead of it.
+**Existential witnesses — paused, unchanged since 09-03.** Both offerings since
+the 08-28 resume (09-02, 09-03) landed inside entirely blank sessions — off
+active rotation, resumes only once a real-evidence session opens a slot ahead of
+it.
 
 **Quantifier order — construct and prove true/select false, advanced 1d → 3d
 (2026-08-26).** Second clean cold instance. Due 2026-08-29, not yet retested —
@@ -103,10 +109,9 @@ carries forward.
 
 ## Paused / off active rotation
 
-*Items with two blank exposures where neither blank came from a session with any
-other real engagement — logged as untested per the standing two-blank rule, not
-as demonstrated gaps. Resume once a real-evidence session opens a slot ahead of
-them.*
+*Items with two consecutive blank exposures — logged as untested per the standing
+two-blank rule, not as demonstrated gaps, except where noted. Resume once a
+real-evidence session opens a slot ahead of them.*
 
 - **Strong induction (mechanism).** First taught 09-01. Blank on both
   representations offered so far: Core 2 (09-01, product of primes) and Core 1
@@ -118,10 +123,18 @@ them.*
 - **Taylor's theorem, geometric series.** Paused since 08-27 (two consecutive
   blank Core exposures, 08-26/08-27). No date assigned, pending Alex's judgment —
   see `CURRICULUM.md` §7.
+- **Divergence-proof execution — newly paused 2026-09-04.** One genuine wrong
+  attempt (08-26), then six blank exposures since (08-27, 08-28, 09-02, 09-03,
+  09-04), the last two of which (09-03, 09-04) are the consecutive pair that
+  triggers the standing rule. Note: this item had already exceeded two blank
+  exposures well before today without being paused — earlier sessions kept
+  re-offering it as "the least-tested item" rather than applying the rule at its
+  first qualifying point. That inconsistency is flagged in `CURRICULUM.md` §7
+  rather than silently resolved; the rule is being applied from here forward.
 
-Four items now share this status — up from two on 08-28, three on 09-02. The
-mechanism doing the pausing is working exactly as specified; what it's being
-fed is the open question (see `CURRICULUM.md` §7).
+Five items now share this status — up from four on 09-03, three on 09-02, two on
+08-28. The mechanism doing the pausing is working exactly as specified; what it's
+being fed is the open question (see `CURRICULUM.md` §7).
 
 ---
 
@@ -130,21 +143,21 @@ fed is the open question (see `CURRICULUM.md` §7).
 *These re-surface until two clean cold retrievals at ≥7-day spacing.*
 
 - **Divergence proof execution — evaluating a sign instead of using $|\cdot|$.**
-  08-25: blank. 08-26 (fresh instance): wrong, stopped at the identical step.
-  08-27, 08-28, 09-02, 09-03: four more blank offerings, none from a session with
-  any other real engagement either — still exactly one genuine attempt on record,
-  now over a month old. **Re-offered again, Session 14 Repair**, fresh instance
-  ($f_n=-2+3(-1)^n$), moved to the front of the session for the first time —
-  testing whether its usual position (last, after review) is part of why it never
-  gets reached.
+  **Moved to "Paused / off active rotation" above as of 2026-09-04** — see that
+  section for the full history. Still exactly one genuine attempt on record
+  (08-26, wrong), now over a month old.
 - **Definition of rank** (B1) — deferred to Phase 1, not drilled now.
 - **Definition of linear independence** (B1) — deferred to Phase 1.
 
 **Resolved 2026-09-01, removed from this list:**
 - **Contrapositive narrated as contradiction, applied to own writing.** First fully
-  clean instance — see "Scheduled" above for the retirement.
+  clean instance — see "Scheduled" above for the retirement. First retention check
+  (09-04) came back blank — this is a re-offer situation, not a re-failure; see the
+  "Due 2026-09-07" table above.
 - **Quantifier statements — plain-English meaning, not symbol transliteration.**
   First fully clean instance after 1 wrong + 4 blanks — see "Scheduled" above.
+  First retention check (09-04) came back blank — re-offer, not re-failure; see
+  above.
 - **Σ notation: sum of first *n* terms, not the *n*-th term** (A2). Resolved
   2026-08-31 — Session 10 Core 1 correctly distinguished $S(n)$ from the $n$-th
   term unprompted.
