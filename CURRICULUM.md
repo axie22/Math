@@ -343,6 +343,80 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-04] Observation — the pattern has escalated from two consecutive blank
+sessions to three, and this run believes that escalation itself is the most
+important thing in this file for Alex to read this week.**
+
+Session 14 (09-04, a Friday review day) came back entirely blank — no timing, no
+attempts anywhere, including the two-word "where I got stuck" prompt that asks
+for as little as a single word. That makes **09-02, 09-03, and 09-04 three
+consecutive entirely-blank sessions**, immediately after 08-31 and 09-01, the two
+strongest sessions the repo has ever produced. The prior amendments (09-02, 09-03)
+named the two-in-a-row version of this shape as "the clearest signal yet" and
+then "the strongest version of the pattern yet." Today's three-in-a-row result is
+a different order of evidence, not a continuation of the same one: two blank
+sessions after a strong pair is a notable coincidence; three in a row is most of
+a working week producing nothing, and it happened right after the best evidence
+of engagement this repo has on record. Whatever hypothesis best explains two
+blanks (bad luck, a rough patch) is under real strain trying to explain three.
+
+**One concrete, controlled test was run today and it came back uninformative in
+the way that matters most.** `CURRICULUM.md`'s own 08-27 amendment proposed that
+divergence-proof execution's near-total lack of attempts might be about its
+position in the session (last, after review) rather than the material itself.
+Session 14 tested this directly by moving it to the *front* — and it still
+produced zero engagement, because *nothing* in the session was reached, not
+because that specific item was skipped again for time. This is useful negative
+information: today's blank cannot be explained by "the session ran out of time
+before reaching the hard part," because nothing after the first line was
+attempted either. Whatever is preventing engagement is upstream of session
+structure — it is about whether the hour happens, not how it's organized once it
+does.
+
+**A procedural inconsistency worth naming plainly rather than silently fixing:**
+divergence-proof execution has now accumulated one wrong attempt (08-26) and six
+blank exposures (08-27, 08-28, 09-02, 09-03, and now 09-04) — far more than the
+two consecutive blanks that triggered pauses for strong induction (09-02) and
+existential witnesses (08-28, then again 09-03). Earlier sessions kept
+re-offering it rather than pausing it at its own two-consecutive-blank point
+(which arguably first occurred around 08-27/08-28), on the reasoning that it was
+"the least-tested item" worth prioritizing once a slot opened. This run is
+applying the two-blank rule to it now (pausing after 09-03/09-04's consecutive
+blanks) for consistency going forward, but is flagging — not silently correcting
+— that the rule was not applied uniformly across its full history. Whether that
+earlier judgment call was right is exactly the kind of thing this section exists
+to route to Alex rather than a daily run deciding unilaterally after the fact.
+
+**Sup/inf now has three blank exposures across three genuinely different
+framings** — computing a supremum (09-02), computing an infimum and a second
+supremum (09-03), and proving uniqueness by contradiction (09-04) — on three
+consecutive sessions. Per this file's own rule that no topic should run a fourth
+consecutive session unchanged, Session 15 changes the representation (a fully
+worked scaffold, the move that broke the plain-English-quantifier gap open on
+09-01) rather than issuing a fourth cold problem. But the honest caveat, stated
+plainly: this run still cannot distinguish "sup/inf is a harder topic than
+anything taught so far" from "nothing has been attempted this week" — three data
+points that all come from sessions with zero engagement everywhere else don't
+actually triangulate on the material. If Session 15's scaffolded approach also
+comes back blank, that ambiguity will still not be resolved, because a blank
+session says nothing about the specific problem inside it.
+
+**Still not acted on** — the daily run keeps holding, pauses per the two-blank
+rule, and builds the next scheduled session regardless, exactly as it has for
+every prior instance of this pattern. It does not skip sessions, shorten the
+plan, or change pacing on its own authority. But given that this is now three
+consecutive sessions — most of a week — producing nothing, and given that this
+run has zero visibility into *why* (timing, competing demands, whether the file
+is even being seen, something about the delivery mechanism itself), this
+amendment recommends, more directly than the 08-28 and 09-02 versions of the same
+concern, that Alex look at this before next week's sessions are built: is the
+daily file reaching him at a time and in a way that he can actually act on it,
+and if the honest answer this week is "no, and I don't expect that to change
+soon," it may be more useful to pause the automated cadence for a stretch than to
+keep generating sessions that go universally unopened. That is a judgment call
+for Alex, not this run, but the run believes it is now overdue to be made rather
+than flagged a fourth time.
+
 **[2026-09-03] Observation — the two-strong-then-two-blank shape has now repeated
 exactly, and this is the clearest signal yet that something outside the material
 itself is driving these sessions to blank.**
@@ -571,6 +645,11 @@ induction) the same way it already paused Taylor/geometric series. The 09-01
 update's optimism was premature; not resolved either direction, still routed to
 the weekly review rather than acted on here.
 
+**Update 2026-09-04:** the pattern has now escalated to three consecutive
+entirely-blank sessions (09-02, 09-03, 09-04) — see the new top entry in this
+section, dated today, which treats this as a distinct and more severe event
+rather than folding it quietly into this one.
+
 **[2026-08-27] Proposed — re-price weekly throughput from 5/week toward 3–4/week
 using two full weeks of post-restructure data, not one.**
 
@@ -584,12 +663,11 @@ is 3–4, the ~34-week estimate to research depth understates the honest number 
 something like 30–40%, and it's better to say that plainly now than let it
 surface later as a surprise. Not acted on — re-pricing §6 is exactly the kind of
 deliberate, human-reviewed change this section exists to gate. Week 2026-08-31
-finished (through Thursday) at 2 full sessions and 2 entirely blank (08-31, 09-01
-full; 09-02, 09-03 blank) — matching the worst week on record (08-24's 40%)
-regardless of what Friday adds. The weekly review in `STATE.md` (2026-09-04) now
-reads this as active evidence for re-pricing, not just an open question; still not
-acted on here, per this section's own rule that trajectory changes are Alex's
-call.
+finished at 2 full sessions and 3 entirely blank (08-31, 09-01 full; 09-02, 09-03,
+09-04 blank) — tying the worst week on record (08-24's 40%) exactly, not just
+approaching it. The weekly review in `STATE.md` (2026-09-04) now reads this as
+confirmed evidence for re-pricing, not just an open question; still not acted on
+here, per this section's own rule that trajectory changes are Alex's call.
 
 ---
 
