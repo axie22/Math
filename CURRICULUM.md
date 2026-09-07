@@ -343,6 +343,74 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-07] Observation — the pattern has now crossed a full weekend into a new
+week unchanged, and this run believes that fact, more than any count of blank
+sessions, is what needs Alex's direct attention this week.**
+
+Session 15 (09-07, the first weekday of a new week) came back entirely blank —
+same as 09-02, 09-03, and 09-04 immediately before it. That makes **09-02, 09-03,
+09-04, and 09-07 four consecutive entirely-blank sessions**, and the fact that
+matters is not the count going from three to four — it's that two full days off
+(Saturday and Sunday), plus the reset of a brand-new week, sat in between 09-04
+and 09-07 and changed nothing. Every prior version of this amendment (08-28,
+09-02, 09-03, 09-04) could still be read, charitably, as describing a rough
+stretch *within* a working week — the kind of thing a weekend break plausibly
+interrupts. That reading is no longer available. If the cause were weekday
+fatigue, a busy stretch, or something that resets with rest, Monday should have
+looked different from the Thursday and Friday before it. It didn't.
+
+**This changes what this run believes the responsible next step is.** The 09-04
+amendment recommended, more directly than the 08-28 and 09-02 versions before it,
+that Alex "look at this before next week's sessions are built." Session 15 was
+built exactly as recommended, and the result is the same as every session before
+it. This run does not read that as proof the recommendation was ignored — Alex may
+not have seen it, may have seen it and made a call this run has no visibility
+into, or may be dealing with something entirely outside what a curriculum
+document can account for. But it does mean that simply naming the pattern again
+in the same register is unlikely to do anything different than it has the last
+four times. So this amendment is more direct than its predecessors on purpose:
+**this run recommends Alex explicitly decide, this week, whether the automated
+daily cadence should keep running as-is, pause for a stretch, or change in some
+way this run cannot see from inside a repo of blank files** — not because the
+run has a preferred answer, but because four consecutive blanks crossing a
+weekend is no longer a pattern that more sessions built the same way are likely
+to resolve on their own.
+
+**What this run is and isn't doing about it.** Not acted on unilaterally, as
+always — this run does not skip sessions, shorten the plan, or change the cadence
+on its own authority, and it built Session 16 on schedule exactly as it has
+every prior time this pattern recurred. What it *did* change, inside its own
+existing authority over how a session is built (not whether one is built): sup/inf
+has now been offered four different ways on four consecutive sessions with zero
+engagement on any of them, one exposure past this file's own three-consecutive-
+session ceiling for changing an approach that isn't landing. Rather than inventing
+a fifth pedagogical variant — which four attempts of exactly that move have shown
+produces no signal, because the bottleneck has never once been which problem was
+asked — Session 16 carries Session 15's still-unopened Core problems (2b, 2c)
+forward unchanged. This is a deliberate, logged departure from the standing
+"always write a fresh instance" rule (`RUN-PROMPT.md`), justified by the fact that
+a problem nobody has seen isn't an instance that's been drilled, so carrying it
+forward doesn't train the instance instead of the skill — there's been no
+instance-level exposure to distinguish. If engagement resumes, fresh instances
+resume with it.
+
+**One more concrete thing worth naming plainly:** across the four-session run
+(09-02, 09-03, 09-04, 09-07), not one item in any session has had so much as a
+single word entered anywhere — not just the hard problems, but the two-word
+"where I got stuck" prompt that exists specifically to capture a one-line signal
+even when nothing else gets attempted. That detail is worth Alex seeing directly,
+because it argues against several otherwise-reasonable explanations: it isn't
+"the review block felt too easy to bother with," and it isn't "got partway through
+Core and ran out of time" — both would still leave *some* mark. Four sessions with
+literally nothing written anywhere is a different kind of signal than four
+sessions with partial, abandoned work would be, and this run wants that
+distinction on the record rather than folded into "another blank session."
+
+**Still true, still open, still not acted on here:** the throughput re-pricing
+question (5/week → 3–4/week, confirmed by two 40% weeks running), calculus
+repair's sizing question (08-27), and the review-cap wording question (09-02) —
+all carried forward unchanged, all still Alex's call.
+
 **[2026-09-04] Observation — the pattern has escalated from two consecutive blank
 sessions to three, and this run believes that escalation itself is the most
 important thing in this file for Alex to read this week.**
@@ -649,6 +717,11 @@ the weekly review rather than acted on here.
 entirely-blank sessions (09-02, 09-03, 09-04) — see the new top entry in this
 section, dated today, which treats this as a distinct and more severe event
 rather than folding it quietly into this one.
+
+**Update 2026-09-07:** the pattern has escalated again — four consecutive
+entirely-blank sessions (09-02, 09-03, 09-04, 09-07), the first time it has run
+straight through a weekend into a new week. See the new top entry in this
+section, which is the most direct version of this observation yet.
 
 **[2026-08-27] Proposed — re-price weekly throughput from 5/week toward 3–4/week
 using two full weeks of post-restructure data, not one.**
