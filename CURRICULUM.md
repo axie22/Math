@@ -1,1 +1,822 @@
-PLACEHOLDER
+# Curriculum — Master Plan
+
+> **This file defines the trajectory. The daily run does not.**
+>
+> The daily scheduled run is a *consumer* of this plan. It may propose amendments
+> (append to §7), but it must not silently redefine the sequence. Trajectory
+> changes happen at the weekly and monthly reviews, deliberately.
+
+---
+
+## 1. Destination
+
+Two targets, chosen deliberately because they reinforce each other:
+
+1. **ML at research depth.** Able to read a theory-flavored ML paper (an optimization
+   convergence result, a generalization bound, a diffusion-model derivation) and
+   follow *and verify* the math rather than pattern-matching the prose.
+2. **Mathematical maturity.** Able to read and write proofs. Able to look at an
+   unfamiliar definition and construct examples and counterexamples unprompted.
+
+These are the same skill viewed from two sides. Research-depth ML is gated on proof
+fluency far more than on topic coverage — most of what separates "I use Adam" from
+"I can read the Adam convergence proof" is comfort with quantifiers, inequalities,
+and linear-algebraic argument, not knowledge of more subjects.
+
+**Explicitly de-scoped:** aerospace/GNC applications. The original repo header aimed at
+"ML/AI and rockets/aerospace" simultaneously. Orbital mechanics and control theory are
+genuinely interesting but the shared core with ML research is thinner than it looks
+(ODEs and linear systems, mostly), and chasing both dilutes an hour a day into
+neither. Rocket problems may reappear as *flavor* on optimization days. They no longer
+drive sequencing.
+
+---
+
+## 2. Starting position
+
+From the NYU transcript (BA, Computer and Data Science, completed Spring 2026):
+
+| Course | Grade | Term | Read |
+|---|---|---|---|
+| Calculus I (MATH-UA 121) | A- | Fall 2022 | Solid, but four years cold |
+| Discrete Mathematics (MATH-UA 120) | **C+** | Spring 2023 | **The signal.** Lowest grade on the transcript, and it is the proof-writing course |
+| Calculus II (MATH-UA 122) | B+ | Fall 2023 | Mechanics present, not fluent |
+| Linear Algebra (MATH-UA 140) | B+ | Spring 2024 | Computational pass. Not proof-based |
+| Probability & Statistics (MATH-UA 235) | A- | Fall 2024 | Genuinely good; strongest math result |
+| Fundamentals of Machine Learning (CSCI-UA 473) | A | Spring 2025 | Applied strength |
+| Intro to Deep Learning & LLM-based GenAI (DS-UA 301) | A | Fall 2025 | Applied strength |
+| Causal Inference (DS-UA 201) | A | Spring 2025 | Statistical reasoning is a strength |
+
+**Never taken:** multivariable calculus, differential equations, real analysis,
+numerical analysis, measure-theoretic probability, optimization.
+
+### What this profile actually says
+
+The applied/CS grades (A, A, A, A-) are consistently a full letter above the
+formal-math grades (B+, B+, C+). That gap is not an accident of scheduling — it is a
+description of the bottleneck. Alex can *use* mathematical machinery and reasons well
+about statistical evidence, but the courses that demanded he *justify* things went
+worst.
+
+So: **the binding constraint is not topic coverage. It is proof fluency and a shaky
+linear-algebra foundation.** A curriculum that races through new topics is optimizing
+the wrong variable.
+
+**Refined after week 1 (2026-08-24).** The calibration read this as a deep deficit; a
+week of actual work says it was narrower than that. Alex cleared unfolding,
+contrapositive vs. contradiction, contradiction proofs, injective/surjective and a
+general pigeonhole proof inside four sessions, and produced genuine synthesis on the
+last one. What was missing was proof *technique* — a small set of mechanical moves he
+had never been taught — not reasoning ability. Teach the moves and he picks them up
+fast. **Phase 0 shortened accordingly.** Phase 1 is unchanged: the Section B result
+(rank defined as "the number of non-empty values") was about missing content, not
+missing technique, and content takes the time it takes.
+
+---
+
+## 3. Operating constraints
+
+- **~60 minutes/day, 5 days/week.** Roughly 250 sessions/year, ~21/month.
+- Budget honestly: a semester-length university course is ~40 contact hours plus
+  ~80 hours of problem sets. At 1 hr/day, **one real course is roughly 8–12 weeks**,
+  not 4 days. The plan below is priced at that rate.
+- The plan assumes days are missed. Phases are gated on **mastery, not dates**. Every
+  date in §6 is an estimate, not a commitment, and slipping is expected and fine.
+
+---
+
+## 4. Prerequisite structure
+
+```mermaid
+flowchart TD
+    P0["Phase 0<br/>Proof foundations<br/>+ calculus repair"] --> P1["Phase 1<br/>Linear algebra, rigorously"]
+    P0 --> P2["Phase 2<br/>Multivariable & matrix calculus"]
+    P1 --> P2
+    P1 --> P3["Phase 3<br/>Probability, rigorously"]
+    P2 --> P4["Phase 4<br/>Convex optimization"]
+    P1 --> P4
+    P3 --> P5["Phase 5<br/>Statistical learning theory"]
+    P4 --> P5
+    P5 --> P6["Phase 6<br/>Elective depth"]
+```
+
+Phase 1 is the hub. Everything downstream leans on it, which is why it gets the most
+time and the strictest gate.
+
+---
+
+## 5. The phases
+
+### Phase 0 — Proof foundations & calculus repair (3 weeks, ~15 sessions)
+
+*The most important phase in this document, and the one most tempting to skip.*
+
+**Progress:** sessions 1–5 done. Retired: unfolding definitions, direct proof,
+contrapositive, contradiction, counterexamples, injective/surjective, pigeonhole.
+Remaining: compound-predicate negation (in progress), ε-N arguments, quantifier order,
+induction, sup/inf, Taylor with remainder.
+
+- Logic and quantifiers: negation, order of quantifiers, vacuous truth. Why
+  "for all ε > 0 there exists δ" is a game with a specific structure.
+- Proof techniques: direct, contrapositive, contradiction, induction (weak and strong),
+  proof by cases, constructing counterexamples.
+- Sets, functions, relations: injection/surjection/bijection, images and preimages,
+  equivalence relations.
+- Supremum/infimum and the completeness of ℝ. First real encounter with ε-arguments.
+- **Calculus repair, interleaved:** chain rule to genuine fluency (it is backprop),
+  Taylor series with remainder, integration by parts (it is how expectations of
+  transformed variables get computed), geometric and exponential series.
+
+**Exit gate:** cold, closed-book, in one 60-minute session —
+1. Prove √2 is irrational, and prove that between any two reals lies a rational.
+2. Prove by induction that a set of size *n* has 2ⁿ subsets.
+3. Negate, correctly and in words, a three-quantifier statement **with an implication
+   at the bottom**, and say which rule you used at each step.
+4. Give a function that is injective but not surjective, and one that is neither,
+   with justification.
+5. State the definition of sup and prove sup(A + B) = sup A + sup B for bounded sets.
+
+Pass = 4 of 5 essentially correct, with proofs that would survive a grader.
+
+---
+
+### Phase 1 — Linear algebra, rigorously (8 weeks, ~40 sessions)
+
+*Not "Linear Algebra II." The whole subject, redone as mathematics rather than as
+matrix arithmetic.*
+
+- Vector spaces from the axioms; subspaces, span, linear independence, basis,
+  dimension — with the exchange-lemma proof that dimension is well-defined.
+- **Linear maps as the primary object**, matrices as a representation in a chosen
+  basis. Change of basis. This reframing is the single biggest conceptual upgrade
+  available and is where the B+ course almost certainly stopped short.
+- Rank–nullity, proved, not quoted.
+- Inner product spaces, orthogonality, Gram–Schmidt, orthogonal projection,
+  least squares as projection, QR.
+- Eigenvalues/eigenvectors developed properly: invariant subspaces, characteristic
+  and minimal polynomials, algebraic vs. geometric multiplicity, diagonalizability
+  criteria, defective matrices.
+- **The spectral theorem, with proof.**
+- Quadratic forms, positive (semi)definiteness, the Rayleigh quotient and the
+  variational characterization of eigenvalues.
+- **SVD, derived from the spectral theorem**, Eckart–Young, pseudoinverse, and the
+  four fundamental subspaces.
+- Matrix norms, condition number, and why numerical linear algebra cares.
+
+**Spine:** Axler, *Linear Algebra Done Right* (4th ed.) for the structure and proofs;
+Strang, *Introduction to Linear Algebra* for computational grounding and applications.
+Use both — Axler is deliberately determinant-light, and ML needs the determinant and
+the matrix picture too.
+
+**Why 8 weeks, unchanged even though Phase 0 shrank:** Phase 0 shortened because the
+gap there was *technique*, which teaches fast. Phase 1's gap is *content* — Section B
+scored ~5% and the definitions of rank, basis, and null space were absent or wrong.
+Content does not compress the same way. Start from the axioms. Do not shorten this.
+
+**Exit gate:** cold, closed-book, across two sessions —
+1. Prove rank–nullity.
+2. Prove the spectral theorem for real symmetric matrices.
+3. Derive the SVD from the spectral theorem, including why the *uᵢ* come out orthonormal.
+4. Given a small least-squares problem, solve it *as a projection* and explain the
+   normal equations geometrically.
+5. Produce a defective matrix and prove it is not diagonalizable.
+6. Prove that a symmetric matrix is positive definite iff all eigenvalues are positive.
+
+Pass = 5 of 6.
+
+---
+
+### Phase 2 — Multivariable & matrix calculus (5 weeks, ~25 sessions)
+
+- The **total derivative as a linear map** — the definition that makes the chain rule
+  obvious and makes backprop a one-line consequence rather than a mnemonic.
+- Jacobians; the chain rule as composition of linear maps; **reverse-mode
+  differentiation derived from it**.
+- Gradients, directional derivatives, Hessians, Taylor's theorem in n dimensions
+  with explicit remainder.
+- Critical points, second-derivative test *stated in terms of Hessian eigenvalues*
+  (the 2×2 determinant trick retired as a special case).
+- Implicit and inverse function theorems (statement + use, proof optional).
+- Lagrange multipliers, properly — including what λ *means* (shadow price), setting up
+  the handoff to KKT in Phase 4.
+- **Matrix calculus for ML:** ∂/∂X of tr(AX), XᵀAX, log det X, ‖Ax − b‖²; layout
+  conventions; differentiating through a softmax and a cross-entropy loss.
+
+**Note:** Days 1–4 of the original log covered partials → directional derivatives →
+Hessian → Lagrange in four sessions. Treat that as a *preview*, not as completion —
+and note that Days 3–5 were never actually attempted. Phase 2 revisits all of it at
+the correct depth and with the linear-map framing that was missing.
+
+**Exit gate:**
+1. State the definition of differentiability at a point for f: ℝⁿ → ℝᵐ and use it to
+   prove the chain rule.
+2. Derive reverse-mode autodiff for a 3-layer MLP by hand.
+3. Compute ∂/∂X log det X and ∂/∂X tr(XᵀAX) from first principles.
+4. Solve a constrained optimization problem and interpret the multiplier numerically.
+
+---
+
+### Phase 3 — Probability, rigorously (6 weeks, ~30 sessions)
+
+*Faster than its length suggests — the A- means intuition is already there. The work
+is adding rigor and the linear-algebraic layer.*
+
+- Probability spaces, σ-algebras, measurability (light touch — enough to know what a
+  random variable *is*, not a full measure theory course).
+- Expectation as an integral; LOTUS; existence and non-existence of moments.
+- Joint/marginal/conditional distributions; independence vs. uncorrelatedness.
+- **Covariance matrices as PSD matrices** — the Phase 1 payoff. Whitening, PCA
+  re-derived as an eigenproblem on a covariance operator.
+- The **multivariate Gaussian in full**: density derivation, conditioning and
+  marginalization formulas, affine transformations, why it is the maximum-entropy
+  distribution for fixed covariance.
+- MGFs and Chernoff bounds.
+- **Concentration:** Markov → Chebyshev → Hoeffding → Bernstein, each proved.
+  This is the technical core of Phase 5 and the reason this phase precedes it.
+- LLN and CLT: statements, proof sketch via characteristic functions.
+- Conditional expectation as a projection (ties directly back to Phase 1).
+
+**Exit gate:**
+1. Prove Markov, then Chebyshev from Markov, then Hoeffding from the Chernoff method.
+2. Derive the conditional distribution of a partitioned multivariate Gaussian.
+3. Prove that a covariance matrix is always PSD.
+4. Show E[X | Y] is the L² projection onto σ(Y)-measurable functions.
+
+---
+
+### Phase 4 — Convex optimization (6 weeks, ~30 sessions)
+
+- Convex sets and functions; operations preserving convexity; the first- and
+  second-order characterizations.
+- Strong convexity, L-smoothness, and how the pair controls every convergence rate
+  you will ever read.
+- Optimality conditions; **duality**, weak and strong; Slater's condition; **KKT**
+  (Lagrange multipliers, finally complete).
+- Gradient descent: convergence proofs for convex, strongly convex, and smooth cases.
+  Why the step size 1/L, and its relation to the Hessian's largest eigenvalue.
+- Momentum/Nesterov, and the accelerated rate.
+- SGD: variance, decreasing step sizes, and what the convergence guarantee actually
+  promises about a neural network (spoiler: not much — understanding *why* is the point).
+- Proximal methods, subgradients, and the ℓ1/LASSO story.
+
+**Spine:** Boyd & Vandenberghe, *Convex Optimization* (free PDF); supplemented by
+Nesterov's introductory lectures for the rate proofs.
+
+**Exit gate:**
+1. Prove that gradient descent on an L-smooth, μ-strongly convex function converges
+   linearly, and state the rate.
+2. Derive the dual of a linearly constrained QP and verify strong duality.
+3. Write the KKT conditions for SVM and interpret the support vectors.
+4. Prove that the composition rules you used to certify a function convex are valid.
+
+---
+
+### Phase 5 — Statistical learning theory (6 weeks, ~30 sessions)
+
+*Where "research depth" is actually earned.*
+
+- Bias–variance decomposition, derived, and its honest limits in the modern regime.
+- Empirical risk minimization; uniform convergence; why it is the right question.
+- Union bound → finite hypothesis classes → VC dimension → Sauer's lemma → the
+  fundamental theorem of PAC learning.
+- Rademacher complexity and margin-based bounds.
+- Stability and generalization; algorithmic-stability bounds for SGD.
+- Why classical bounds fail to explain deep networks: double descent, interpolation,
+  benign overfitting. Read a modern paper and verify its central inequality by hand.
+
+**Exit gate:** read an assigned recent theory paper cold and (a) reproduce its main
+proof, (b) state precisely which assumption is doing the work, (c) construct a
+counterexample if that assumption is dropped.
+
+---
+
+### Phase 6 — Elective depth (open-ended)
+
+Chosen at the Phase 5 review based on what is actually biting. Candidates:
+
+- **Real analysis proper** (metric spaces, uniform convergence, measure theory) — if
+  proofs still feel effortful.
+- **Numerical linear algebra** (Trefethen & Bau) — if implementation is the interest.
+- **Information theory** (Cover & Thomas) — the natural companion to Phase 3.
+- **Differential geometry / optimization on manifolds** — if the interest turns
+  geometric.
+- **ODEs + linear systems + control** — the aerospace branch, if that pull returns.
+
+---
+
+## 6. Schedule shape
+
+| Phase | Length | Sessions | Est. completion |
+|---|---|---|---|
+| 0 — Proof foundations | 3 wk | ~15 | early Sep 2026 |
+| 1 — Linear algebra | 8 wk | ~40 | early Nov 2026 |
+| 2 — Multivariable & matrix calculus | 5 wk | ~25 | mid Dec 2026 |
+| 3 — Probability | 6 wk | ~30 | early Feb 2027 |
+| 4 — Convex optimization | 6 wk | ~30 | late Mar 2027 |
+| 5 — Statistical learning theory | 6 wk | ~30 | mid May 2027 |
+| **Total to research-depth** | **~34 wk** | **~170** | **~May 2027** |
+
+Nine months. That is the honest price of the stated destination at one hour a day.
+
+> **Open question:** this table is priced at 5 sessions/week. Week 1 ran 4 of 5, which
+> is fine. If the sustained rate settles nearer 3, re-price at ~55 weeks rather than
+> letting it slip silently.
+
+### Weekly shape
+
+| Day | Session |
+|---|---|
+| Mon–Thu | New material: review block → problems → short consolidation note |
+| Fri | **Review day. No new material.** Mixed retrieval across all prior phases + one synthesis problem |
+| Weekend | Off. Optional: read ahead, no obligation |
+
+One day in five spent purely on retrieval is not a 20% tax; it is the mechanism by
+which the other 80% survives past a month.
+
+---
+
+## 7. Proposed amendments
+
+*The daily run appends here when it believes the plan should change — a topic is
+harder than budgeted, a prerequisite is missing, an exit gate is mis-specified. It
+does not act on these unilaterally. Reviewed weekly.*
+
+<!-- Format: - [YYYY-MM-DD] proposal — rationale -->
+
+**[2026-09-08] Observation — both sessions offered in the new week are blank too.
+The weekend didn't break the pattern, and neither did the week boundary. This run
+is no longer confident that flagging it again, in this format, is the right
+mechanism, and says so plainly below.**
+
+The 09-07 amendment named the pattern crossing a full weekend into a new week as
+"qualitatively different" from what came before, and recommended, more directly
+than any prior version, that Alex decide this week whether the automated cadence
+should keep running as-is. Session 16 (09-08, the second weekday of that new
+week) was built exactly as recommended and came back entirely blank — identical
+to Session 15 (09-07) the day before it. **09-02, 09-03, 09-04, 09-07, and 09-08
+are now five consecutive entirely-blank sessions**, spanning two full calendar
+weeks, crossing one weekend and one week-boundary, with literally no variation in
+outcome across either crossing.
+
+**This run wants to be precise about what this data point does and doesn't add.**
+It does not sharpen the diagnosis — "is the material too hard" was already ruled
+out as the explanation back on 09-04 (three strong sessions' worth of contrary
+evidence, plus every blank session showing zero engagement on the easy items
+too), and today's result doesn't change that. What it adds is duration: this is
+no longer a bad week, or a bad stretch bridging two weeks — it is the *current
+steady state* of the last ten calendar days. Two of the last seven sessions
+(08-31, 09-01) have real evidence; the other five do not. A curriculum document
+exists to describe a trajectory Alex is actually on, and the honest trajectory
+right now is not "advancing through Phase 0 with some friction" — it is "paused,
+via non-engagement, for two weeks," whether or not anyone has said that in those
+words yet.
+
+**A concrete concern about this amendment mechanism itself, worth naming rather
+than repeating the same recommendation a fourth time in the same shape:** four
+consecutive versions of this note (08-28, 09-02, 09-03, 09-04) escalated in tone
+and specificity, the 09-07 version escalated again and asked directly for a
+decision this week, and the observable result of that ask was one more identical
+blank session. This run has no way to know whether that means the ask went
+unseen, was seen and deliberately deferred, or was seen and answered in a way
+this repo can't observe (a decision to pause that just hasn't been logged, for
+instance). But it does mean this run should stop treating "write a more urgent
+paragraph in §7" as a mechanism that is working, since the last four iterations
+of exactly that mechanism have produced the same outcome each time. **This run is
+not able to act outside its given authority — it cannot pause itself, message
+Alex directly, or change the cadence — so the only thing it can respectably do
+differently this time is say plainly that it does not expect the fifth version of
+this paragraph to land any differently than the first four, and that whatever
+resolves this will have to come from outside the loop this run is running in.**
+
+**What this run is and isn't doing about it, unchanged in kind from every prior
+instance:** not acted on unilaterally — Session 17 is built on schedule, exactly
+as it has been every time this pattern has recurred. Inside this run's own
+existing authority over session construction: contrapositive-applied's retention
+check, now at two consecutive blanks (09-04, 09-08), is paused per the standing
+rule, the sixth item to reach that status. Sup/inf's Core (2b, 2c) carries
+forward unchanged a second time, for the same reason it did after Session 15 —
+these two problems have now gone unopened across three consecutive sessions, and
+nothing about that changes by inventing a sixth variant nobody has asked to see a
+fifth of.
+
+**Still true, still open, still not acted on here:** the throughput re-pricing
+question (5/week → 3–4/week), calculus repair's sizing question (08-27), and the
+review-cap wording question (09-02) — all carried forward unchanged, all still
+Alex's call. This run continues to believe, more strongly than at any prior
+checkpoint, that the single highest-leverage thing that could happen to this
+repo right now is not a curriculum change at all, but Alex looking at this file
+directly and making an explicit call — continue as-is, pause for a stretch, or
+change the delivery mechanism — rather than the daily run inferring an answer
+from another blank file tomorrow.
+
+**[2026-09-07] Observation — the pattern has now crossed a full weekend into a new
+week unchanged, and this run believes that fact, more than any count of blank
+sessions, is what needs Alex's direct attention this week.**
+
+Session 15 (09-07, the first weekday of a new week) came back entirely blank —
+same as 09-02, 09-03, and 09-04 immediately before it. That makes **09-02, 09-03,
+09-04, and 09-07 four consecutive entirely-blank sessions**, and the fact that
+matters is not the count going from three to four — it's that two full days off
+(Saturday and Sunday), plus the reset of a brand-new week, sat in between 09-04
+and 09-07 and changed nothing. Every prior version of this amendment (08-28,
+09-02, 09-03, 09-04) could still be read, charitably, as describing a rough
+stretch *within* a working week — the kind of thing a weekend break plausibly
+interrupts. That reading is no longer available. If the cause were weekday
+fatigue, a busy stretch, or something that resets with rest, Monday should have
+looked different from the Thursday and Friday before it. It didn't.
+
+**This changes what this run believes the responsible next step is.** The 09-04
+amendment recommended, more directly than the 08-28 and 09-02 versions before it,
+that Alex "look at this before next week's sessions are built." Session 15 was
+built exactly as recommended, and the result is the same as every session before
+it. This run does not read that as proof the recommendation was ignored — Alex may
+not have seen it, may have seen it and made a call this run has no visibility
+into, or may be dealing with something entirely outside what a curriculum
+document can account for. But it does mean that simply naming the pattern again
+in the same register is unlikely to do anything different than it has the last
+four times. So this amendment is more direct than its predecessors on purpose:
+**this run recommends Alex explicitly decide, this week, whether the automated
+daily cadence should keep running as-is, pause for a stretch, or change in some
+way this run cannot see from inside a repo of blank files** — not because the
+run has a preferred answer, but because four consecutive blanks crossing a
+weekend is no longer a pattern that more sessions built the same way are likely
+to resolve on their own.
+
+**What this run is and isn't doing about it.** Not acted on unilaterally, as
+always — this run does not skip sessions, shorten the plan, or change the cadence
+on its own authority, and it built Session 16 on schedule exactly as it has
+every prior time this pattern recurred. What it *did* change, inside its own
+existing authority over how a session is built (not whether one is built): sup/inf
+has now been offered four different ways on four consecutive sessions with zero
+engagement on any of them, one exposure past this file's own three-consecutive-
+session ceiling for changing an approach that isn't landing. Rather than inventing
+a fifth pedagogical variant — which four attempts of exactly that move have shown
+produces no signal, because the bottleneck has never once been which problem was
+asked — Session 16 carries Session 15's still-unopened Core problems (2b, 2c)
+forward unchanged. This is a deliberate, logged departure from the standing
+"always write a fresh instance" rule (`RUN-PROMPT.md`), justified by the fact that
+a problem nobody has seen isn't an instance that's been drilled, so carrying it
+forward doesn't train the instance instead of the skill — there's been no
+instance-level exposure to distinguish. If engagement resumes, fresh instances
+resume with it.
+
+**One more concrete thing worth naming plainly:** across the four-session run
+(09-02, 09-03, 09-04, 09-07), not one item in any session has had so much as a
+single word entered anywhere — not just the hard problems, but the two-word
+"where I got stuck" prompt that exists specifically to capture a one-line signal
+even when nothing else gets attempted. That detail is worth Alex seeing directly,
+because it argues against several otherwise-reasonable explanations: it isn't
+"the review block felt too easy to bother with," and it isn't "got partway through
+Core and ran out of time" — both would still leave *some* mark. Four sessions with
+literally nothing written anywhere is a different kind of signal than four
+sessions with partial, abandoned work would be, and this run wants that
+distinction on the record rather than folded into "another blank session."
+
+**Still true, still open, still not acted on here:** the throughput re-pricing
+question (5/week → 3–4/week, confirmed by two 40% weeks running), calculus
+repair's sizing question (08-27), and the review-cap wording question (09-02) —
+all carried forward unchanged, all still Alex's call.
+
+**[2026-09-04] Observation — the pattern has escalated from two consecutive blank
+sessions to three, and this run believes that escalation itself is the most
+important thing in this file for Alex to read this week.**
+
+Session 14 (09-04, a Friday review day) came back entirely blank — no timing, no
+attempts anywhere, including the two-word "where I got stuck" prompt that asks
+for as little as a single word. That makes **09-02, 09-03, and 09-04 three
+consecutive entirely-blank sessions**, immediately after 08-31 and 09-01, the two
+strongest sessions the repo has ever produced. The prior amendments (09-02, 09-03)
+named the two-in-a-row version of this shape as "the clearest signal yet" and
+then "the strongest version of the pattern yet." Today's three-in-a-row result is
+a different order of evidence, not a continuation of the same one: two blank
+sessions after a strong pair is a notable coincidence; three in a row is most of
+a working week producing nothing, and it happened right after the best evidence
+of engagement this repo has on record. Whatever hypothesis best explains two
+blanks (bad luck, a rough patch) is under real strain trying to explain three.
+
+**One concrete, controlled test was run today and it came back uninformative in
+the way that matters most.** `CURRICULUM.md`'s own 08-27 amendment proposed that
+divergence-proof execution's near-total lack of attempts might be about its
+position in the session (last, after review) rather than the material itself.
+Session 14 tested this directly by moving it to the *front* — and it still
+produced zero engagement, because *nothing* in the session was reached, not
+because that specific item was skipped again for time. This is useful negative
+information: today's blank cannot be explained by "the session ran out of time
+before reaching the hard part," because nothing after the first line was
+attempted either. Whatever is preventing engagement is upstream of session
+structure — it is about whether the hour happens, not how it's organized once it
+does.
+
+**A procedural inconsistency worth naming plainly rather than silently fixing:**
+divergence-proof execution has now accumulated one wrong attempt (08-26) and six
+blank exposures (08-27, 08-28, 09-02, 09-03, and now 09-04) — far more than the
+two consecutive blanks that triggered pauses for strong induction (09-02) and
+existential witnesses (08-28, then again 09-03). Earlier sessions kept
+re-offering it rather than pausing it at its own two-consecutive-blank point
+(which arguably first occurred around 08-27/08-28), on the reasoning that it was
+"the least-tested item" worth prioritizing once a slot opened. This run is
+applying the two-blank rule to it now (pausing after 09-03/09-04's consecutive
+blanks) for consistency going forward, but is flagging — not silently correcting
+— that the rule was not applied uniformly across its full history. Whether that
+earlier judgment call was right is exactly the kind of thing this section exists
+to route to Alex rather than a daily run deciding unilaterally after the fact.
+
+**Sup/inf now has three blank exposures across three genuinely different
+framings** — computing a supremum (09-02), computing an infimum and a second
+supremum (09-03), and proving uniqueness by contradiction (09-04) — on three
+consecutive sessions. Per this file's own rule that no topic should run a fourth
+consecutive session unchanged, Session 15 changes the representation (a fully
+worked scaffold, the move that broke the plain-English-quantifier gap open on
+09-01) rather than issuing a fourth cold problem. But the honest caveat, stated
+plainly: this run still cannot distinguish "sup/inf is a harder topic than
+anything taught so far" from "nothing has been attempted this week" — three data
+points that all come from sessions with zero engagement everywhere else don't
+actually triangulate on the material. If Session 15's scaffolded approach also
+comes back blank, that ambiguity will still not be resolved, because a blank
+session says nothing about the specific problem inside it.
+
+**Still not acted on** — the daily run keeps holding, pauses per the two-blank
+rule, and builds the next scheduled session regardless, exactly as it has for
+every prior instance of this pattern. It does not skip sessions, shorten the
+plan, or change pacing on its own authority. But given that this is now three
+consecutive sessions — most of a week — producing nothing, and given that this
+run has zero visibility into *why* (timing, competing demands, whether the file
+is even being seen, something about the delivery mechanism itself), this
+amendment recommends, more directly than the 08-28 and 09-02 versions of the same
+concern, that Alex look at this before next week's sessions are built: is the
+daily file reaching him at a time and in a way that he can actually act on it,
+and if the honest answer this week is "no, and I don't expect that to change
+soon," it may be more useful to pause the automated cadence for a stretch than to
+keep generating sessions that go universally unopened. That is a judgment call
+for Alex, not this run, but the run believes it is now overdue to be made rather
+than flagged a fourth time.
+
+**[2026-09-03] Observation — the two-strong-then-two-blank shape has now repeated
+exactly, and this is the clearest signal yet that something outside the material
+itself is driving these sessions to blank.**
+
+Yesterday's amendment named a fourth entirely-blank session landing immediately
+after Sessions 10 and 11, the two strongest in the repo. Today (09-03) is a
+*fifth* — meaning Sessions 12 and 13 are **both** entirely blank, back-to-back,
+immediately after those same two strong sessions. This is not a new kind of
+event; it is the identical shape as the first back-to-back pair (08-27, 08-28)
+recurring on top of the best evidence the repo has ever produced. Two
+independent instances of "two strong sessions, then two blank ones" is a
+pattern, not a coincidence worth explaining away individually.
+
+Concretely, this pause has now claimed a fourth item: existential witnesses,
+resumed 09-02 per the 08-28 resume condition, went blank on both offerings since
+(09-02, 09-03) and is paused again by the same two-blank mechanism already
+holding strong induction, Taylor's theorem, and the geometric series. Divergence-
+proof execution — the single most-offered, least-attempted item in the repo — now
+sits at four blank exposures across five total offers since 08-25, one genuine
+wrong attempt over a month old and no second data point since. Sup/inf, still
+brand new, has two blank exposures on both of its computational entry points.
+
+**A structural change worth naming plainly, not just flagging:** this run has no
+way to observe *why* a session goes blank — whether Alex sees the day's file
+promptly, whether the hour is being protected on the calendar, whether something
+about the repo-based delivery mechanism itself is a barrier compared to, say, a
+more visible reminder. Two instances of the identical two-strong-then-two-blank
+shape is enough evidence to say this is probably not about session difficulty or
+recent momentum (both cut against a difficulty explanation) and is more likely
+about *whether the hour happens at all* — which is a scheduling/reminder/habit
+question, not a curriculum question. This section exists to route exactly that
+kind of judgment call to Alex rather than deciding it unilaterally; today's
+strong recommendation is that this is worth a direct look rather than another
+week of the daily run quietly re-flagging the same pattern.
+
+**Not acted on** — as always, holding, pausing per the two-blank rule, and
+building the next scheduled session (today, a Friday review) regardless. One
+concrete, reversible experiment *was* taken inside the run's own existing
+authority, not as a plan change: Session 14 moves the divergence-proof repair to
+the *front* of the session, testing the 08-27 hypothesis that its usual
+last-in-session position contributes to it never being reached. This is
+diagnostic, not a permanent reordering — it only tells us anything if a
+non-blank session actually happens to test it against.
+
+**[2026-09-02, later same day] Observation — the entirely-blank-session pattern
+has recurred a fourth time, immediately after the two strongest sessions in the
+repo, and it has now produced a second paused topic through the identical
+mechanism already flagged for Taylor/geometric series.**
+
+Session 12 (09-02) came back entirely blank — no timing, no attempts on anything,
+including the review block. This is the fourth such session (after 08-24, 08-27,
+08-28), and the first to land directly after two full, strong sessions (10, 11)
+rather than during a visibly rough stretch. The 09-01 amendment above noted that
+two strong sessions were "the first evidence against" the blank-session pattern
+being a real, sustained signal; today's result is the opposite kind of evidence —
+a blank session that isn't preceded by any warning sign in the data this run has
+access to.
+
+Concretely, this also means **strong induction now joins Taylor's theorem and the
+geometric series as an item paused by the two-blank rule for a reason that isn't
+about the material.** Its two blank exposures (09-01 Core 2, 09-02 Core 1) are on
+two different representations of the same freshly-taught mechanism, and — same as
+Taylor/geometric series — neither blank came from a session where anything else
+was attempted either. The two-blank rule is doing exactly what it's specified to
+do, but it still can't distinguish "this specific skill is hard" from "the hour
+didn't happen today," and now has two independent items paused on data that could
+equally mean either one.
+
+Not proposing a rule change. Flagging two things for the weekly review: (1) the
+09-01 entry's read that the pattern might be resolving was premature — worth
+noting plainly rather than quietly letting it drop; (2) the daily run has no
+visibility into *why* a session goes blank (competing demands, timing, or
+something else) and so has no way to tell whether pausing items on this evidence
+is the right call or is needlessly slowing Phase 0 down right as its exit gate
+becomes reachable on content. That judgment call is exactly what this section
+exists to route to Alex rather than deciding unilaterally.
+
+**[2026-09-02] Procedural note — an inconsistency in the run prompt itself, not the
+curriculum; flagging rather than guessing which reading is intended.**
+
+`RUN-PROMPT.md`'s "HARD CAP ON REPAIR" section reads: "a normal session is **at
+most one review item and at most one repair item**." But Step 4's session-shape
+spec says the review block is "**2-3 items** pulled from `REVIEW-QUEUE.md`," and
+every session since the 08-24 rule change (08-25 through 09-01) has actually run
+**two** review items (R1 and R2), not one — that's the lived pattern the hard-cap
+language seems to have been written to *describe*, at least for review, even though
+its literal text caps review at one too. Session 12 (09-02) is the first session
+built under a literal reading of "at most one review item," on the theory that the
+explicit, emphasized "HARD CAP...obey this even when the review queue disagrees"
+framing is more likely the newer, intended rule than an artifact of imprecise
+wording — but this is a guess, not a confident resolution, and it's a real change
+in how many overdue items get touched per week (roughly half the rate, review-wise,
+of the last four sessions). Session 13 (09-03) continues the same literal reading
+for consistency, still without resolving it — 09-02 produced no data either way
+(entirely blank), so there's nothing new to inform the choice. Not acting further
+on it — flagging so the actual intended cap (one item, or two-to-three) gets
+settled explicitly rather than re-guessed differently by every future session.
+
+**[2026-09-01] Observation — bug #2 (induction) closed clean on first real test;
+worth noting as a second confirmation of the 08-24 diagnosis, not a new proposal.**
+
+Session 10 (08-31) was the first real test of induction — the third named
+calibration bug, open since 2026-08-17 and deliberately not taught until the other
+two had real repair evidence. It landed clean on **both** Core problems (a sum
+formula and a divisibility claim) in one sitting, hypothesis visibly used in both,
+with no re-teaching needed beyond the single lesson section written for it. That's
+the same pattern the 08-24 amendment used to justify shortening Phase 0 from 5
+weeks to 3: technique gaps close fast once taught directly, in contrast to Phase 1's
+content gaps (rank, basis, null space), which won't. Not proposing any further
+change to §6's schedule — just recording that the diagnosis is holding up on its
+third and final named bug, which is reassuring evidence for the ~15-session Phase 0
+estimate specifically (separate from the broader throughput re-pricing question
+below, which is about *how many sessions per week actually happen*, not whether the
+material teaches fast once a session happens).
+
+**[2026-09-01] Observation — the paused-item resume condition (set 2026-08-28) has
+technically fired; flagging rather than acting unilaterally.**
+
+`STATE.md` paused Taylor's theorem, the geometric series, and existential witnesses
+on 08-28, with an explicit resume condition: "the first Monday–Thursday session that
+produces real evidence for whatever's ahead of them in the queue." Session 10
+(08-31) produced exactly that — real, complete evidence on induction, the item that
+was "ahead" of all three in the rolling horizon. Existential witnesses (the
+lowest-risk of the three — its last real evidence was clean, not a demonstrated gap)
+is being brought back in Session 12 on this basis. Taylor and the geometric series
+are **not** being resumed on the same basis, because the 08-27 amendment above them
+raised a separate, still-open question — whether their placement or the calculus
+repair approach itself needs to change before a fifth/third re-offer, not just
+whether the resume condition fired. Flagging the distinction explicitly so it
+doesn't read as an oversight: existential witnesses resuming and calculus repair
+staying paused are two different decisions with two different bases, not an
+inconsistent application of one rule.
+
+**Diagnosis worth recording: the ~25-session figure was partly an artifact of the run
+rules, not the material.** Week 1 spent four consecutive sessions on the same
+injective/surjective/pigeonhole cluster because (a) blank answers were graded as
+failures, so one question skipped for time got re-issued indefinitely; (b) three
+separate channels — the review queue, open-weaknesses, and yesterday's carry-forward —
+all drew from the same failure list, so one miss appeared three times in one session;
+(c) the retirement rule ("two clean retrievals at ≥7-day spacing") was unreachable at
+five sessions a week, so nothing ever retired. Fixed in `RUN-PROMPT.md` 2026-08-24.
+
+**Still deferred:**
+
+- Calculus repair sizing. Taylor came back blank twice, so it moves from tested to
+  taught (Wednesday). If that session shows the gap is wider than Taylor alone, promote
+  calculus repair to ~4 dedicated sessions.
+
+**[2026-08-27] Proposed — calculus repair's Core has zero attempt evidence across
+four exposures; consider changing the approach, not just re-offering it.**
+
+Taylor's theorem has now been offered four separate times (calibration 08-17, the
+08-21 timed redo, Session 7's Core on 08-26, Session 8's Core on 08-27) and has
+zero attempt evidence on all four — not "attempted and wrong," genuinely never
+reached or never opened. The geometric series is 0-for-2 on the same pattern. Per
+the daily run's own two-blank rule, both are now paused rather than offered a
+fifth/third time back to back (see `STATE.md`, 08-27).
+
+Two things are true at once and worth separating: (1) every other new-material
+block this month that *did* get attempted produced real, gradeable evidence within
+one or two sessions (compound-predicate negation, quantifier order, pigeonhole,
+setup discipline, and now — as of 08-31 — induction too) — so "the material is too
+hard" doesn't fit the pattern; but (2) Taylor/geometric series specifically have
+never once been reached, including on 08-27 when *nothing in the entire session*
+was attempted, review and repair included. That second fact means the honest
+hypothesis for 08-27 at least isn't about Taylor at all — it's that the session
+didn't happen. But it doesn't explain 08-26, where review and repair got real,
+careful attempts and Core still didn't.
+
+Two candidate explanations, not mutually exclusive, worth Alex's judgment rather
+than the daily run guessing: (a) calculus repair's Core is placed last in the
+session (~30 min in, after review and repair), so it's structurally the first
+thing cut whenever a session runs long or starts late — moving it earlier, or
+giving it its own dedicated session with nothing else competing for time, would
+test this directly; (b) something about calculus repair specifically (as opposed
+to the proof-technique material) is lower-pull right now, independent of time
+budget — worth naming if it's true rather than assumed away.
+
+**Not acted on.** The daily run is pausing the specific problems (per the
+two-blank rule) but not resequencing the curriculum or promoting calculus repair
+to dedicated sessions on its own authority — that decision point is explicitly
+what this amendment is for.
+
+**[2026-08-28] Proposed — three of the last six offered sessions have now come
+back entirely blank, and the most recent two were consecutive.**
+
+08-24, 08-27, and 08-28 all came back with the `-work.md` file completely
+untouched — no timing box, no partial attempts, nothing. 08-24's blank was
+followed by a same-week retry the next day that produced real, substantial work
+(08-25). 08-27 and 08-28's blanks were not — two sessions in a row with zero
+engagement, the first time that's happened back-to-back rather than scattered
+across a week.
+
+This is now doing more than lowering the completion rate — it's actively shaping
+*which skills get evidence at all*. Three separate items (Taylor's theorem, the
+geometric series, and now existential witnesses) are paused not because they were
+attempted and found wanting, but because their scheduled retest happened to land
+inside a session that never got opened, twice in a row, purely by calendar
+coincidence. The two-blank rule is doing its job correctly given what it's fed,
+but what it's being fed increasingly looks like "the hour didn't happen" rather
+than "this specific material is the sticking point." A rule built to distinguish
+knowledge gaps from time-budget problems can't do that job when the missing
+ingredient is whether the session happened at all.
+
+Worth Alex's judgment on: whether something about the daily cadence itself (time
+of day, day of week, competing demands) is worth naming and adjusting, separate
+from the throughput-repricing question below, which is about the *rate* assuming
+sessions that happen produce real work — this amendment is about *whether* the
+session happens in the first place, a different and more basic thing. **Not acted
+on** — the daily run keeps holding, pausing per the two-blank rule, and building
+the next scheduled session regardless, exactly as it would for any other cause of
+a blank session. It does not skip sessions, shorten the plan, or change pacing on
+its own authority because of this pattern; it only names it plainly, as this
+section exists for.
+
+**Update 2026-09-01:** Session 10 (08-31) broke the pattern — full, careful work
+across every item in the session. One data point doesn't resolve the question
+(it's exactly the kind of thing that needs a few more days to read honestly), but
+it's worth recording that the most recent session is not more evidence for this
+amendment, it's the first evidence against it since 08-25.
+
+**Update 2026-09-02:** the pattern recurred — see the new top entry in this
+section. Two strong sessions (10, 11) were immediately followed by a third
+entirely-blank one (12), and the recurrence has now paused a second item (strong
+induction) the same way it already paused Taylor/geometric series. The 09-01
+update's optimism was premature; not resolved either direction, still routed to
+the weekly review rather than acted on here.
+
+**Update 2026-09-04:** the pattern has now escalated to three consecutive
+entirely-blank sessions (09-02, 09-03, 09-04) — see the new top entry in this
+section, dated today, which treats this as a distinct and more severe event
+rather than folding it quietly into this one.
+
+**Update 2026-09-07:** the pattern has escalated again — four consecutive
+entirely-blank sessions (09-02, 09-03, 09-04, 09-07), the first time it has run
+straight through a weekend into a new week. See the new top entry in this
+section, which is the most direct version of this observation yet.
+
+**[2026-08-27] Proposed — re-price weekly throughput from 5/week toward 3–4/week
+using two full weeks of post-restructure data, not one.**
+
+Flagged as open since the 08-21 review on one week of data (4/5 sessions
+completed). Week 2026-08-24 adds a second data point and it's worse, not better:
+2 of 4 sessions completed before Friday produced real evidence (08-25 full, 08-26
+partial), with two entirely blank (08-24, 08-27). Across both post-restructure
+weeks: 5/5 then roughly 2.5/4 — average nowhere near 5/week sustained. The
+§6 schedule table is still priced at 5 sessions/week; if the real sustained rate
+is 3–4, the ~34-week estimate to research depth understates the honest number by
+something like 30–40%, and it's better to say that plainly now than let it
+surface later as a surprise. Not acted on — re-pricing §6 is exactly the kind of
+deliberate, human-reviewed change this section exists to gate. Week 2026-08-31
+finished at 2 full sessions and 3 entirely blank (08-31, 09-01 full; 09-02, 09-03,
+09-04 blank) — tying the worst week on record (08-24's 40%) exactly, not just
+approaching it. The weekly review in `STATE.md` (2026-09-04) now reads this as
+confirmed evidence for re-pricing, not just an open question; still not acted on
+here, per this section's own rule that trajectory changes are Alex's call.
+
+---
+
+## 8. Review cadence
+
+- **Weekly (Friday):** update `STATE.md`. Are we on the phase? Any amendments in §7
+  to accept? Is the review queue backing up?
+- **Monthly:** re-read this file. Is the destination still right? Are the phase
+  lengths honest given actual throughput? Adjust §6 estimates to reality rather than
+  pretending the original estimate held.
+- **At each phase gate:** run the exit gate as a real, timed, closed-book assessment.
+  Record the result in `STATE.md`. **Do not advance on a failed gate** — diagnose which
+  sub-topic failed and spend a week there.
