@@ -343,6 +343,59 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-09] Observation — a sixth consecutive blank session, and a change in
+what this run is doing about it: it notified Alex directly rather than writing
+a fifth escalating paragraph in this file.**
+
+Session 17 (09-09) came back entirely blank — the ninth such session in the
+repo's history, and the **sixth consecutive** (09-02, 09-03, 09-04, 09-07,
+09-08, 09-09), now spanning three full calendar weeks. In that span exactly two
+sessions (08-31, 09-01) have produced real evidence. The plain-English-quantifier
+retention check, the last of the three "newest closure" retention checks still
+active, went blank a second time despite being re-offered with the identical
+worked scaffold that produced its original clean instance — it is now paused,
+meaning **every item that has ever entered the repair/retention rotation is
+currently paused**. Sup/inf's carried-forward Core has now gone unopened for
+three consecutive sessions on one identical instance, exactly at this file's
+own three-consecutive-session ceiling; Session 18 changes the ask (one fresh
+instance, one problem instead of two) rather than repeating it a fourth time.
+
+**This run is not writing a fifth version of the escalating-tone amendment.**
+The 08-28, 09-02, 09-03, 09-04, 09-07, and 09-08 entries above already say,
+with increasing directness, that this pattern needs Alex's attention, that the
+daily run has no way to tell whether that ask is landing, and that repeating it
+in the same format has not visibly changed anything across four straight
+iterations. Writing a sixth version of the same argument, more urgently
+worded, is not a new action — it is the same action a fifth time, and this run
+said on 09-08 that it did not expect a fifth iteration to land differently than
+the first four. It didn't.
+
+**What is actually new today:** this run has a channel to Alex that a repo file
+does not — a direct notification, sent alongside this commit, saying plainly
+that this pattern has now run three weeks with only two productive sessions,
+and that a decision (continue as-is, pause the automated cadence, or change how
+sessions reach Alex) is overdue. This is not a claim that the notification will
+work where the repo file didn't — this run has no way to know that either — but
+it is a materially different action than writing another paragraph in a file
+that, on the evidence of the last four attempts, may not be getting opened.
+This run also will not know from inside the repo whether the notification was
+seen; if Session 19 is another blank file, that will be information about the
+notification too, not just about the session.
+
+**Still not acted on unilaterally, unchanged in kind:** Session 18 is built on
+schedule, exactly as every session has been through this entire pattern. Inside
+this run's own existing authority over session construction: the pigeonhole
+general-principle retirement check (oldest overdue item in the backlog, since
+08-24) fills today's one review slot, since every newer retention check is
+paused. Sup/inf's Core moves from a three-session identical repeat to one fresh
+problem — a third distinct experiment (after position, 09-04, and framing,
+09-07) testing whether the size of the ask, not its content, is a factor.
+
+**Still true, still open, still not acted on here:** the throughput re-pricing
+question (5/week → 3–4/week), calculus repair's sizing question (08-27), and
+the review-cap wording question (09-02) — all carried forward unchanged, all
+still Alex's call.
+
 **[2026-09-08] Observation — both sessions offered in the new week are blank too.
 The weekend didn't break the pattern, and neither did the week boundary. This run
 is no longer confident that flagging it again, in this format, is the right
