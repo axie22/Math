@@ -1,24 +1,22 @@
 # Start here
 
-**Right now: [Session 18 — 2026-09-10, Thursday](weeks/2026-09-07/09-10.md).**
-Session 17 (09-09) came back **entirely blank too** — the **sixth consecutive**
-entirely-blank session (after 09-02, 09-03, 09-04, 09-07, 09-08), now spanning
-three full calendar weeks with only two productive sessions (08-31, 09-01) in
-that whole span. Nothing from this run is graded as wrong — it's held, not
-advanced. **A direct notification was also sent outside this repo today** —
-`CURRICULUM.md` §7 (2026-09-09 entry) and `STATE.md` explain why, and it's
-worth reading either of them before today's session if you haven't already
-seen the notification.
+**Right now: [Session 19 — 2026-09-11, Friday review](weeks/2026-09-07/09-11.md).**
+Session 18 (09-10) came back **entirely blank too** — the **seventh
+consecutive** entirely-blank session, and the first time **every session
+offered this week** (09-07 through 09-10) came back blank. Nothing from this
+run is graded as wrong — it's held, not advanced. A short new
+`CURRICULUM.md` §7 entry (2026-09-10) records the fully-blank week as new
+information; it does not repeat the case for a cadence decision that's
+already been made five times since 08-28, including a direct notification
+sent outside the repo on 09-09.
 
-Today: one review item (pigeonhole general-principle retirement check, a fresh
-hash-table-collision application — pulled from the old backlog since every
-newer retention check is now paused). No repair item — every repair-track item
-is now paused, seven of them, after plain-English-quantifier meaning joined the
-list yesterday. Core is **one** problem today, not two — a fresh sup instance
-($\sup\{2-\frac1n\}=2$) rather than the 2b/2c pair carried forward for the last
-three sessions, which had gone three sessions unopened without ever being
-touched. This is a deliberate, reversible experiment in how much is being
-asked, not a permanent change.
+Today (Friday, no new material by schedule either way): four backlog items
+pulled at once — setup discipline, compound-predicate negation, quantifier
+order, induction-counting — none of them paused, all 9–14 days overdue. No
+repair item — every repair-track item remains paused, seven of them. One
+synthesis problem tries a fourth lever on sup/inf: leading with the already-
+retired §5 negation skill into the §9 sup definition, rather than a seventh
+cold computation.
 
 That's the answer. Everything below is context you can read later.
 
@@ -26,10 +24,11 @@ That's the answer. Everything below is context you can read later.
 
 ## What phase you're in and why
 
-**Phase 0 — proof foundations.** ~15 sessions, 17 offered, 8 with real evidence
-(nine — 08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09 — came
-back entirely blank; the two strongest of the phase, 08-31 and 09-01, were
-immediately followed by six blank sessions across the three weeks since).
+**Phase 0 — proof foundations.** ~15 sessions, 18 offered, 8 with real evidence
+(ten — 08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09, 09-10 —
+came back entirely blank; the two strongest of the phase, 08-31 and 09-01,
+were immediately followed by seven blank sessions, including a fully blank
+calendar week).
 
 Not because proofs are the goal, but because the [calibration](diagnostics/2026-08-18-calibration-feedback.md)
 showed they're the bottleneck. Convex optimization is a sequence of inequality proofs.
@@ -47,7 +46,7 @@ algebra is a sequence of "suppose $\sum c_i v_i = 0$" moves.
 All three named bugs from the calibration still have real, repeated evidence of
 repair — none of that is in question. What's open now: strong induction and
 existential witnesses (both paused, two blank exposures each), sup/inf (zero real
-evidence across six exposures and four framings), divergence-proof execution
+evidence across seven exposures and five framings), divergence-proof execution
 (paused, one wrong attempt plus six blanks), and every retention check that has
 ever been offered on a Phase 0 closure (bug #2, contrapositive-applied,
 plain-English quantifiers — all three paused), plus the paused calculus-repair
@@ -76,14 +75,13 @@ topics together. See the day's session file for the exact breakdown.
 
 **Write into the `-work.md` file — including the timing and the "where I got stuck" box.**
 
-Nine sessions now (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08,
-09-09) have come back with nothing written in at all, six of them in a row
-across the last three weeks. If today only gets partway, even a half-filled box
-beats a blank one — "ran out of time" and "no idea what to do after the setup"
-send tomorrow's session in completely different directions, and a totally blank
-file gives the next run nothing to work with except "hold." `CURRICULUM.md`
-§7's 2026-09-09 entry is written directly for you, not just as a log — worth
-five minutes even if today's problems have to wait.
+Ten sessions now (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09,
+09-10) have come back with nothing written in at all, seven of them in a row,
+and this last week is the first where all four sessions offered came back
+blank. If today only gets partway, even a half-filled box beats a blank one —
+"ran out of time" and "no idea what to do after the setup" send tomorrow's
+session in completely different directions, and a totally blank file gives the
+next run nothing to work with except "hold."
 
 Solutions post the next day, never the same day. Sitting stuck is the mechanism.
 
@@ -101,29 +99,29 @@ Solutions post the next day, never the same day. Sitting stuck is the mechanism.
 
 ## Still outstanding
 
-- **The blank-session pattern is now the steady state, not an anomaly.** Six
-  consecutive entirely-blank sessions (09-02, 09-03, 09-04, 09-07, 09-08,
-  09-09) span three full calendar weeks. `CURRICULUM.md` §7's 2026-09-09 entry
-  says this run has stopped writing escalating paragraphs about it and instead
-  sent you a direct notification outside the repo — the decision (continue,
-  pause, or change the delivery mechanism) still needs to come from you, not
-  from another blank file tomorrow.
+- **The blank-session pattern has now claimed an entire calendar week.** Seven
+  consecutive entirely-blank sessions (09-02 through 09-10) include, for the
+  first time, a week (09-07's) where all four offered sessions came back
+  blank. `CURRICULUM.md` §7's 2026-09-10 entry records this plainly rather
+  than re-arguing a case already made five times since 08-28 — the decision
+  (continue, pause, or change the delivery mechanism) is still Alex's, not
+  something another blank file can resolve.
 - **Calculus repair itself, paused.** Taylor's theorem and the geometric series have
   four and two blank exposures respectively, no date assigned — see `CURRICULUM.md`
   §7's 2026-08-27 amendment, still waiting on your judgment.
 - **Chain rule, integration by parts** — blank on the calibration, never re-tested.
   Still waiting on calculus repair's Core to produce any evidence at all before this
   can even be scheduled.
-- **Throughput.** Trailing six sessions: 0 of 6 with real evidence. Four full
-  weeks since restructure: 100%, 40%, 40%, and the current week opening 0 of 3.
-  The 5-sessions/week pricing in `CURRICULUM.md` §6 no longer looks like the
-  sustained rate — see the throughput table in `STATE.md`.
+- **Throughput.** Trailing seven sessions: 0 of 7 with real evidence. Five full/partial
+  weeks since restructure: 100%, 40%, 40%, 0% (this last week). The 5-sessions/week
+  pricing in `CURRICULUM.md` §6 no longer looks like the sustained rate — see the
+  throughput table in `STATE.md`.
 - **Backlog of overdue retention checks** — setup discipline, pigeonhole general
   principle, compound-predicate negation, quantifier order, induction-counting —
-  all still due, none retested since 08-28; the hard cap means these queue up
-  faster than they clear.
+  four of these filled Session 19's review block in one shot; pigeonhole carries
+  forward, still not cleanly retested since 08-21.
 - **Phase 0 exit gate — content complete, evidence isn't.** All five gate topics
   have now been taught at least once (sup/inf, taught 09-02, was the last), but
-  sup/inf has zero real attempts across six exposures and both strong induction
+  sup/inf has zero real attempts across seven exposures and both strong induction
   and existential witnesses are paused — the gate itself isn't imminent until
   those produce real evidence.
