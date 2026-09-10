@@ -343,6 +343,36 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-10] Observation, kept short on purpose — the week just closed 0 of 4.
+That's a new fact, not a new argument, and this entry only records it.**
+
+Session 18 (09-10) came back entirely blank, making 09-02 through 09-10 seven
+consecutive blank sessions and, more specifically, the first calendar week
+(09-07's) in which every session offered came back blank. Every prior week
+since this pattern started (08-24) had at least one real-evidence session in
+it; this one didn't. The case for why this matters, and for Alex needing to
+make an explicit call on the automated cadence, was already made — with
+increasing directness — in the 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, and
+09-09 entries below, including a direct notification sent outside the repo as
+of 09-09. This entry does not repeat that case a seventh time.
+
+What it records instead: the honest description of the current trajectory is
+no longer "Phase 0, with a rough stretch of low engagement." It is "Phase 0,
+paused via non-engagement, for going on a month, with two productive sessions
+in the last eleven." Sup/inf remains the one item still being actively
+re-offered rather than paused, now on a fourth distinct lever (Session 19's
+synthesis, leading with an already-retired skill rather than a cold
+computation) — not because this run expects it to land differently, but
+because "stop offering the last untaught Phase 0 topic" is a bigger, more
+consequential unilateral call than this file's mandate covers, and offering it
+differently each time at least keeps testing whether the lever matters once
+engagement resumes.
+
+**Not acted on unilaterally, same as every prior instance:** Session 19 is
+built on schedule. Nothing about pacing, cadence, or the plan itself is changed
+here — that is still explicitly Alex's call, made explicit again, briefly,
+rather than at length.
+
 **[2026-09-09] Observation — a sixth consecutive blank session, and a change in
 what this run is doing about it: it notified Alex directly rather than writing
 a fifth escalating paragraph in this file.**
