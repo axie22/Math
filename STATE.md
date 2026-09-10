@@ -4,31 +4,27 @@
 > `CURRICULUM.md` says where we're going; this file says where we are and what the
 > next two weeks look like.
 
-**Last updated:** 2026-09-09 (Session 17 graded — `09-09-work.md` also came back
-**entirely blank**. This is the **ninth** entirely-blank session in the repo's
-history (after 08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, now
-09-09), and the **sixth consecutive** (09-02, 09-03, 09-04, 09-07, 09-08,
-09-09) — three full calendar weeks in which only two sessions (08-31, 09-01)
-have produced real evidence. Held, not advanced, nothing graded as wrong — same
-as every prior blank session. One concrete consequence today: the
-plain-English-quantifier retention check, re-offered with the same worked
-scaffold that produced its original clean instance, came back blank a second
-time ($n+m=0$ over $\mathbb{Z}$) and is now **paused** per the standing
-two-blank rule — the seventh item sharing that status, and the last of the
-three "newest closure" retention checks (bug #2, contrapositive-applied,
-plain-English quantifiers) to reach it. **Every item in the repair/retention
-rotation is now paused.** Sup/inf's carried-forward Core (2b, 2c, unchanged
-since Session 15) logged its **sixth** blank exposure, its **sixth consecutive
-session**, and its **third consecutive session on this exact unread
-instance** — one at the ceiling `CURRICULUM.md` itself sets for repeating one
-approach unchanged. Session 18 (Thursday 2026-09-10) does not repeat it a
-fourth time; it tries a third, different lever (shrinking Core to one problem
-instead of two) after position (09-04) and framing (09-07) were already tried
-without result. A new `CURRICULUM.md` §7 amendment is appended today. **New as
-of today: this run has a way to reach Alex that the prior eight versions of
-this note didn't, and used it** — a direct notification was sent alongside
-this file, rather than relying on a ninth paragraph in a repo that may not be
-getting opened.)
+**Last updated:** 2026-09-10 (Session 18 graded — `09-10-work.md` also came back
+**entirely blank**. This is the **tenth** entirely-blank session in the repo's
+history (after 08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09,
+now 09-10), and the **seventh consecutive** (09-02, 09-03, 09-04, 09-07, 09-08,
+09-09, 09-10) — which means **every one of the four sessions offered this
+week came back blank**, the first fully blank week in the repo. Held, not
+advanced, nothing graded as wrong — same as every prior blank session.
+Sup/inf's scope-reduction experiment (one fresh instance instead of the
+carried-forward pair) also came back blank — its **seventh** blank exposure
+across **five** distinct framings, on its **seventh consecutive session**.
+Pigeonhole's retirement-check re-offer also went blank a second time (after
+08-28), but is carried forward rather than formally paused, since it's only
+had two offerings across three weeks, not two in immediate succession under
+the rule's original intent. Today is Thursday, so Session 19 (Friday
+2026-09-11) is a review day by schedule, not by choice — it pulls the oldest
+overdue backlog (setup discipline, compound-predicate negation, quantifier
+order, induction-counting, none of them paused, all 9–14 days overdue) and one
+synthesis problem connecting §5 (quantifier negation, retired) to §9 (sup/inf,
+still zero real evidence). A short new `CURRICULUM.md` §7 entry is appended
+today, recording the fully-blank week as new information rather than repeating
+the case made five times already since 08-28.)
 
 ---
 
@@ -37,63 +33,59 @@ getting opened.)
 | | |
 |---|---|
 | **Phase** | 0 — Proof foundations & calculus repair |
-| **Session** | 18 of ~15+ (Phase 0 is now over its own estimate on session count, purely because of blank sessions — content-wise it has been ready to gate for a while; Session 17, 2026-09-09, came back entirely blank — held; Session 18 built for 2026-09-10) |
+| **Session** | 19 of ~15+ (Phase 0 is now over its own estimate on session count, purely because of blank sessions — content-wise it has been ready to gate for a while; Session 18, 2026-09-10, came back entirely blank — held; Session 19 built for 2026-09-11, Friday) |
 | **Started** | 2026-08-17 |
 | **Phase gate** | not yet attempted |
-| **Days completed overall** | 12 of 25 offered (Days 1, 2, 6 + calibration + Sessions 2–5 + Session 6 retry (08-25) + Session 7 (08-26, partial) + Session 10 (08-31, strong) + Session 11 (09-01, strongest yet); Session 6's first offering (08-24), Session 8 (08-27), Session 9 (08-28), Session 12 (09-02), Session 13 (09-03), Session 14 (09-04), Session 15 (09-07), Session 16 (09-08), and now **Session 17 (09-09)** remain zero-evidence) |
+| **Days completed overall** | 12 of 26 offered (Days 1, 2, 6 + calibration + Sessions 2–5 + Session 6 retry (08-25) + Session 7 (08-26, partial) + Session 10 (08-31, strong) + Session 11 (09-01, strongest yet); Session 6's first offering (08-24), Session 8 (08-27), Session 9 (08-28), Session 12 (09-02), Session 13 (09-03), Session 14 (09-04), Session 15 (09-07), Session 16 (09-08), Session 17 (09-09), and now **Session 18 (09-10)** remain zero-evidence) |
 
 ### Immediate next action
 
-**[Session 18 — 2026-09-10](weeks/2026-09-07/09-10.md)** is built and waiting.
-One review item (pigeonhole general-principle retirement check, fresh
-application — a hash-table collision instance, 31 buckets/40 keys — pulled from
-the old backlog since every "newest closure" retention check is now paused). No
-repair item — nothing is available; every item in the repair/retention rotation
-is now paused, seven of them. **Core breaks from three sessions of an identical
-carried-forward pair**: one fresh sup instance ($\sup\{2-\frac1n\}=2$) instead
-of the 2b/2c pair, and one Core problem instead of two — a deliberate,
-reversible experiment in scope, not framing, after position (09-04) and framing
-(09-07) were already tried without result. See the note below and the new
-`CURRICULUM.md` §7 amendment for the reasoning. Work into
-[`weeks/2026-09-07/09-10-work.md`](weeks/2026-09-07/09-10-work.md).
+**[Session 19 — 2026-09-11, Friday](weeks/2026-09-07/09-11.md)** is built and
+waiting. Friday review day — no new material by schedule. Four backlog items
+pulled at once (setup discipline, compound-predicate negation, quantifier
+order, induction-counting — none paused, all 9–14 days overdue, deprioritized
+only by the weekday one-item cap), no repair item (all seven repair-track items
+remain paused), and one synthesis problem connecting §5 (quantifier negation,
+retired 08-25) to §9 (sup/inf, still zero real evidence after seven sessions
+and five framings) — negation-first rather than computation-first, with one
+direct sup computation folded into part (d). Work into
+[`weeks/2026-09-07/09-11-work.md`](weeks/2026-09-07/09-11-work.md).
 
 Existential witnesses, strong induction, Taylor's-theorem/geometric-series,
 divergence-proof execution, bug #2's retention check, contrapositive-applied's
 retention check, and now plain-English-quantifier's retention check remain off
 active rotation — not offered.
 
-**What changed today (2026-09-09, grading Session 17):** `09-09-work.md` came
+**What changed today (2026-09-10, grading Session 18):** `09-10-work.md` came
 back completely blank — every field still showing its placeholder underscore,
-including "where I got stuck." This is the **ninth entirely-blank session** in
-the repo's history (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, now
-09-09), and the **sixth consecutive** (09-02, 09-03, 09-04, 09-07, 09-08,
-09-09) — spanning three full calendar weeks. Nothing is graded as wrong;
-everything held, same as always.
+including "where I got stuck." This is the **tenth entirely-blank session** in
+the repo's history (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08,
+09-09, now 09-10), and the **seventh consecutive** — which means the entire
+week of 09-07 (all four sessions offered, Mon–Thu) came back blank. Nothing is
+graded as wrong; everything held, same as always.
 
-The plain-English-quantifier retention check (worked scaffold + $n+m=0$
-instance, R1 today) was its **second** consecutive blank exposure (after the
-$x^2=y$ instance on 09-04) — this time even with the exact scaffold-first
-approach that produced the skill's original clean instance on 09-01 put back in
-front of it. Per the standing two-blank rule this retention check is now
-dropped from active rotation and logged as untested — it does **not** touch the
-underlying repair evidence (Session 11's first fully clean instance, closing a
-gap open since 08-19), only the *confirmation* that the skill has stuck. This
-is the **seventh** item now sharing paused status, and it means every single
-item that has ever entered the repair/retention rotation is currently paused.
+The pigeonhole general-principle retirement check (fresh hash-table
+application, R1 today) logged its **second** blank exposure (after 08-28) —
+but not a second *consecutive* one in the sense the two-blank rule is built
+for (those two offerings are three weeks apart, both crowded out in between by
+other priorities, not back-to-back re-offers). It carries forward to the next
+open review slot rather than being formally paused.
 
-Sup/inf's carried-forward Core (2b, 2c, unchanged since Session 15) also came
-back blank — its **sixth** blank exposure overall, on its **sixth consecutive
-session**, and now its **third consecutive session on this exact unread pair of
-problems** (Sessions 15, 16, 17 all carried the identical 2b/2c) — exactly at
-`CURRICULUM.md`'s own three-consecutive-session ceiling for repeating one
-approach unchanged. Rather than a fourth identical repeat, Session 18 changes
-what's being asked rather than how it's framed: one fresh sup instance, and one
-Core problem instead of two. If Session 18 is engaged with and this problem
-gets a real attempt, Session 19 returns to two Core problems as normal.
+Sup/inf's Core (a single fresh instance today, $\sup\{2-\frac1n\}=2$, the
+scope-reduction experiment) also came back blank — its **seventh** blank
+exposure overall, its **seventh consecutive session**, now across **five**
+distinct framings (compute a sup; compute an inf + a second sup; prove
+uniqueness; a worked scaffold + parallel instance; a single fresh instance).
+Three deliberate experiments — position (09-04), framing (09-07), and scope
+(09-10) — have each returned no signal, because no session in the run has had
+any engagement to distinguish "the lever didn't work" from "the hour didn't
+happen." Session 19 (Friday, 09-11) tries a fourth lever: leading with the
+already-retired negation skill (§5) as a way *into* the sup definition (§9)
+rather than asking for a sup proof cold.
 
-Solutions posted to `weeks/2026-09-07/09-09-solution.md` per the standing
+Solutions posted to `weeks/2026-09-07/09-10-solution.md` per the standing
 one-day lag, regardless of the blank work file — same as every prior blank
-session (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08).
+session (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09).
 
 ---
 
@@ -129,7 +121,7 @@ itself changes an item's status (contrapositive-applied retention, sup/inf).*
 | Induction — counting (case-split, not a sum recurrence) | New representation, Session 11 (09-01) Core 1 — **clean**, literal Phase 0 exit-gate item 2 | **competent — first-taught 1d retention check due 2026-09-02, not selected (hard cap) and every session since has been blank — carries forward, not yet retested** |
 | Induction — strong induction (assume a range, not just $n$) | Taught Session 11 (09-01) §6 lesson addendum; Core 2 (product of primes) — blank. Re-offered Session 12 (09-02) Core 1 (binary representation) — also blank | **paused — two blank exposures on two different representations. Not offered Sessions 13/14; resumes once a real-evidence session opens a slot, same resume condition as Taylor/geometric series and existential witnesses** |
 | Induction: reading Σ notation | Calibration A2 — read closed form as the *n*-th term, not the sum. Session 10 (08-31) Core 1 — correctly identified $S(n)$ as the running total, not the term, unprompted | **repaired — same evidence as bug #2 above, same session** |
-| Supremum — two-part ($\ge$ upper bound, $\varepsilon$-least) definition | New, Session 12 (09-02) — lesson §9 + Core 2 ($\sup\{n/(n+1)\}=1$), blank. Session 13 (09-03) Core 1 (infimum) + Core 2 (second supremum instance) — blank. Session 14 (09-04) synthesis (uniqueness, via contradiction) — blank. Session 15 (09-07) worked scaffold + parallel instance + connecting proof — blank. Session 16 (09-08) — the same problems carried forward unchanged — blank again. **Session 17 (09-09) — same problems, third consecutive time unchanged — blank a sixth time** | **six blank exposures now, across four genuinely different framings, on six consecutive sessions, and exactly at `CURRICULUM.md`'s own three-consecutive-session ceiling for the identical unread 2b/2c pair (Sessions 15, 16, 17). Session 18 does not repeat it a fourth time — it changes the ask itself (one fresh instance, one problem instead of two) rather than a fourth identical repeat or a fifth cold variant. Still logged as untested, not a demonstrated gap** |
+| Supremum — two-part ($\ge$ upper bound, $\varepsilon$-least) definition | New, Session 12 (09-02) — lesson §9 + Core 2 ($\sup\{n/(n+1)\}=1$), blank. Session 13 (09-03) Core 1 (infimum) + Core 2 (second supremum instance) — blank. Session 14 (09-04) synthesis (uniqueness, via contradiction) — blank. Session 15 (09-07) worked scaffold + parallel instance + connecting proof — blank. Session 16 (09-08) — same problems carried forward unchanged — blank. Session 17 (09-09) — same problems, third consecutive time unchanged — blank. **Session 18 (09-10) — scope reduced to one fresh instance — blank a seventh time** | **seven blank exposures now, across five genuinely different framings (compute a sup; compute an inf + second sup; prove uniqueness; worked scaffold + parallel instance; single fresh instance), on seven consecutive sessions. Three distinct experiments (position 09-04, framing 09-07, scope 09-10) have each returned no signal. Session 19 (09-11) tries a fourth lever — leading with the retired §5 negation skill into the §9 definition rather than a cold sup proof. Still logged as untested, not a demonstrated gap** |
 | Rank | Calibration B1 — "number of non-empty values." Incorrect | **gap — significant, deferred to Phase 1** |
 | Linear independence | Calibration B1 — circular definition | **gap — deferred to Phase 1** |
 | Basis, null space, rank–nullity | Calibration B1/B2 — blank | **no data, presumed gap — deferred to Phase 1** |
@@ -144,42 +136,38 @@ itself changes an item's status (contrapositive-applied retention, sup/inf).*
 | Applied ML | CSCI-UA 473 A, DS-UA 301 A | **strength** |
 
 **The headline:** all three named calibration bugs still have real, direct evidence
-of repair — nothing about that changed today; 09-09, like every blank session
-before it, produced no new evidence either way. What's newly true is that the
-last of the three "newest closure" retention checks has now joined the others:
-plain-English-quantifier retention is paused alongside bug #2 retention,
-contrapositive-applied retention, divergence-proof execution, strong induction,
-existential witnesses, and Taylor's theorem/the geometric series — **seven items,
-which is every item that has ever entered the repair/retention rotation.** Sup/inf
-remains the one actively-taught topic with zero real evidence, now across four
-different problem framings and **six** consecutive sessions. Every blank
-exposure, cold or scaffolded, has come from a session with zero engagement on
-anything else either — six attempts at "asking sup/inf differently" have
-produced exactly the same amount of information as one would have, because the
-bottleneck was never reaching the material in the first place.
+of repair — nothing about that changed today; 09-10, like every blank session
+before it, produced no new evidence either way. Every item that has ever entered
+the repair/retention rotation remains paused — seven items, unchanged since
+09-09. Sup/inf remains the one actively-taught topic with zero real evidence,
+now across **five** different problem framings and **seven** consecutive
+sessions. Every blank exposure, cold, scaffolded, repositioned, or scope-reduced,
+has come from a session with zero engagement on anything else either — seven
+attempts at "asking sup/inf differently" have produced exactly the same amount
+of information as one would have, because the bottleneck was never reaching the
+material in the first place.
 
-**The session-level pattern flagged on 08-28, escalated through
-09-01/09-02/09-03/09-04, escalated again on 09-07 when it crossed a full weekend
-into a new week, and again on 09-08 when both sessions of that new week came
-back blank, has now escalated once more: 09-09 is a sixth consecutive
-entirely-blank session (09-02, 09-03, 09-04, 09-07, 09-08, 09-09), spanning
-three full calendar weeks.** Four consecutive prior versions of this note
-(08-28, 09-02 through 09-08) escalated in tone and specificity inside this
-file, and the observable result each time was another identical blank session.
-**This run is not repeating that mechanism a fifth time.** Alongside this file,
-Alex was notified directly, outside the repo, that this pattern has now run for
-three weeks with only two productive sessions in it. That is a capability the
-prior eight versions of this note didn't have; whether it changes anything is,
-like everything else in this section, not something a daily run can control —
-only something it can stop pretending isn't the actual bottleneck.
+**The session-level pattern has now claimed an entire calendar week outright:
+09-07 through 09-10, all four sessions offered this week, all four blank.**
+That's new: every prior week since the pattern started (08-24 on) had at least
+one session with real evidence somewhere in it. This week didn't. Five
+consecutive prior entries in this file and in `CURRICULUM.md` §7 (08-28,
+09-02 through 09-09) already made the case, with escalating specificity, that
+this needs a decision from Alex rather than another paragraph, and that a
+direct notification (not just a repo file) was sent as of 09-09. This entry
+doesn't repeat that case a sixth time. It records the new fact plainly: the
+pattern is no longer "several blank sessions inside an otherwise-working
+week" — it is now "a week with no working sessions in it at all," and that is
+the actual, current steady state, not a stretch of bad luck inside a plan that
+is otherwise on track.
 
 ---
 
 ## Rolling horizon — next 10 sessions
 
-*Revised 2026-09-09 from Session 17's (blank) result. Session 18 changes sup/inf's
-Core to one fresh instance rather than a fourth identical repeat, per the
-reasoning above. Sessions 19+ remain open pending how 09-10 actually goes.*
+*Revised 2026-09-10 from Session 18's (blank) result. Session 19 is Friday's
+scheduled review day regardless — see above for its shape. Sessions 20+ remain
+open pending how 09-11 actually goes.*
 
 | # | Date | Topic | Lesson § | Type |
 |---|---|---|---|---|
@@ -200,9 +188,10 @@ reasoning above. Sessions 19+ remain open pending how 09-10 actually goes.*
 | 15 | Mon 09-07 | ~~Bug #2 retention re-offer ($\sum k^2$); sup/inf via worked scaffold + parallel instance; sup/inf ε-part connected to quantifier/Archimedean reasoning; optional stretch $\inf A=-\sup(-A)$~~ | §6, §9 | ❌ **entirely blank — fourth in a row, first to cross a weekend** |
 | 16 | Tue 09-08 | ~~Contrapositive-applied retention re-offer (fresh instance, $n^2+4n$ odd $\Rightarrow n$ odd); sup/inf Core (2b, 2c) carried forward unchanged from Session 15, not a new variant~~ | §4, §9 | ❌ **entirely blank — fifth in a row** |
 | 17 | Wed 09-09 | ~~Plain-English-quantifier retention re-offer (worked scaffold + fresh instance, $\forall n\,\exists m\,(n+m=0)$); sup/inf Core (2b, 2c) carried forward unchanged a second time~~ | §5, §9 | ❌ **entirely blank — sixth in a row** |
-| 18 | Thu 09-10 | **Pigeonhole general-principle retirement check (hash-table application); sup Core reduced to one fresh instance ($\sup\{2-\tfrac1n\}=2$) instead of the carried-forward pair — scope experiment, not framing** | §8, §9 | built, pending |
+| 18 | Thu 09-10 | ~~Pigeonhole general-principle retirement check (hash-table application); sup Core reduced to one fresh instance ($\sup\{2-\tfrac1n\}=2$)~~ | §8, §9 | ❌ **entirely blank — seventh in a row, entire week now blank** |
+| 19 | Fri 09-11 | **Friday review — no new material. Four backlog items (setup discipline, compound-predicate negation, quantifier order, induction-counting); synthesis problem connecting §5 negation to §9 sup/inf** | §1, §5, §6, §9 | built, pending |
 
-Session 19+ gets scheduled once 09-10's actual throughput is known. Phase 0's
+Session 20+ gets scheduled once 09-11's actual throughput is known. Phase 0's
 exit gate is close on content (all five gate topics have now been taught at least
 once), but real evidence on sup/inf is currently zero after five consecutive
 sessions and four different framings, and strong induction and existential
@@ -211,10 +200,10 @@ checklist alone suggests. Calculus repair (Taylor, geometric series) still has n
 assigned date — see the note in `CURRICULUM.md` §7 (2026-08-27), still awaiting
 Alex's judgment on approach.
 
-**Session 17 note:** **six consecutive entirely-blank sessions (09-02, 09-03,
-09-04, 09-07, 09-08, 09-09)**, spanning three full calendar weeks. See the new
-`CURRICULUM.md` §7 amendment. Alex was also notified directly outside the repo
-today — see the header note at the top of this file.
+**Session 18 note:** **seven consecutive entirely-blank sessions (09-02, 09-03,
+09-04, 09-07, 09-08, 09-09, 09-10)** — the first fully blank calendar week
+(09-07 through 09-10) since the pattern began. See the new `CURRICULUM.md` §7
+amendment.
 
 ---
 
@@ -255,16 +244,14 @@ today — see the header note at the top of this file.
 - [ ] **Existential witnesses — paused.** Same status as strong induction and
   divergence-proof execution: resumes only once a real-evidence session opens a
   slot ahead of it.
-- [ ] **Sup/inf — zero real attempts across six consecutive sessions
-  (09-02, 09-03, 09-04, 09-07, 09-08, 09-09) and four different framings**
-  (computing a sup; computing an inf and a second sup; proving uniqueness; a
-  worked scaffold + parallel instance + connecting proof, carried forward
-  unchanged for three sessions running). Not paused in the same sense as a
-  repair item (foundational new material, not review/repair, and it's the last
-  major untaught Phase 0 topic), but Session 18 stops repeating the identical
-  pair and instead reduces Core to one fresh instance, since repeating the same
-  unopened problem a fourth time would exceed even the reasoning that justified
-  it the first three times.
+- [ ] **Sup/inf — zero real attempts across seven consecutive sessions
+  (09-02 through 09-10) and five different framings** (computing a sup;
+  computing an inf and a second sup; proving uniqueness; a worked scaffold +
+  parallel instance; a single fresh instance). Not paused in the same sense as
+  a repair item (foundational new material, not review/repair, and it's the
+  last major untaught Phase 0 topic). Session 19 (Friday) tries a fourth lever
+  — leading with the retired §5 negation skill into the §9 definition, folded
+  into a synthesis problem rather than a seventh cold Core drill.
 - [x] **Contrapositive-applied — paused 2026-09-08.** First retention check
   blank 09-04, re-offered fresh Session 16 (09-08) — also blank. Two consecutive
   blanks, paused per the standing two-blank rule (see above).
@@ -328,17 +315,44 @@ today — see the header note at the top of this file.
 | 2026-08-17 | 5 (Mon–Fri) | 5 (Day 6, calibration, Sessions 2–5, all with real evidence) | 100% |
 | 2026-08-24 | 5 (Mon–Fri) | 2 (08-25 retry — full; 08-26 — partial); three entirely blank (08-24, 08-27, 08-28) | 40% — worst week yet |
 | 2026-08-31 | 5 (Mon–Fri) | 2 (08-31 — full, strong; 09-01 — full, strongest yet); 3 entirely blank (09-02, 09-03, 09-04) | 40% — ties the worst week on record |
-| 2026-09-07 | 5 (Mon–Fri), in progress | 0 of 3 so far (09-07, 09-08, 09-09 all blank) | — combined with 09-02–09-04, the trailing six sessions are 0 of 6 |
+| 2026-09-07 | 4 (Mon–Thu offered) | **0 of 4 — the first fully blank week in the repo** | 0% |
 
 The week of 2026-08-31 closed at 2 of 5 sessions with real evidence — the same
-40% rate as the worst week so far (08-24). Week 2026-09-07 has opened 0 of 3 —
-every session so far blank, extending the 08-31 week's three-in-a-row block
-straight through the weekend and through the first three days of a new week as
-well. Across all four full weeks since restructure: 100%, 40%, 40% — there is no
-remaining reading of this data where 5/week is the sustained rate, and six
-consecutive blank sessions spanning three calendar weeks is new information
-beyond the re-pricing question alone (see the 09-09 `CURRICULUM.md` §7
-amendment).
+40% rate as the worst week so far (08-24). Week 2026-09-07 closed at 0 of 4 —
+the first calendar week since the pattern began (08-24) with zero sessions of
+real evidence anywhere in it, extending the trailing run to seven consecutive
+blank sessions (09-02 through 09-10) and combining with 08-31's week to put the
+last eleven sessions at 2 of 11. Across all five full/partial weeks since
+restructure: 100%, 40%, 40%, 0% — there is no remaining reading of this data
+where 5/week, or even 3/week, is the sustained rate under the current cadence
+(see the 09-10 `CURRICULUM.md` §7 amendment).
+
+---
+
+## Weekly review — 2026-09-11 (Friday)
+
+*Per `CURRICULUM.md` §8: written when building Session 19 (this run, 2026-09-10
+evening, for 2026-09-11).*
+
+**On plan?** Mechanically, still Phase 0, session 19 of an original ~15
+estimate; content-wise all five exit-gate topics have been taught. Honestly:
+the week of 2026-09-07 closed 0 of 4 — the first fully blank week in the
+repo's history, worse than either 40% week before it. The trailing eleven
+sessions (09-01 back through today) are 2 of 11 with real evidence.
+
+**Amendments in `CURRICULUM.md` §7 to accept?** Same four still open, still
+Alex's call: throughput re-pricing (now looking generous even at 3–4/week
+given a 0% week), the delivery-mechanism question, calculus repair's sizing,
+and the review-cap wording. Not re-argued here — see the 09-10 §7 entry for
+what's actually new this week (the fully-blank week itself), not a restatement
+of the case for a decision.
+
+**Is the review queue backing up?** Yes. Four backlog items (setup discipline,
+compound-predicate negation, quantifier order, induction-counting) are now
+9–14 days overdue and filled today's review block in one shot rather than
+trickling in under the weekday cap. All seven paused repair/retention items
+remain paused — their resume condition (a real-evidence session opening a slot
+ahead of them) has not fired since 09-01, ten sessions ago.
 
 ---
 
@@ -413,6 +427,28 @@ Evidence log — but left here as the record of what was actually true on 08-28.
 
 ## Changelog
 
+- **2026-09-10 (grading + build)** — Session 18's work file (`09-10-work.md`)
+  also came back **entirely blank** — the tenth such session in the repo, and
+  the **seventh consecutive**, which means **every session offered this week
+  (09-07 through 09-10) came back blank** — the first fully blank calendar
+  week since the pattern began 08-24. Held, not advanced, nothing graded as
+  wrong. Pigeonhole's retirement-check re-offer logged a second blank exposure
+  (after 08-28) but carries forward rather than being formally paused — the
+  two offerings are three weeks apart, not a consecutive pair. Sup/inf's
+  scope-reduction experiment (one fresh instance instead of the carried-forward
+  pair) also came back blank — seventh exposure, fifth distinct framing,
+  seventh consecutive session; three deliberate experiments (position, framing,
+  scope) have now each returned no signal. Solutions posted to
+  [`weeks/2026-09-07/09-10-solution.md`](weeks/2026-09-07/09-10-solution.md)
+  per the standing lag; no feedback file (nothing to grade). A short new
+  `CURRICULUM.md` §7 entry records the fully-blank week as new information,
+  without re-making a case already made five times since 08-28. Session 19
+  (`weeks/2026-09-07/09-11.md`), Friday's scheduled review day, built: four
+  backlog items pulled at once (setup discipline, compound-predicate negation,
+  quantifier order, induction-counting — none paused, 9–14 days overdue), no
+  repair item (everything in that rotation remains paused), and a synthesis
+  problem trying a fourth lever on sup/inf — leading with the retired §5
+  negation skill into the §9 definition rather than a cold computation.
 - **2026-09-09 (grading + build)** — Session 17's work file (`09-09-work.md`)
   also came back **entirely blank** — the ninth such session in the repo
   (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, now 09-09), and the
