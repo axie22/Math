@@ -18,6 +18,30 @@ concept is not a retrieved one, and the difference is the entire mechanism.
 
 ---
 
+## Resolved 2026-09-11 (Session 19, Friday review) — results
+
+*Entirely blank session — the eleventh in the repo's history (after 08-24,
+08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09, 09-10, now 09-11), and
+the **eighth consecutive** (09-02 through 09-11) — the second calendar week
+running (09-07's and now most of 09-11's) with nothing recorded. Nothing
+graded as wrong; everything held. No feedback file — nothing to grade.*
+
+| Item | Result |
+|---|---|
+| 1(a) Setup discipline (divisibility by 6) | 🔲 **blank** — first offering since being reintroduced from the backlog (previously "due, not selected"); one re-offer available before logged untested. |
+| 1(b) Quantifier negation — compound predicate | 🔲 **blank** — same status: first actual offering since 08-28, one re-offer available. |
+| 1(c) Quantifier order — $xy=1$ | 🔲 **blank** — first actual offering since 08-29, one re-offer available. |
+| 1(d) Induction — counting, fresh instance | 🔲 **blank** — first actual offering since 09-02, one re-offer available. |
+| 2. Synthesis — negation meets supremum (sixth framing) | 🔲 **blank** — eighth blank exposure for sup/inf overall, sixth distinct framing, eighth consecutive session. |
+| 3. Stretch (sequence converging to $\sup A$) | 🔲 **blank** (optional, not expected). |
+
+All four backlog items in row 1 are logged as a single blank exposure each,
+not yet paused — per the standing rule, a first blank earns one re-offer
+before being dropped. Given the one-review-item weekday cap, only one can be
+re-offered Monday (09-14); **setup discipline** is picked as highest
+downstream leverage (used inside every other proof). The other three carry
+forward to the next open slots.
+
 ## Resolved 2026-09-10 (Session 18) — results
 
 *Entirely blank session — the tenth in the repo's history (after 08-24, 08-27,
@@ -110,32 +134,31 @@ everything held. No feedback file — nothing to grade.*
 | Divergence-proof execution (repair) | 🔲 **blank** — fourth blank exposure since the one wrong attempt (08-26). |
 | Sup/inf — infimum (Core 1) and second supremum instance (Core 2) | 🔲 **blank** — second blank exposure for this material. |
 
-## Due 2026-09-11 (Session 19 — Friday, review day)
+## Due 2026-09-14 (Session 20, Monday)
 
-*Friday, so not bound by the one-review-item weekday cap. All four oldest
-backlog items pulled at once, plus one synthesis problem (§5 negation applied
-to §9 sup, not a separate "due" item — see `weeks/2026-09-07/09-11.md`). No
-repair item — every retention/repair-track item remains paused, seven of them.*
+*Weekday — one-review-item cap applies. Setup discipline picked as the single
+re-offer (highest downstream leverage of the four backlog items that all went
+blank 09-11 for the first time since reintroduction); the other three carry
+forward to Tuesday–Thursday. No repair item — every repair/retention item
+remains paused, resume condition unfired since 09-01.*
 
 | Item | Due since | Status today |
 |---|---|---|
-| Setup discipline (retention check) | 2026-09-02 | **Session 19, item 1(a)** — fresh instance (divisibility by 6). |
-| Quantifier negation — compound predicates (retention check) | 08-28 | **Session 19, item 1(b)** — fresh instance (implication + existential nested). |
-| Quantifier order — construct and prove true/false | 08-29 | **Session 19, item 1(c)** — fresh instance ($xy=1$). |
-| Induction — counting ($2^n$ subsets), 1d retention check | 2026-09-02 | **Session 19, item 1(d)** — fresh instance. |
-| Pigeonhole — general principle (retirement check) | 08-24, re-offered 09-10 (blank) | Not selected today — one more re-offer available before logged as untested; carries forward. |
-| Sup/inf | first taught 09-02, zero attempt evidence across seven exposures and five framings | **Session 19's synthesis problem** (item 2) — a sixth framing, negation-first rather than computation-first, plus one direct computation in part (d). |
+| Setup discipline (retention check) | 2026-09-02, first re-offer 09-11 (blank) | **Session 20 review item** — fresh instance. |
+| Quantifier negation — compound predicates | 08-28, first re-offer 09-11 (blank) | Carries forward — next open slot. |
+| Quantifier order — construct and prove true/false | 08-29, first re-offer 09-11 (blank) | Carries forward — next open slot. |
+| Induction — counting, 1d retention check | 2026-09-02, first re-offer 09-11 (blank) | Carries forward — next open slot. |
+| Pigeonhole — general principle (retirement check) | 08-24, re-offered 09-10 (blank) | Not selected — carries forward. |
+| Sup/inf | first taught 09-02, zero attempt evidence across eight exposures and six framings | **Session 20 Core** — sup of a sum ($\sup(A+B)\le\sup A+\sup B$), a genuinely new sub-skill (two sets) rather than a seventh single-set computation, plus one fresh single-set instance. |
 
-**Nothing newly paused today.** Pigeonhole's retirement check has one blank
-exposure (08-28) plus today's (09-10) — a second consecutive blank, which
-would normally trigger the two-blank rule, but Friday's review draws from the
-backlog instead of re-offering it a third time this week; it carries forward
-to the next available review slot rather than being formally paused, since
-Session 18 was its first re-offer since 08-28, not a second consecutive one in
-the same short window the rule is built for. Bug #2 retention,
-contrapositive-applied retention, plain-English-quantifier retention,
-divergence-proof execution, strong induction, existential witnesses, and
-Taylor/geometric series remain off rotation, unchanged.
+**Nothing newly paused today.** All four backlog items logged their first
+blank exposure in this specific offering (see "Resolved 2026-09-11" above);
+none are dropped yet — each gets one re-offer per the standing rule before
+that happens. Bug #2 retention, contrapositive-applied retention,
+plain-English-quantifier retention, divergence-proof execution, strong
+induction, existential witnesses, and Taylor/geometric series remain off
+rotation, unchanged — the resume condition (a real-evidence session opening a
+slot ahead of them) has not fired since 09-01, twelve sessions ago now.
 
 ---
 
@@ -144,20 +167,20 @@ Taylor/geometric series remain off rotation, unchanged.
 | Item | Topic | Last seen | Interval | Due | Streak |
 |---|---|---|---|---|---|
 | Unfold-the-definition habit | §1 | 2026-08-18 | 3d | 2026-08-21 (overdue, long-stale — no urgent signal, low priority re-offer) | 1 |
-| Setup discipline | §1 | 2026-08-26 | 7d | 2026-09-02 (due, not selected — hard cap; carries forward) | 2 |
+| Setup discipline | §1 | 2026-08-26 | 7d | 2026-09-02, offered 09-11 (blank) — **Session 20 (09-14)** re-offer | 2 |
 | Existential witnesses in $\mathbb{Z}$ | §1 | 2026-08-19 | 3d | **Paused 2026-09-03** — two consecutive blank offerings since the 08-28 resume (09-02, 09-03) | 1 |
 | Quantifier negation — atomic case | §5 | 2026-08-31 | 7d | 2026-09-07 (due, not selected — carries forward) | 3 |
-| Quantifier negation — compound predicates | §5 | 2026-08-25 | 3d | 2026-08-28 (overdue, not yet retested) | 1 (retired) |
+| Quantifier negation — compound predicates | §5 | 2026-08-25 | 3d | 2026-08-28, offered 09-11 (blank) — carries forward, next open slot | 1 (retired) |
 | Bug #1 — landing | §4 | 2026-08-31 | 7d | 2026-09-07 (due, not selected — carries forward) | 2 (retired) |
-| Pigeonhole — general principle | §8 | 2026-08-21 | 3d | Re-offered Session 18 (09-10) — blank, second exposure (after 08-28); carries forward, not formally paused (see "Due 2026-09-11" above) | 1 (retired) |
+| Pigeonhole — general principle | §8 | 2026-08-21 | 3d | Re-offered Session 18 (09-10) — blank, second exposure (after 08-28); carries forward, not formally paused (see "Due 2026-09-14" above) | 1 (retired) |
 | Negation as a proof obligation — definition + structure | §5 | 2026-08-25 | 1d | folded into the divergence-proof problem repeatedly, still not retested (item paused 09-04) | 1 (first taught) |
-| Quantifier order — construct and prove true/false | §5 | 2026-08-26 | 3d | 2026-08-29 (overdue, not yet retested) | 2 |
+| Quantifier order — construct and prove true/false | §5 | 2026-08-26 | 3d | 2026-08-29, offered 09-11 (blank) — carries forward, next open slot | 2 |
 | **Induction hypothesis as the engine** | §6 | 2026-09-01 | 3d (first retired) | second retention check ($\sum k^2$, 09-07) also blank — **paused, see below** | 1 (retired) |
 | Σ: running total vs. *n*-th term | §6 | 2026-08-31 | — | folded into induction's evidence — no separate check needed | — |
 | **Contrapositive vs. contradiction, applied** | §4 | 2026-09-01 | 3d (first retired) | first retention check (09-04) blank, re-offer (09-08) also blank — **Paused, see below** | 1 (retired) |
 | **Quantifier statements — plain-English meaning** | §5 | 2026-09-01 | 3d (first retired) | first retention check (09-04) blank, re-offer (09-09, scaffold-first) also blank — **Paused, see below** | 1 (retired) |
-| Induction — counting ($2^n$ subsets) | §6 | 2026-09-01 | 1d (first taught) | 2026-09-02 (due, not selected — hard cap; carries forward) | 1 |
-| Sup/inf — two-part definition | §9 | taught 09-02; attempts offered 09-02 through 09-10, all blank, five different framings | — | **Session 19 (09-11)** — synthesis problem, negation-first (§5 applied to §9), sixth framing; see `weeks/2026-09-07/09-11.md` | — |
+| Induction — counting ($2^n$ subsets) | §6 | 2026-09-01 | 1d (first taught) | 2026-09-02, offered 09-11 (blank) — carries forward, next open slot | 1 |
+| Sup/inf — two-part definition | §9 | taught 09-02; attempts offered 09-02 through 09-11, all blank, six different framings | — | **Session 20 (09-14)** — sup of a sum, seventh framing; see `weeks/2026-09-14/09-14.md` | — |
 
 **Existential witnesses — paused, unchanged since 09-03.** Both offerings since
 the 08-28 resume (09-02, 09-03) landed inside entirely blank sessions — off
