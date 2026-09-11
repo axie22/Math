@@ -1,22 +1,20 @@
 # Start here
 
-**Right now: [Session 19 — 2026-09-11, Friday review](weeks/2026-09-07/09-11.md).**
-Session 18 (09-10) came back **entirely blank too** — the **seventh
-consecutive** entirely-blank session, and the first time **every session
-offered this week** (09-07 through 09-10) came back blank. Nothing from this
-run is graded as wrong — it's held, not advanced. A short new
-`CURRICULUM.md` §7 entry (2026-09-10) records the fully-blank week as new
-information; it does not repeat the case for a cadence decision that's
-already been made five times since 08-28, including a direct notification
-sent outside the repo on 09-09.
+**Right now: [Session 20 — 2026-09-14, Monday](weeks/2026-09-14/09-14.md).**
+Session 19 (09-11, Friday review) came back **entirely blank too** — the
+**eighth consecutive** entirely-blank session, extending the pattern into a
+second calendar week. Nothing from this run is graded as wrong — it's held,
+not advanced. A short new `CURRICULUM.md` §7 entry (2026-09-11) records two
+more blank sessions arriving after the first direct notification (09-09), and
+**a second direct notification was sent to Alex outside the repo today.**
 
-Today (Friday, no new material by schedule either way): four backlog items
-pulled at once — setup discipline, compound-predicate negation, quantifier
-order, induction-counting — none of them paused, all 9–14 days overdue. No
-repair item — every repair-track item remains paused, seven of them. One
-synthesis problem tries a fourth lever on sup/inf: leading with the already-
-retired §5 negation skill into the §9 sup definition, rather than a seventh
-cold computation.
+Today's build: one review item (setup discipline, picked from four backlog
+items that all went blank 09-11, as the one with the most downstream
+leverage — the other three carry to Tue–Thu). No repair item — every
+repair-track item remains paused, seven of them. Core tries the one sup/inf
+angle not yet used: sup of a sum of two sets ($\sup(A+B)\le\sup A+\sup B$,
+half of Phase 0 exit-gate item 5), a genuinely different sub-skill rather than
+an eighth single-set variant, plus a fresh single-set infimum instance.
 
 That's the answer. Everything below is context you can read later.
 
@@ -24,11 +22,11 @@ That's the answer. Everything below is context you can read later.
 
 ## What phase you're in and why
 
-**Phase 0 — proof foundations.** ~15 sessions, 18 offered, 8 with real evidence
-(ten — 08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09, 09-10 —
-came back entirely blank; the two strongest of the phase, 08-31 and 09-01,
-were immediately followed by seven blank sessions, including a fully blank
-calendar week).
+**Phase 0 — proof foundations.** ~15 sessions, 19 offered, 8 with real evidence
+(eleven — 08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09, 09-10,
+09-11 — came back entirely blank; the two strongest of the phase, 08-31 and
+09-01, were immediately followed by eight blank sessions, including two full
+calendar weeks with essentially nothing in them).
 
 Not because proofs are the goal, but because the [calibration](diagnostics/2026-08-18-calibration-feedback.md)
 showed they're the bottleneck. Convex optimization is a sequence of inequality proofs.
@@ -46,11 +44,13 @@ algebra is a sequence of "suppose $\sum c_i v_i = 0$" moves.
 All three named bugs from the calibration still have real, repeated evidence of
 repair — none of that is in question. What's open now: strong induction and
 existential witnesses (both paused, two blank exposures each), sup/inf (zero real
-evidence across seven exposures and five framings), divergence-proof execution
+evidence across eight exposures and six framings), divergence-proof execution
 (paused, one wrong attempt plus six blanks), and every retention check that has
 ever been offered on a Phase 0 closure (bug #2, contrapositive-applied,
 plain-English quantifiers — all three paused), plus the paused calculus-repair
-block.
+block. Four backlog items (setup discipline, compound-predicate negation,
+quantifier order, induction-counting) logged their first blank exposure 09-11
+since being reintroduced from the queue — not yet paused.
 
 Also retired: unfolding definitions, contrapositive vs. contradiction (concept),
 divisibility transitivity, injective/surjective, pigeonhole (both the specific-case
@@ -75,13 +75,13 @@ topics together. See the day's session file for the exact breakdown.
 
 **Write into the `-work.md` file — including the timing and the "where I got stuck" box.**
 
-Ten sessions now (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08, 09-09,
-09-10) have come back with nothing written in at all, seven of them in a row,
-and this last week is the first where all four sessions offered came back
-blank. If today only gets partway, even a half-filled box beats a blank one —
-"ran out of time" and "no idea what to do after the setup" send tomorrow's
-session in completely different directions, and a totally blank file gives the
-next run nothing to work with except "hold."
+Eleven sessions now (08-24, 08-27, 08-28, 09-02, 09-03, 09-04, 09-07, 09-08,
+09-09, 09-10, 09-11) have come back with nothing written in at all, eight of
+them in a row now, spanning two full calendar weeks. If today only gets
+partway, even a half-filled box beats a blank one — "ran out of time" and "no
+idea what to do after the setup" send tomorrow's session in completely
+different directions, and a totally blank file gives the next run nothing to
+work with except "hold."
 
 Solutions post the next day, never the same day. Sitting stuck is the mechanism.
 
@@ -99,29 +99,28 @@ Solutions post the next day, never the same day. Sitting stuck is the mechanism.
 
 ## Still outstanding
 
-- **The blank-session pattern has now claimed an entire calendar week.** Seven
-  consecutive entirely-blank sessions (09-02 through 09-10) include, for the
-  first time, a week (09-07's) where all four offered sessions came back
-  blank. `CURRICULUM.md` §7's 2026-09-10 entry records this plainly rather
-  than re-arguing a case already made five times since 08-28 — the decision
-  (continue, pause, or change the delivery mechanism) is still Alex's, not
-  something another blank file can resolve.
+- **The blank-session pattern has now claimed a second calendar week.** Eight
+  consecutive entirely-blank sessions (09-02 through 09-11), spanning 09-07's
+  fully blank week and running unbroken into the following week too. Two
+  direct notifications have now been sent outside the repo (09-09 and 09-11);
+  the decision (continue, pause, or change the delivery mechanism) is still
+  Alex's, not something another blank file can resolve.
 - **Calculus repair itself, paused.** Taylor's theorem and the geometric series have
   four and two blank exposures respectively, no date assigned — see `CURRICULUM.md`
   §7's 2026-08-27 amendment, still waiting on your judgment.
 - **Chain rule, integration by parts** — blank on the calibration, never re-tested.
   Still waiting on calculus repair's Core to produce any evidence at all before this
   can even be scheduled.
-- **Throughput.** Trailing seven sessions: 0 of 7 with real evidence. Five full/partial
-  weeks since restructure: 100%, 40%, 40%, 0% (this last week). The 5-sessions/week
-  pricing in `CURRICULUM.md` §6 no longer looks like the sustained rate — see the
-  throughput table in `STATE.md`.
-- **Backlog of overdue retention checks** — setup discipline, pigeonhole general
-  principle, compound-predicate negation, quantifier order, induction-counting —
-  four of these filled Session 19's review block in one shot; pigeonhole carries
-  forward, still not cleanly retested since 08-21.
+- **Throughput.** Trailing eight sessions: 0 of 8 with real evidence. Five full
+  weeks since restructure: 100%, 40%, 40%, 0% (the last full week). The
+  5-sessions/week pricing in `CURRICULUM.md` §6 no longer looks like the
+  sustained rate — see the throughput table in `STATE.md`.
+- **Backlog of overdue retention checks** — setup discipline, compound-predicate
+  negation, quantifier order, induction-counting all logged their first blank
+  exposure 09-11 since being reintroduced; pigeonhole carries forward, still
+  not cleanly retested since 08-21.
 - **Phase 0 exit gate — content complete, evidence isn't.** All five gate topics
   have now been taught at least once (sup/inf, taught 09-02, was the last), but
-  sup/inf has zero real attempts across seven exposures and both strong induction
+  sup/inf has zero real attempts across eight exposures and both strong induction
   and existential witnesses are paused — the gate itself isn't imminent until
   those produce real evidence.
