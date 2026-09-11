@@ -343,6 +343,32 @@ does not act on these unilaterally. Reviewed weekly.*
 
 <!-- Format: - [YYYY-MM-DD] proposal — rationale -->
 
+**[2026-09-11] Observation, kept short on purpose — two more blank sessions
+since the direct notification (09-10, 09-11), extending the streak past the
+09-09 notification rather than breaking after it.**
+
+Sessions 18 and 19 (09-10, 09-11) both came back entirely blank, making
+09-02 through 09-11 **eight consecutive blank sessions** — the eleventh in
+the repo's history — and meaning the pattern has now run two full calendar
+weeks with essentially nothing in them (09-07's week, 0 of 4; 09-11 closes
+09-08's-onward week at the same rate). The 09-09 entry below said plainly
+that this run did not expect a direct notification to necessarily change the
+outcome, and that if the next session came back blank too, that would be
+information about the notification, not just about the session. Two more
+blank sessions is that information: whatever the notification's fate — unseen,
+seen and deferred, or seen and acted on in a way this repo can't observe —
+the visible trajectory hasn't moved.
+
+This entry is not a ninth version of the same argument. It records one new
+thing plainly: **a second, escalating notification is being sent again today**,
+not because the first one is expected to have failed for a knowable reason,
+but because this run's only asymmetry-correcting option, when a channel might
+not be landing, is to keep using it rather than fall silent. Everything else
+is unchanged — Session 20 is built on schedule, sup/inf gets a new sub-skill
+(sup of a sum, not a seventh single-set repeat) rather than being shelved, and
+nothing about cadence, pacing, or the plan is altered here. That decision is
+still, and only, Alex's.
+
 **[2026-09-10] Observation, kept short on purpose — the week just closed 0 of 4.
 That's a new fact, not a new argument, and this entry only records it.**
 
